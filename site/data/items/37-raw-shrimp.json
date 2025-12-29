@@ -1,0 +1,9 @@
+{
+  "id": "raw-shrimp",
+  "name": "Raw Shrimp",
+  "description": "A raw shrimp. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Shrimp.",
+  "sell_price": 5
+}

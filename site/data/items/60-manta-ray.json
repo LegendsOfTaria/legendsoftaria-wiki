@@ -1,0 +1,10 @@
+{
+  "id": "manta-ray",
+  "name": "Manta Ray",
+  "description": "A cooked manta ray. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 23,
+  "level_requirement": 0,
+  "acquisition": "Cooked from raw manta-ray at a fire.",
+  "sell_price": 70
+}

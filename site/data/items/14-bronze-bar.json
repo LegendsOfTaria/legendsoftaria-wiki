@@ -1,0 +1,9 @@
+{
+  "id": "bronze-bar",
+  "name": "Bronze Bar",
+  "description": "A bar of bronze. It can be used to craft various items.",
+  "item_type": "Bar",
+  "level_requirement": 0,
+  "acquisition": "Smelted from 1 Copper Ore and 1 Tin Ore at a furnace.",
+  "sell_price": 11
+}

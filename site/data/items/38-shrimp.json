@@ -1,0 +1,10 @@
+{
+  "id": "shrimp",
+  "name": "Shrimp",
+  "description": "A cooked shrimp. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 3,
+  "level_requirement": 0,
+  "acquisition": "Cooked from raw shrimp at a fire.",
+  "sell_price": 5
+}

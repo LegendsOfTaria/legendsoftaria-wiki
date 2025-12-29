@@ -1,0 +1,10 @@
+{
+  "id": "mithril-body",
+  "name": "Mithril Body",
+  "description": "A mithril body.",
+  "item_type": "Armor",
+  "armor": 44,
+  "level_requirement": 1,
+  "acquisition": "Smithed from mithril bars at an anvil.",
+  "sell_price": 725
+}

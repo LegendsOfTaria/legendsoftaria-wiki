@@ -1,0 +1,9 @@
+{
+  "id": "raw-shark",
+  "name": "Raw Shark",
+  "description": "A raw shark. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Shark.",
+  "sell_price": 60
+}

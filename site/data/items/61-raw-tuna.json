@@ -1,0 +1,9 @@
+{
+  "id": "raw-tuna",
+  "name": "Raw Tuna",
+  "description": "A raw tuna. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Tuna.",
+  "sell_price": 80
+}

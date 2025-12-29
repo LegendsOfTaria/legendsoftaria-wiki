@@ -1,0 +1,9 @@
+{
+  "id": "mithril-bar",
+  "name": "Mithril Bar",
+  "description": "A bar of mithril. It can be used to craft various items.",
+  "item_type": "Bar",
+  "level_requirement": 0,
+  "acquisition": "Smelted from mithril ore at a furnace.",
+  "sell_price": 56
+}

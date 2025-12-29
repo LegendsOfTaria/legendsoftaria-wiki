@@ -1,0 +1,9 @@
+{
+  "id": "raw-manta-ray",
+  "name": "Raw Manta Ray",
+  "description": "A raw manta ray. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Manta-ray.",
+  "sell_price": 70
+}

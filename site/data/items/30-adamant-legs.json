@@ -1,0 +1,10 @@
+{
+  "id": "adamant-legs",
+  "name": "Adamant Legs",
+  "description": "A pair of adamant legs.",
+  "item_type": "Armor",
+  "armor": 30,
+  "level_requirement": 1,
+  "acquisition": "Smithed from adamant bars at an anvil.",
+  "sell_price": 1150
+}

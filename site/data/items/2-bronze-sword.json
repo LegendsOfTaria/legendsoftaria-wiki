@@ -1,0 +1,10 @@
+{
+  "id": "bronze-sword",
+  "name": "Bronze Sword",
+  "description": "A small health potion.",
+  "item_type": "Weapon",
+  "damage": 6,
+  "level_requirement": 1,
+  "acquisition": "Smithed from bronze bars at an anvil.",
+  "sell_price": 24
+}

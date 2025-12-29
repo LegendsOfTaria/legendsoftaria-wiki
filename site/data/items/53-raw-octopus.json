@@ -1,0 +1,9 @@
+{
+  "id": "raw-octopus",
+  "name": "Raw Octopus",
+  "description": "A raw octopus. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Octopus.",
+  "sell_price": 35
+}

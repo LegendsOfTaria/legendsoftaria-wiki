@@ -1,0 +1,10 @@
+{
+  "id": "adamant-sword",
+  "name": "Adamant Sword",
+  "description": "A small health potion.",
+  "item_type": "Weapon",
+  "damage": 23,
+  "level_requirement": 1,
+  "acquisition": "Smithed from adamant bars at an anvil.",
+  "sell_price": 349
+}

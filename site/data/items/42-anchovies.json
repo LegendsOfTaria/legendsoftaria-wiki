@@ -1,0 +1,10 @@
+{
+  "id": "anchovies",
+  "name": "Anchovies",
+  "description": "Some cooked anchovies. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 4,
+  "level_requirement": 0,
+  "acquisition": "Cooked from raw anchovies at a fire.",
+  "sell_price": 8
+}

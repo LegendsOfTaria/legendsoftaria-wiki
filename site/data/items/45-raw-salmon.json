@@ -1,0 +1,9 @@
+{
+  "id": "raw-salmon",
+  "name": "Raw Salmon",
+  "description": "A raw salmon. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Salmon.",
+  "sell_price": 20
+}

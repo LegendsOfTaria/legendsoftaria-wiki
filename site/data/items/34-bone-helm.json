@@ -1,0 +1,10 @@
+{
+  "id": "bone-helm",
+  "name": "Bone Helm",
+  "description": "This helmet makes me feel like a Dragonborn.",
+  "item_type": "Armor",
+  "armor": 17,
+  "level_requirement": 30,
+  "acquisition": "Smithed from bone bars at an anvil.",
+  "sell_price": 5992
+}

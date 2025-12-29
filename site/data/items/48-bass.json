@@ -1,0 +1,10 @@
+{
+  "id": "bass",
+  "name": "Bass",
+  "description": "A cooked bass. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 9,
+  "level_requirement": 0,
+  "acquisition": "Cooked from raw bass at a fire.",
+  "sell_price": 20
+}

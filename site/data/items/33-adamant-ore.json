@@ -1,0 +1,9 @@
+{
+  "id": "adamant-ore",
+  "name": "Adamant Ore",
+  "description": "A piece of adamant ore. It can be smelted into adamant bars.",
+  "item_type": "Ore",
+  "level_requirement": 0,
+  "acquisition": "Mined from adamant rocks.",
+  "sell_price": 66
+}

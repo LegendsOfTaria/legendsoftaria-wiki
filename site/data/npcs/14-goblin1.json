@@ -1,0 +1,12 @@
+{
+  "id": "goblin1",
+  "name": "Goblin",
+  "location": "Goblin camps and caves",
+  "role": "Monster",
+  "description": "Goblin that can be fought for combat experience and loot.",
+  "level": 2,
+  "hitpoints": 6,
+  "drops": [
+    "Bones"
+  ]
+}

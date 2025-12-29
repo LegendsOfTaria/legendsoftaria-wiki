@@ -1,0 +1,9 @@
+{
+  "id": "andy-mining-instructor",
+  "name": "Andy",
+  "location": "Training areas",
+  "role": "Trainer",
+  "description": "Andy who can help you improve your skills.",
+  "level": 1,
+  "drops": []
+}

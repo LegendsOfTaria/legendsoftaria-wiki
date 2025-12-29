@@ -1,0 +1,12 @@
+{
+  "id": "ent3",
+  "name": "Ent",
+  "location": "Forests",
+  "role": "Monster",
+  "description": "Ent that can be fought for combat experience and loot.",
+  "level": 10,
+  "hitpoints": 16,
+  "drops": [
+    "Bones"
+  ]
+}

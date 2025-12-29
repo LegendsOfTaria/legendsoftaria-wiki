@@ -1,0 +1,10 @@
+{
+  "id": "iron-sword",
+  "name": "Iron Sword",
+  "description": "A small health potion.",
+  "item_type": "Weapon",
+  "damage": 11,
+  "level_requirement": 1,
+  "acquisition": "Smithed from iron bars at an anvil.",
+  "sell_price": 59
+}

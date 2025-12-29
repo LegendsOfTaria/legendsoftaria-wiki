@@ -1,0 +1,9 @@
+{
+  "id": "combat-instructor",
+  "name": "Combat Instructor",
+  "location": "Training areas",
+  "role": "Trainer",
+  "description": "Combat Instructor who can help you improve your skills.",
+  "level": 1,
+  "drops": []
+}

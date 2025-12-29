@@ -1,0 +1,10 @@
+{
+  "id": "iron-helm",
+  "name": "Iron Helm",
+  "description": "A small health potion.",
+  "item_type": "Armor",
+  "armor": 8,
+  "level_requirement": 1,
+  "acquisition": "Smithed from iron bars at an anvil.",
+  "sell_price": 138
+}

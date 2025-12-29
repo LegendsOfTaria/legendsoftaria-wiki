@@ -1,0 +1,10 @@
+{
+  "id": "adamant-pickaxe",
+  "name": "Adamant Pickaxe",
+  "description": "This can be used to mine ore from rocks.",
+  "item_type": "Tool",
+  "damage": 19,
+  "level_requirement": 1,
+  "acquisition": "Smithed from adamant bars at an anvil.",
+  "sell_price": 400
+}

@@ -1,0 +1,10 @@
+{
+  "id": "bronze-pickaxe",
+  "name": "Bronze Pickaxe",
+  "description": "This can be used to mine ore from rocks.",
+  "item_type": "Tool",
+  "damage": 2,
+  "level_requirement": 1,
+  "acquisition": "Smithed from bronze bars at an anvil.",
+  "sell_price": 34
+}

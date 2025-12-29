@@ -1,0 +1,9 @@
+{
+  "id": "raw-crab",
+  "name": "Raw Crab",
+  "description": "A raw crab. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make Crab.",
+  "sell_price": 24
+}
