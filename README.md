@@ -96,7 +96,7 @@ out/                   (generated - do not edit)
 
 ## Requirements
 
-- Rust 1.70+ (installs automatically if missing)
+- Rust 1.70+ (installs automatically if missing, or you can install latest version here: https://rust-lang.org/tools/install/)
 - Linux, macOS, or Windows
 
 ## CLI Options
@@ -106,13 +106,3 @@ out/                   (generated - do not edit)
 ./build.sh --watch      # Watch mode
 ./build.sh --help       # Show help
 ```
-
-## Performance
-
-- Initial build: ~1-2 seconds
-- Watch rebuild: ~0.5-1 second
-- File change detection: <100ms
-
----
-
-**[Full documentation](WATCH_MODE.md)** | **[Quick reference](QUICK_REFERENCE.md)** | **[Implementation details](IMPLEMENTATION_SUMMARY.md)**
