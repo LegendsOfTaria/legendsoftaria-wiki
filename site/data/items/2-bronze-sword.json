@@ -2,7 +2,7 @@
   "id": "bronze-sword",
   "name": "Bronze Sword",
   "icon": "/assets/images/items/bronze-sword.png",
-  "description": "A small health potion.",
+  "description": "A sword forged from bronze.",
   "item_type": "Weapon",
   "damage": 6,
   "level_requirement": 1,

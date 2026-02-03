@@ -2,10 +2,11 @@
   "id": "adamant-sword",
   "name": "Adamant Sword",
   "icon": "/assets/images/items/adamant-sword.png",
-  "description": "A small health potion.",
+  "description": "A sword forged from adamant.",
   "item_type": "Weapon",
   "damage": 23,
-  "level_requirement": 1,
+  "level_requirement": 0,
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
-  "sell_price": 349
+  "sell_price": 349,
+  "notes": "Recommended for level 30 melee and above."
 }
