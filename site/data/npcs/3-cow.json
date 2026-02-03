@@ -9,5 +9,6 @@
   "hitpoints": 8,
   "drops": [
     "Bones"
-  ]
+  ],
+  "notes": "Drops bones when defeated."
 }
