@@ -28,8 +28,6 @@ pub struct Item {
     pub acquisition: String,
     #[serde(default)]
     pub sell_price: Option<u64>,
-    #[serde(default)]
-    pub notes: String,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -45,8 +43,6 @@ pub struct Npc {
     pub hitpoints: Option<i32>,
     #[serde(default)]
     pub drops: Vec<String>,
-    #[serde(default)]
-    pub notes: String,
 }
 
 #[derive(Debug, Serialize)]

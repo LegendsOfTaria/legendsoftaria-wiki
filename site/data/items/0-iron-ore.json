@@ -4,7 +4,7 @@
   "icon": "/assets/images/items/iron-ore.png",
   "description": "A piece of iron ore. It can be smelted into iron bars.",
   "item_type": "Ore",
-  "level_requirement": 10,
+  "level_requirement": 0,
   "acquisition": "Mined from iron rocks.",
   "sell_price": 24
 }

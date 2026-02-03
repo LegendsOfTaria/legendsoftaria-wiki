@@ -5,7 +5,7 @@
   "description": "A small health potion.",
   "item_type": "Weapon",
   "damage": 16,
-  "level_requirement": 20,
+  "level_requirement": 1,
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 140
 }
