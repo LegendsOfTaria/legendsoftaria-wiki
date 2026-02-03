@@ -1,0 +1,10 @@
+{
+  "id": "barbed-harpoon",
+  "name": "Barbed Harpoon",
+  "icon": "/assets/images/items/barbed-harpoon.png",
+  "description": "A reliable harpoon with barbs, used to catch large fish and sea creatures.",
+  "item_type": "Bar",
+  "level_requirement": 0,
+  "acquisition": "Smelted from <item:barbed-harpoon> at a furnace.",
+  "sell_price": 275
+}

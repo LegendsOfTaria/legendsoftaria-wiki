@@ -1,0 +1,10 @@
+{
+  "id": "blacksmith",
+  "name": "Blacksmith",
+  "icon": "/assets/images/npcs/blacksmith.png",
+  "location": "Towns and villages",
+  "role": "NPC",
+  "description": "Blacksmith found in the world of Taria.",
+  "level": 1,
+  "drops": []
+}

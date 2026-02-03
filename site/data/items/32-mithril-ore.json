@@ -1,0 +1,10 @@
+{
+  "id": "mithril-ore",
+  "name": "Mithril Ore",
+  "icon": "/assets/images/items/mithril-ore.png",
+  "description": "A piece of mithril ore. It can be smelted into mithril bars.",
+  "item_type": "Ore",
+  "level_requirement": 0,
+  "acquisition": "Mined from mithril rocks.",
+  "sell_price": 32
+}

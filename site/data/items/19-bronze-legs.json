@@ -1,0 +1,11 @@
+{
+  "id": "bronze-legs",
+  "name": "Bronze Legs",
+  "icon": "/assets/images/items/bronze-legs.png",
+  "description": "A pair of bronze legs.",
+  "item_type": "Armor",
+  "armor": 9,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
+  "sell_price": 74
+}

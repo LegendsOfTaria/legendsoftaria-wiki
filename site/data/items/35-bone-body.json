@@ -1,0 +1,11 @@
+{
+  "id": "bone-body",
+  "name": "Bone Body",
+  "icon": "/assets/images/items/bone-body.png",
+  "description": "A extremely durable set of plate armor made from elder bones.",
+  "item_type": "Armor",
+  "armor": 56,
+  "level_requirement": 30,
+  "acquisition": "Smithed from <item:bone-bar> at an anvil.",
+  "sell_price": 6967
+}

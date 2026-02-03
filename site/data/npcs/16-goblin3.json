@@ -1,0 +1,13 @@
+{
+  "id": "goblin3",
+  "name": "Goblin",
+  "icon": "/assets/images/npcs/goblin3.png",
+  "location": "Goblin camps and caves",
+  "role": "Monster",
+  "description": "Goblin that can be fought for combat experience and loot.",
+  "level": 2,
+  "hitpoints": 6,
+  "drops": [
+    "Bones"
+  ]
+}

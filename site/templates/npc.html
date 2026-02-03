@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}{{ npc.name }} - Legends of Taria Wiki{% endblock title %}
+
+{% block content %}
+<article class="npc-page">
+    <h2 class="page-title">
+        <img src="/assets/images/npcs/{{ npc.id }}.png" alt="{{ npc.name }}" class="title-icon" />
+        {{ npc.name }}
+    </h2>
+
+    <div class="infobox">
+        <div class="infobox-header">
+            <img src="/assets/images/npcs/{{ npc.id }}.png" alt="{{ npc.name }}" class="infobox-image" />
+            <h3>{{ npc.name }}</h3>
+        </div>
+        <table>
+            <tr>
+                <th>Location</th>
+                <td>{{ npc.location }}</td>
+            </tr>
+            <tr>
+                <th>Role</th>
+                <td>{{ npc.role }}</td>
+            </tr>
+            {% if npc.level %}
+            <tr>
+                <th>Level</th>
+                <td>{{ npc.level }}</td>
+            </tr>
+            {% endif %}
+            {% if npc.hitpoints %}
+            <tr>
+                <th>Hitpoints</th>
+                <td>{{ npc.hitpoints }}</td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>
+
+    {% if npc.notes %}
+    <section class="notes-content">
+        <p>{{ npc.notes }}</p>
+    </section>
+    {% endif %}
+
+    <section class="description">
+        <h3>About</h3>
+        <p>{{ npc.description }}</p>
+    </section>
+
+    {% if enriched_drops and enriched_drops | length > 0 %}
+    <section class="drops">
+        <h3>Drops</h3>
+        <table class="drop-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Type</th>
+                    <th>Sell Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for drop in enriched_drops %}
+                <tr>
+                    <td>{{ drop.link_html | safe }}</td>
+                    <td>{% if drop.item_type %}{{ drop.item_type | type_link | safe }}{% else %}-{% endif %}</td>
+                    <td>{% if drop.sell_price %}{{ drop.sell_price }} gp{% else %}-{% endif %}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    {% endif %}
+
+    {% if notes_html and notes_html | length > 0 %}
+    <section class="notes">
+        <h3>Notes</h3>
+        <div class="notes-content">
+            {{ notes_html | safe }}
+        </div>
+    </section>
+    {% endif %}
+</article>
+{% endblock content %}

@@ -1,0 +1,11 @@
+{
+  "id": "octopus",
+  "name": "Octopus",
+  "icon": "/assets/images/items/octopus.png",
+  "description": "A cooked octopus. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 17,
+  "level_requirement": 0,
+  "acquisition": "Cooked from <item:raw-octopus> at a fire.",
+  "sell_price": 35
+}

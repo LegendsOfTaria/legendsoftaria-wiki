@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}NPCs - Legends of Taria Wiki{% endblock title %}
+
+{% block content %}
+<section class="list-page">
+    <h2>👥 All NPCs</h2>
+    <p>Browse all {{ npcs | length }} NPCs in Legends of Taria.</p>
+
+    <div class="grid-list">
+        {% for npc in npcs %}
+        <a href="/npcs/{{ npc.id }}.html" class="grid-card">
+            <div class="grid-card-icon">
+                <img src="/assets/images/npcs/{{ npc.id }}.png" alt="{{ npc.name }}" loading="lazy" />
+            </div>
+            <div class="grid-card-name">{{ npc.name }}</div>
+            <div class="grid-card-type">{{ npc.role }}</div>
+        </a>
+        {% else %}
+        <p>No NPCs available.</p>
+        {% endfor %}
+    </div>
+</section>
+{% endblock content %}

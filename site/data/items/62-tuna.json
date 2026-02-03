@@ -1,0 +1,11 @@
+{
+  "id": "tuna",
+  "name": "Tuna",
+  "icon": "/assets/images/items/tuna.png",
+  "description": "A cooked tuna. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 25,
+  "level_requirement": 0,
+  "acquisition": "Cooked from <item:raw-tuna> at a fire.",
+  "sell_price": 80
+}

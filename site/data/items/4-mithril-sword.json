@@ -1,0 +1,11 @@
+{
+  "id": "mithril-sword",
+  "name": "Mithril Sword",
+  "icon": "/assets/images/items/mithril-sword.png",
+  "description": "A small health potion.",
+  "item_type": "Weapon",
+  "damage": 16,
+  "level_requirement": 20,
+  "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
+  "sell_price": 140
+}

@@ -1,0 +1,11 @@
+{
+  "id": "adamant-body",
+  "name": "Adamant Body",
+  "icon": "/assets/images/items/adamant-body.png",
+  "description": "A adamant body.",
+  "item_type": "Armor",
+  "armor": 62,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
+  "sell_price": 1760
+}

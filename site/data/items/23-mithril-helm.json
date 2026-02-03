@@ -1,0 +1,11 @@
+{
+  "id": "mithril-helm",
+  "name": "Mithril Helm",
+  "icon": "/assets/images/items/mithril-helm.png",
+  "description": "A mithril helmet.",
+  "item_type": "Armor",
+  "armor": 14,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
+  "sell_price": 300
+}

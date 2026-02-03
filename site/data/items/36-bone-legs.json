@@ -1,0 +1,11 @@
+{
+  "id": "bone-legs",
+  "name": "Bone Legs",
+  "icon": "/assets/images/items/bone-legs.png",
+  "description": "A extremely durable set of legs made from elder bones.",
+  "item_type": "Armor",
+  "armor": 27,
+  "level_requirement": 30,
+  "acquisition": "Smithed from <item:bone-bar> at an anvil.",
+  "sell_price": 6357
+}

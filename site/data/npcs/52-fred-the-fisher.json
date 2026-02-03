@@ -1,0 +1,10 @@
+{
+  "id": "fred-the-fisher",
+  "name": "Fred The Fisher",
+  "icon": "/assets/images/npcs/fred-the-fisher.png",
+  "location": "Towns and villages",
+  "role": "NPC",
+  "description": "Fred The Fisher found in the world of Taria.",
+  "level": 1,
+  "drops": []
+}

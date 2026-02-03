@@ -1,0 +1,12 @@
+{
+  "id": "adamant-sword",
+  "name": "Adamant Sword",
+  "icon": "/assets/images/items/adamant-sword.png",
+  "description": "A sword forged from the finest adamant in the land.",
+  "item_type": "Weapon",
+  "damage": 23,
+  "level_requirement": 0,
+  "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
+  "sell_price": 349,
+  "notes": "Recommended for players at level 30 and above."
+}

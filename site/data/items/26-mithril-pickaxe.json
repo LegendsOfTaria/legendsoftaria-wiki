@@ -1,0 +1,11 @@
+{
+  "id": "mithril-pickaxe",
+  "name": "Mithril Pickaxe",
+  "icon": "/assets/images/items/mithril-pickaxe.png",
+  "description": "This can be used to mine ore from rocks.",
+  "item_type": "Tool",
+  "damage": 13,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
+  "sell_price": 185
+}

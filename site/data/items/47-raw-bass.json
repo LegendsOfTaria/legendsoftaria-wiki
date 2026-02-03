@@ -1,0 +1,10 @@
+{
+  "id": "raw-bass",
+  "name": "Raw Bass",
+  "icon": "/assets/images/items/raw-bass.png",
+  "description": "A raw bass. Can be cooked.",
+  "item_type": "Raw Fish",
+  "level_requirement": 0,
+  "acquisition": "Caught while fishing. Cook it to make <item:bass>.",
+  "sell_price": 20
+}

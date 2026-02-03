@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d0d12">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description"
+        content="The official wiki for Legends of Taria - your comprehensive guide to skills, items, NPCs, and more.">
+    <title>{% block title %}Legends of Taria Wiki{% endblock title %}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="https://legendsoftaria.com/appicon.webp" type="image/webp">
+    <link fetchpriority="high"
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wiki-layout">
+        <header class="site-header">
+            <div class="header-content">
+                <h1 class="site-title"><a href="/index.html">Legends of Taria</a></h1>
+                
+
+                <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <line x1="3" y1="6" x2="21" y2="6" class="line-top"></line>
+                        <line x1="3" y1="12" x2="21" y2="12" class="line-middle"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" class="line-bottom"></line>
+                    </svg>
+                </button>
+
+                <nav class="main-nav main-nav-desktop" id="main-nav-desktop">
+                    <a href="/index.html">Wiki Home</a>
+                    <a href="/items/index.html">Items</a>
+                    <a href="/npcs/index.html">NPCs</a>
+                    <a href="/guides/getting_started.html">Guides</a>
+                    <a href="https://legendsoftaria.com/">Back to Main Site</a>
+                </nav>
+            </div>
+        </header>
+
+        <nav class="main-nav-mobile" id="main-nav-mobile">
+            <a href="/index.html">🏠 Home</a>
+            <a href="/items/index.html">🎒 Items</a>
+            <a href="/npcs/index.html">👥 NPCs</a>
+            <a href="/guides/getting_started.html">📖 Guides</a>
+        </nav>
+
+        <div class="wiki-body">
+            <aside class="site-sidebar" id="sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">📍 Navigation</div>
+                    <ul class="sidebar-nav">
+                        <li><a href="/index.html">🏠 Main Page</a></li>
+                        <li><a href="/items/index.html">🎒 All Items</a></li>
+                        <li><a href="/npcs/index.html">👥 All NPCs</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">📖 Guides</div>
+                    <ul class="sidebar-nav">
+                        <li><a href="/guides/getting_started.html">🚀 Getting Started</a></li>
+                        <li><a href="/guides/controls.html">🎮 Controls</a></li>
+                        <li><a href="/guides/food.html">🍖 Food Guide</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">⚔️ Combat Skills</div>
+                    <ul class="sidebar-nav">
+                        <li><a href="/skills/melee.html"><img src="/assets/images/skills/melee.png" class="sidebar-icon"
+                                    alt="" /> Melee</a></li>
+                        <li><a href="/skills/defense.html"><img src="/assets/images/skills/defense.png"
+                                    class="sidebar-icon" alt="" /> Defense</a></li>
+                        <li><a href="/skills/health.html"><img src="/assets/images/skills/health.png"
+                                    class="sidebar-icon" alt="" /> Health</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">⛏️ Gathering Skills</div>
+                    <ul class="sidebar-nav">
+                        <li><a href="/skills/mining.html"><img src="/assets/images/skills/mining.png"
+                                    class="sidebar-icon" alt="" /> Mining</a></li>
+                        <li><a href="/skills/fishing.html"><img src="/assets/images/skills/fishing.png"
+                                    class="sidebar-icon" alt="" /> Fishing</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">🔨 Production Skills</div>
+                    <ul class="sidebar-nav">
+                        <li><a href="/skills/smelting.html"><img src="/assets/images/items/bronze-bar.png"
+                                    class="sidebar-icon" alt="" /> Smelting</a></li>
+                        <li><a href="/skills/smithing.html"><img src="/assets/images/skills/smithing.png"
+                                    class="sidebar-icon" alt="" /> Smithing</a></li>
+                        <li><a href="/skills/cooking.html"><img src="/assets/images/skills/cooking.png"
+                                    class="sidebar-icon" alt="" /> Cooking</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="site-main">
+                {% block content %}{% endblock content %}
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <p>
+                &copy; <script>document.write(new Date().getFullYear())</script> Legends of Taria. All rights reserved. |
+                <a href="https://legendsoftaria.com/" style="text-decoration: underline;">Main Site</a> |
+                <a href="https://legendsoftaria.com/tos" style="text-decoration: underline;">Terms of Service</a> |
+                <a href="https://legendsoftaria.com/privacy" style="text-decoration: underline;">Privacy Policy</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        (function () {
+            const toggle = document.querySelector('.menu-toggle');
+            const nav = document.getElementById('main-nav-mobile');
+
+            if (toggle && nav) {
+                toggle.addEventListener('click', function () {
+                    const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+                    toggle.setAttribute('aria-expanded', !isExpanded);
+                    nav.classList.toggle('active');
+                    toggle.classList.toggle('active');
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function (e) {
+                    if (!toggle.contains(e.target) && !nav.contains(e.target)) {
+                        toggle.setAttribute('aria-expanded', 'false');
+                        nav.classList.remove('active');
+                        toggle.classList.remove('active');
+                    }
+                });
+
+                // Close menu on escape key
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape') {
+                        toggle.setAttribute('aria-expanded', 'false');
+                        nav.classList.remove('active');
+                        toggle.classList.remove('active');
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>

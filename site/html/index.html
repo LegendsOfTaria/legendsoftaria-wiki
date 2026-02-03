@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block title %}Legends of Taria Wiki{% endblock title %}
+
+{% block content %}
+<section class="welcome">
+    <h2>Welcome to the Legends of Taria Wiki</h2>
+    <p>Your comprehensive guide to the world of Taria. Discover skills, items, creatures, and everything you need to become a legendary adventurer.</p>
+</section>
+
+<div class="index-grid">
+    <section class="index-section">
+        <h3>📖 New Player Guides</h3>
+        <ul>
+            <li><a href="/guides/getting_started.html"> Getting Started</a></li>
+            <li><a href="/guides/controls.html"> Controls &amp; Interface</a></li>
+            <li><a href="/guides/food.html"> Food &amp; Healing</a></li>
+        </ul>
+    </section>
+
+    <section class="index-section">
+        <h3>⚔️ Combat Skills</h3>
+        <ul>
+            <li><a href="/skills/melee.html"><img src="/assets/images/skills/melee.png" class="index-icon" alt=""/> Melee  Attack power</a></li>
+            <li><a href="/skills/defense.html"><img src="/assets/images/skills/defense.png" class="index-icon" alt=""/> Defense  Damage reduction</a></li>
+            <li><a href="/skills/health.html"><img src="/assets/images/skills/health.png" class="index-icon" alt=""/> Health  Hit points</a></li>
+        </ul>
+    </section>
+
+    <section class="index-section">
+        <h3> Gathering Skills</h3>
+        <ul>
+            <li><a href="/skills/mining.html"><img src="/assets/images/skills/mining.png" class="index-icon" alt=""/> Mining  Extract ores</a></li>
+            <li><a href="/skills/fishing.html"><img src="/assets/images/skills/fishing.png" class="index-icon" alt=""/> Fishing  Catch fish</a></li>
+        </ul>
+    </section>
+
+    <section class="index-section">
+        <h3>🔨 Production Skills</h3>
+        <ul>
+            <li><a href="/skills/smelting.html"><img src="/assets/images/items/bronze-bar.png" class="index-icon" alt=""/> Smelting  Smelt ores into bars</a></li>
+            <li><a href="/skills/smithing.html"><img src="/assets/images/skills/smithing.png" class="index-icon" alt=""/> Smithing  Forge gear</a></li>
+            <li><a href="/skills/cooking.html"><img src="/assets/images/skills/cooking.png" class="index-icon" alt=""/> Cooking  Prepare food</a></li>
+        </ul>
+    </section>
+
+    <section class="index-section">
+        <h3>📚 Database</h3>
+        <ul>
+            <li><a href="/items/index.html"><img src="/assets/images/items/bronze-sword.png" class="index-icon" alt=""/> All Items  Browse the item database</a></li>
+            <li><a href="/npcs/index.html"><img src="/assets/images/npcs/cow.png" class="index-icon" alt=""/> All NPCs  Monsters, shopkeepers & more</a></li>
+        </ul>
+    </section>
+
+    <section class="index-section">
+        <h3>🌟 Quick Tips</h3>
+        <ul>
+            <li>🐔 Start by training on goblins and cows</li>
+            <li>🐟 Fish and cook food for healing</li>
+            <li>⛏️ Mine ores to craft better gear</li>
+        </ul>
+    </section>
+</div>
+{% endblock content %}

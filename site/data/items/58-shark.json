@@ -1,0 +1,11 @@
+{
+  "id": "shark",
+  "name": "Shark",
+  "icon": "/assets/images/items/shark.png",
+  "description": "A cooked shark. Eat to restore some health.",
+  "item_type": "Food",
+  "healing": 21,
+  "level_requirement": 0,
+  "acquisition": "Cooked from <item:raw-shark> at a fire.",
+  "sell_price": 60
+}

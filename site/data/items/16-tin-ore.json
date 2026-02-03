@@ -1,0 +1,10 @@
+{
+  "id": "tin-ore",
+  "name": "Tin Ore",
+  "icon": "/assets/images/items/tin-ore.png",
+  "description": "A piece of tin ore. It can be smelted into bronze bars.",
+  "item_type": "Ore",
+  "level_requirement": 1,
+  "acquisition": "Mined from tin rocks.",
+  "sell_price": 5
+}

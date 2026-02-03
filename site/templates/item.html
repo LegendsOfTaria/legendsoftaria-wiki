@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}{{ item.name }} - Legends of Taria Wiki{% endblock title %}
+
+{% block content %}
+<article class="item-page">
+    <h2 class="page-title">
+        <img src="/assets/images/items/{{ item.id }}.png" alt="{{ item.name }}" class="title-icon" />
+        {{ item.name }}
+    </h2>
+
+    <div class="infobox">
+        <div class="infobox-header">
+            <img src="/assets/images/items/{{ item.id }}.png" alt="{{ item.name }}" class="infobox-image" />
+            <h3>{{ item.name }}</h3>
+        </div>
+        <table>
+            <tr>
+                <th>Type</th>
+                <td>{{ item.item_type | type_link | safe }}</td>
+            </tr>
+            {% if item.damage %}
+            <tr>
+                <th>Damage</th>
+                <td>+{{ item.damage }}</td>
+            </tr>
+            {% endif %}
+            {% if item.armor %}
+            <tr>
+                <th>Armor</th>
+                <td>+{{ item.armor }}</td>
+            </tr>
+            {% endif %}
+            {% if item.healing %}
+            <tr>
+                <th>Heals</th>
+                <td>{{ item.healing }} HP</td>
+            </tr>
+            {% endif %}
+            {% if item.level_requirement > 0 %}
+            <tr>
+                <th>Required Level</th>
+                <td>{{ item.level_requirement }}</td>
+            </tr>
+            {% endif %}
+            {% if item.sell_price %}
+            <tr>
+                <th>Sell Price</th>
+                <td>{{ item.sell_price }} gp</td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>
+    
+    {% if item.notes %}
+    <section class="notes">
+        <p>{{ item.notes }}</p>
+    </section>
+    {% endif %}
+
+    <section class="description">
+        <h3>Description</h3>
+        <p>{{ item.description | linkify | safe }}</p>
+    </section>
+
+    {% if item.acquisition %}
+    <section class="acquisition">
+        <h3>How to Obtain</h3>
+        <p>{{ item.acquisition | linkify | safe }}</p>
+    </section>
+    {% endif %}
+</article>
+{% endblock content %}

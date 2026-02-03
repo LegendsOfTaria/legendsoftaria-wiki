@@ -1,0 +1,10 @@
+{
+  "id": "copper-ore",
+  "name": "Copper Ore",
+  "icon": "/assets/images/items/copper-ore.png",
+  "description": "A piece of copper ore. It can be smelted into bronze bars.",
+  "item_type": "Ore",
+  "level_requirement": 1,
+  "acquisition": "Mined from copper rocks.",
+  "sell_price": 5
+}

@@ -1,0 +1,13 @@
+{
+  "id": "skeleton2",
+  "name": "Armored Skeleton",
+  "icon": "/assets/images/npcs/skeleton2.png",
+  "location": "Graveyards and dungeons",
+  "role": "Monster",
+  "description": "Armored Skeleton that can be fought for combat experience and loot.",
+  "level": 15,
+  "hitpoints": 30,
+  "drops": [
+    "Bones"
+  ]
+}

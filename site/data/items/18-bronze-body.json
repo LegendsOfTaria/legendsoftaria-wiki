@@ -1,0 +1,11 @@
+{
+  "id": "bronze-body",
+  "name": "Bronze Body",
+  "icon": "/assets/images/items/bronze-body.png",
+  "description": "A bronze body.",
+  "item_type": "Armor",
+  "armor": 18,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
+  "sell_price": 116
+}

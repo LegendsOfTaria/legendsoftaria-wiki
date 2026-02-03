@@ -1,0 +1,10 @@
+{
+  "id": "swordfish",
+  "name": "Swordfish",
+  "icon": "/assets/images/items/swordfish.png",
+  "description": "A cooked swordfish. Eat to restore some health.",
+  "item_type": "Weapon",
+  "level_requirement": 0,
+  "acquisition": "Found throughout the world.",
+  "sell_price": 50
+}

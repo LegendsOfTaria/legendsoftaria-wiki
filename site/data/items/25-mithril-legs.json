@@ -1,0 +1,11 @@
+{
+  "id": "mithril-legs",
+  "name": "Mithril Legs",
+  "icon": "/assets/images/items/mithril-legs.png",
+  "description": "A pair of mithril legs.",
+  "item_type": "Armor",
+  "armor": 22,
+  "level_requirement": 1,
+  "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
+  "sell_price": 450
+}

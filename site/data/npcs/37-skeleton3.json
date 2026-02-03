@@ -1,0 +1,13 @@
+{
+  "id": "skeleton3",
+  "name": "Elite Skeleton",
+  "icon": "/assets/images/npcs/skeleton3.png",
+  "location": "Graveyards and dungeons",
+  "role": "Monster",
+  "description": "Elite Skeleton that can be fought for combat experience and loot.",
+  "level": 23,
+  "hitpoints": 42,
+  "drops": [
+    "Bones"
+  ]
+}
