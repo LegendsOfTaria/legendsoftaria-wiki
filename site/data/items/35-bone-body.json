@@ -6,6 +6,6 @@
   "item_type": "Armor",
   "armor": 56,
   "level_requirement": 30,
-  "acquisition": "Smithed from <item:bone-bar> at an anvil.",
+  "acquisition": "Dropped by the skeleton boss in the skeleton dungeon.",
   "sell_price": 6967
 }
