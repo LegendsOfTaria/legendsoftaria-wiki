@@ -1,0 +1,10 @@
+{
+  "id": "cedar-logs",
+  "name": "Cedar Logs",
+  "icon": "/assets/images/items/cedar-logs.png",
+  "description": "Logs cut from a cedar tree.",
+  "item_type": "Misc",
+  "level_requirement": 0,
+  "acquisition": "Found throughout the world.",
+  "sell_price": 1
+}

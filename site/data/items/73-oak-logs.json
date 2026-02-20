@@ -1,0 +1,10 @@
+{
+  "id": "oak-logs",
+  "name": "Oak Logs",
+  "icon": "/assets/images/items/oak-logs.png",
+  "description": "Logs cut from an oak tree.",
+  "item_type": "Misc",
+  "level_requirement": 0,
+  "acquisition": "Found throughout the world.",
+  "sell_price": 1
+}

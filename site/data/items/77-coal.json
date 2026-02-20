@@ -1,0 +1,10 @@
+{
+  "id": "coal",
+  "name": "Coal",
+  "icon": "/assets/images/items/coal.png",
+  "description": "Pieces of coal collected from burnt wood. Can be a useful fuel source.",
+  "item_type": "Misc",
+  "level_requirement": 0,
+  "acquisition": "Found throughout the world.",
+  "sell_price": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": "birch-logs",
+  "name": "Birch Logs",
+  "icon": "/assets/images/items/birch-logs.png",
+  "description": "Logs cut from a birch tree.",
+  "item_type": "Misc",
+  "level_requirement": 0,
+  "acquisition": "Found throughout the world.",
+  "sell_price": 1
+}
