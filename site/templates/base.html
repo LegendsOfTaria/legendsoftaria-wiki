@@ -85,6 +85,8 @@
                                     class="sidebar-icon" alt="" /> Mining</a></li>
                         <li><a href="/skills/fishing.html"><img src="/assets/images/skills/fishing.png"
                                     class="sidebar-icon" alt="" /> Fishing</a></li>
+                        <li><a href="/skills/woodcutting.html"><img src="/assets/images/skills/woodcutting.png"
+                                    class="sidebar-icon" alt="" /> Woodcutting</a></li>
                     </ul>
                 </div>
                 <div class="sidebar-section">
@@ -96,6 +98,8 @@
                                     class="sidebar-icon" alt="" /> Smithing</a></li>
                         <li><a href="/skills/cooking.html"><img src="/assets/images/skills/cooking.png"
                                     class="sidebar-icon" alt="" /> Cooking</a></li>
+                        <li><a href="/skills/firemaking.html"><img src="/assets/images/skills/firemaking.png"
+                                    class="sidebar-icon" alt="" /> Firemaking</a></li>
                     </ul>
                 </div>
             </aside>
@@ -107,7 +111,8 @@
 
         <footer class="site-footer">
             <p>
-                &copy; <script>document.write(new Date().getFullYear())</script> Legends of Taria. All rights reserved. |
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Legends of Taria. All rights reserved. |
                 <a href="https://legendsoftaria.com/" style="text-decoration: underline;">Main Site</a> |
                 <a href="https://legendsoftaria.com/tos" style="text-decoration: underline;">Terms of Service</a> |
                 <a href="https://legendsoftaria.com/privacy" style="text-decoration: underline;">Privacy Policy</a>
@@ -116,38 +121,38 @@
     </div>
 
     <script>
-        // Mobile menu toggle
-        (function () {
-            const toggle = document.querySelector('.menu-toggle');
-            const nav = document.getElementById('main-nav-mobile');
+            // Mobile menu toggle
+            (function () {
+                const toggle = document.querySelector('.menu-toggle');
+                const nav = document.getElementById('main-nav-mobile');
 
-            if (toggle && nav) {
-                toggle.addEventListener('click', function () {
-                    const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-                    toggle.setAttribute('aria-expanded', !isExpanded);
-                    nav.classList.toggle('active');
-                    toggle.classList.toggle('active');
-                });
+                if (toggle && nav) {
+                    toggle.addEventListener('click', function () {
+                        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+                        toggle.setAttribute('aria-expanded', !isExpanded);
+                        nav.classList.toggle('active');
+                        toggle.classList.toggle('active');
+                    });
 
-                // Close menu when clicking outside
-                document.addEventListener('click', function (e) {
-                    if (!toggle.contains(e.target) && !nav.contains(e.target)) {
-                        toggle.setAttribute('aria-expanded', 'false');
-                        nav.classList.remove('active');
-                        toggle.classList.remove('active');
-                    }
-                });
+                    // Close menu when clicking outside
+                    document.addEventListener('click', function (e) {
+                        if (!toggle.contains(e.target) && !nav.contains(e.target)) {
+                            toggle.setAttribute('aria-expanded', 'false');
+                            nav.classList.remove('active');
+                            toggle.classList.remove('active');
+                        }
+                    });
 
-                // Close menu on escape key
-                document.addEventListener('keydown', function (e) {
-                    if (e.key === 'Escape') {
-                        toggle.setAttribute('aria-expanded', 'false');
-                        nav.classList.remove('active');
-                        toggle.classList.remove('active');
-                    }
-                });
-            }
-        })();
+                    // Close menu on escape key
+                    document.addEventListener('keydown', function (e) {
+                        if (e.key === 'Escape') {
+                            toggle.setAttribute('aria-expanded', 'false');
+                            nav.classList.remove('active');
+                            toggle.classList.remove('active');
+                        }
+                    });
+                }
+            })();
     </script>
     <script>
         // Live reload (watch mode server)
