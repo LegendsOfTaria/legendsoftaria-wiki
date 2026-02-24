@@ -126,8 +126,9 @@ pub fn load_npcs() -> Result<Vec<Npc>> {
     Ok(npcs)
 }
 
-/// Allowed page directories - only load markdown from these subdirectories
-const PAGE_DIRS: &[&str] = &["guides", "skills"];
+// Previously we limited page loading to a handful of subdirectories.  The
+// user now wants *all* markdown files beneath the HTML output directory to be
+// loaded, except those under the `assets` folder (images, javascript, etc.).
 
 pub fn load_pages() -> Result<Vec<Page>> {
     let mut pages = Vec::new();
@@ -137,39 +138,45 @@ pub fn load_pages() -> Result<Vec<Page>> {
         return Ok(pages);
     }
 
-    for page_dir in PAGE_DIRS {
-        let dir_path = base.join(page_dir);
-        if !dir_path.exists() {
+    // walk the entire base directory recursively, but skip anything inside
+    // "assets" (or a directory named "assets" anywhere in the path).
+    for entry in WalkDir::new(&base)
+        .into_iter()
+        .filter_entry(|e| {
+            // skip assets directories
+            if e.file_type().is_dir() {
+                if let Some(name) = e.file_name().to_str() {
+                    return name != "assets";
+                }
+            }
+            true
+        })
+    {
+        let entry = entry?;
+        let path = entry.path();
+
+        if path.is_dir() {
             continue;
         }
 
-        for entry in WalkDir::new(&dir_path) {
-            let entry = entry?;
-            let path = entry.path();
-
-            if path.is_dir() {
-                continue;
-            }
-
-            if path.extension().and_then(|e| e.to_str()) != Some("md") {
-                continue;
-            }
-
-            let mut file = fs::File::open(path)
-                .with_context(|| format!("failed to open page file {:?}", path))?;
-            let mut buf = String::new();
-            file.read_to_string(&mut buf)?;
-
-            let body_html = markdown_to_html(&buf);
-            let slug = page_slug(&base, path)?;
-            let title = derive_title_from_path(path);
-
-            pages.push(Page {
-                slug,
-                title,
-                body_html,
-            });
+        if path.extension().and_then(|e| e.to_str()) != Some("md") {
+            continue;
         }
+
+        let mut file = fs::File::open(path)
+            .with_context(|| format!("failed to open page file {:?}", path))?;
+        let mut buf = String::new();
+        file.read_to_string(&mut buf)?;
+
+        let body_html = markdown_to_html(&buf);
+        let slug = page_slug(&base, path)?;
+        let title = derive_title_from_path(path);
+
+        pages.push(Page {
+            slug,
+            title,
+            body_html,
+        });
     }
 
     pages.sort_by(|a, b| a.title.cmp(&b.title));
