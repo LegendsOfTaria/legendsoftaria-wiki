@@ -25,12 +25,6 @@
                 <td>{{ item.healing }} HP</td>
             </tr>
             {% endif %}
-            {% if item.level_requirement > 0 %}
-            <tr>
-                <th>Required Level</th>
-                <td>{{ item.level_requirement }}</td>
-            </tr>
-            {% endif %}
             {% if item.sell_price %}
             <tr>
                 <th>Sell Price</th>
@@ -41,7 +35,7 @@
             {% for stat_name, stat_value in item.stats %}
             <tr>
                 <th>{{ stat_name }}</th>
-                <td>{% if stat_value is not none and stat_value > 0 %}+{{ stat_value }}{% else %}{{ stat_value }}{% endif %}</td>
+                <td>{% if stat_value > 0 %}+{{ stat_value }}{% else %}{{ stat_value }}{% endif %}</td>
             </tr>
             {% endfor %}
             {% endif %}

@@ -33,7 +33,7 @@
             {% for stat_name, stat_value in npc.stats %}
             <tr>
                 <th>{{ stat_name }}</th>
-                <td>{% if stat_value is not none and stat_value > 0 %}+{{ stat_value }}{% else %}{{ stat_value }}{% endif %}</td>
+                <td>{% if stat_value > 0 %}+{{ stat_value }}{% else %}{{ stat_value }}{% endif %}</td>
             </tr>
             {% endfor %}
             {% endif %}
