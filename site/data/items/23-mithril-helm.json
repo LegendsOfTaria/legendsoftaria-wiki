@@ -7,5 +7,8 @@
   "armor": 14,
   "level_requirement": 1,
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
-  "sell_price": 300
+  "sell_price": 300,
+  "stats": {
+    "Defense": 14
+  }
 }

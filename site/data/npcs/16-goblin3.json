@@ -9,5 +9,10 @@
   "hitpoints": 6,
   "drops": [
     "Bones"
-  ]
+  ],
+  "stats": {
+    "Defense": 2,
+    "Melee": 2,
+    "Health": 6
+  }
 }

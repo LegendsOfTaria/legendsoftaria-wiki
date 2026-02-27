@@ -2,11 +2,14 @@
   "id": "mithril-sword",
   "name": "Mithril Sword",
   "icon": "/assets/images/items/mithril-sword.png",
-  "description": "A sword forged from mithril.",
+  "description": "A small health potion.",
   "item_type": "Weapon",
   "damage": 16,
   "level_requirement": 1,
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 140,
-  "notes": "Recommended for level 20 melee."
+  "notes": "Recommended for level 20 melee.",
+  "stats": {
+    "Melee": 16
+  }
 }

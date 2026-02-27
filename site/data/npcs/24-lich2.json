@@ -9,5 +9,10 @@
   "hitpoints": 60,
   "drops": [
     "Various items"
-  ]
+  ],
+  "stats": {
+    "Magic": 45,
+    "Defense": 40,
+    "Health": 60
+  }
 }

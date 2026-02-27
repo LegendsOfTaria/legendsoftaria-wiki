@@ -7,5 +7,8 @@
   "damage": 2,
   "level_requirement": 1,
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
-  "sell_price": 34
+  "sell_price": 34,
+  "stats": {
+    "Melee": 2
+  }
 }

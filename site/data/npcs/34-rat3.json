@@ -9,5 +9,8 @@
   "hitpoints": 5,
   "drops": [
     "Bones"
-  ]
+  ],
+  "stats": {
+    "Health": 5
+  }
 }

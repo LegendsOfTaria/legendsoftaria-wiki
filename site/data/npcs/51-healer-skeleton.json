@@ -7,5 +7,8 @@
   "description": "Healer Skeleton found in the world of Taria.",
   "level": 1,
   "hitpoints": 1,
-  "drops": []
+  "drops": [],
+  "stats": {
+    "Health": 1
+  }
 }

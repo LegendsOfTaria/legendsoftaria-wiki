@@ -7,5 +7,12 @@
   "armor": 17,
   "level_requirement": 30,
   "acquisition": "Dropped by the skeleton boss in the skeleton dungeon.",
-  "sell_price": 5992
+  "sell_price": 5992,
+  "stats": {
+    "Defense": 17,
+    "Melee": 2
+  },
+  "requirements": {
+    "Defense": 30
+  }
 }

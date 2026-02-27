@@ -10,5 +10,8 @@
   "drops": [
     "Bones"
   ],
-  "notes": "Drops bones when defeated."
+  "notes": "Drops bones when defeated.",
+  "stats": {
+    "Health": 8
+  }
 }
