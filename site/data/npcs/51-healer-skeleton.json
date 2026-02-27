@@ -6,7 +6,6 @@
   "role": "NPC",
   "description": "Healer Skeleton found in the world of Taria.",
   "level": 1,
-  "hitpoints": 1,
   "drops": [],
   "stats": {
     "Health": 1

@@ -6,7 +6,6 @@
   "role": "Monster",
   "description": "Lich that can be fought for combat experience and loot.",
   "level": 50,
-  "hitpoints": 60,
   "drops": [
     "Various items"
   ],

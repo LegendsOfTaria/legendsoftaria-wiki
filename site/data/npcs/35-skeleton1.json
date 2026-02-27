@@ -6,7 +6,6 @@
   "role": "Monster",
   "description": "Skeleton that can be fought for combat experience and loot.",
   "level": 5,
-  "hitpoints": 16,
   "drops": [
     "Bones"
   ],
