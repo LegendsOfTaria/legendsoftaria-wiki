@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/adamant-pickaxe.png",
   "description": "This can be used to mine ore from rocks.",
   "item_type": "Tool",
-  "damage": 19,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 400,
   "stats": {

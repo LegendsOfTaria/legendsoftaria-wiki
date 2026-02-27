@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/iron-pickaxe.png",
   "description": "This can be used to mine ore from rocks.",
   "item_type": "Tool",
-  "damage": 9,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:iron-bar> at an anvil.",
   "sell_price": 90,
   "stats": {

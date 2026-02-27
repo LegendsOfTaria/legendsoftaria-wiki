@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/adamant-axe.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
-  "damage": 19,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 400,
   "stats": {

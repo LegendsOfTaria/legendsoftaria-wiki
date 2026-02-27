@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/raw-crab.png",
   "description": "A raw crab. Can be cooked.",
   "item_type": "Raw Fish",
-  "level_requirement": 0,
   "acquisition": "Caught while fishing. Cook it to make <item:crab>.",
   "sell_price": 24
 }

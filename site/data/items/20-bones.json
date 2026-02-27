@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/bones.png",
   "description": "Bones from some sort of animal.",
   "item_type": "Misc",
-  "level_requirement": 1,
   "acquisition": "Found throughout the world.",
   "sell_price": 1
 }

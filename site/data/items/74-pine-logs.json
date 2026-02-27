@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/pine-logs.png",
   "description": "Logs cut from a pine tree.",
   "item_type": "Misc",
-  "level_requirement": 0,
   "acquisition": "Found throughout the world.",
   "sell_price": 1
 }

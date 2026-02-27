@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/cage.png",
   "description": "A cage used to catch crustaceans.",
   "item_type": "Fishing Tool",
-  "level_requirement": 0,
   "acquisition": "Purchased from fishing shops or found as loot.",
   "sell_price": 40
 }

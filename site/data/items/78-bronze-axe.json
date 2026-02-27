@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/bronze-axe.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
-  "damage": 2,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 34,
   "stats": {

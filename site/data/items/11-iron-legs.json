@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/iron-legs.png",
   "description": "A small health potion.",
   "item_type": "Armor",
-  "armor": 16,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:iron-bar> at an anvil.",
   "sell_price": 209,
   "stats": {

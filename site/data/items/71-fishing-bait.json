@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/fishing-bait.png",
   "description": "Some ground up fish. Used as fishing bait.",
   "item_type": "Bait",
-  "level_requirement": 0,
   "acquisition": "Purchased from fishing shops.",
   "sell_price": 1
 }

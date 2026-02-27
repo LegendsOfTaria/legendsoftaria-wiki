@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/iron-sword.png",
   "description": "A sword forged from iron.",
   "item_type": "Weapon",
-  "damage": 11,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:iron-bar> at an anvil.",
   "sell_price": 59,
   "notes": "Recommended for level 10 melee.",

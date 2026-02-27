@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/bronze-helm.png",
   "description": "A bronze helmet.",
   "item_type": "Armor",
-  "armor": 6,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 44,
   "stats": {

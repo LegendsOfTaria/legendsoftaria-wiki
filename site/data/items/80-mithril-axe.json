@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/mithril-axe.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
-  "damage": 13,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 185,
   "stats": {

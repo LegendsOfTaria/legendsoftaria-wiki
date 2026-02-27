@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/adamant-helm.png",
   "description": "A adamant helmet.",
   "item_type": "Armor",
-  "armor": 19,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 789,
   "stats": {

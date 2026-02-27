@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/bone-helm.png",
   "description": "This helmet makes me feel like a Dragonborn.",
   "item_type": "Armor",
-  "armor": 17,
-  "level_requirement": 30,
   "acquisition": "Dropped by the skeleton boss in the skeleton dungeon.",
   "sell_price": 5992,
   "stats": {

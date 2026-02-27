@@ -5,7 +5,6 @@
   "description": "A cooked crab. Eat to restore some health.",
   "item_type": "Food",
   "healing": 13,
-  "level_requirement": 0,
   "acquisition": "Cooked from <item:raw-crab> at a fire.",
   "sell_price": 24
 }

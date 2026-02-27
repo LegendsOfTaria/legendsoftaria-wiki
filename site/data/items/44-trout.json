@@ -5,7 +5,6 @@
   "description": "A cooked trout. Eat to restore some health.",
   "item_type": "Food",
   "healing": 7,
-  "level_requirement": 0,
   "acquisition": "Cooked from <item:raw-trout> at a fire.",
   "sell_price": 15
 }

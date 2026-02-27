@@ -4,8 +4,6 @@
   "icon": "/assets/images/items/bronze-sword.png",
   "description": "A sword forged from bronze.",
   "item_type": "Weapon",
-  "damage": 6,
-  "level_requirement": 1,
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 24,
   "stats": {

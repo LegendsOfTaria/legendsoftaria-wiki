@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/raw-anchovies.png",
   "description": "Some raw anchovies. Can be cooked.",
   "item_type": "Raw Fish",
-  "level_requirement": 0,
   "acquisition": "Caught while fishing. Cook it to make <item:anchovies>.",
   "sell_price": 8
 }

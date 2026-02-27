@@ -4,7 +4,6 @@
   "icon": "/assets/images/items/raw-tuna.png",
   "description": "A raw tuna. Can be cooked.",
   "item_type": "Raw Fish",
-  "level_requirement": 0,
   "acquisition": "Caught while fishing. Cook it to make <item:tuna>.",
   "sell_price": 80
 }

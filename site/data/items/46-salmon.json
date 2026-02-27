@@ -5,7 +5,6 @@
   "description": "A cooked salmon. Eat to restore some health.",
   "item_type": "Food",
   "healing": 11,
-  "level_requirement": 0,
   "acquisition": "Cooked from <item:raw-salmon> at a fire.",
   "sell_price": 20
 }
