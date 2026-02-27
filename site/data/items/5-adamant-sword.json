@@ -2,7 +2,7 @@
   "id": "adamant-sword",
   "name": "Adamant Sword",
   "icon": "/assets/images/items/adamant-sword.png",
-  "description": "A small health potion.",
+  "description": "A sword forged from adamant.",
   "item_type": "Weapon",
   "damage": 23,
   "level_requirement": 1,

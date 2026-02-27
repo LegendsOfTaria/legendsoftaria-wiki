@@ -2,7 +2,7 @@
   "id": "iron-sword",
   "name": "Iron Sword",
   "icon": "/assets/images/items/iron-sword.png",
-  "description": "A small health potion.",
+  "description": "A sword forged from iron.",
   "item_type": "Weapon",
   "damage": 11,
   "level_requirement": 1,

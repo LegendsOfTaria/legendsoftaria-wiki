@@ -2,7 +2,7 @@
   "id": "mithril-sword",
   "name": "Mithril Sword",
   "icon": "/assets/images/items/mithril-sword.png",
-  "description": "A small health potion.",
+  "description": "A sword forged from mithril.",
   "item_type": "Weapon",
   "damage": 16,
   "level_requirement": 1,
