@@ -35,11 +35,11 @@ pub fn render_items(tera: &Tera, items: &[Item]) -> Result<()> {
 
         let html = tera
             .render("item.html", &ctx)
-            .with_context(|| format!("failed to render item {}", item.id))?;
+            .map_err(|e| anyhow::anyhow!("failed to render item {}: {:?}", item.id, e))?;
 
         let out_path = base.join(format!("{}.html", item.id));
         fs::write(&out_path, html)
-            .with_context(|| format!("failed to write item page {:?}", out_path))?;
+            .map_err(|e| anyhow::anyhow!("failed to write item page {:?}: {:?}", out_path, e))?;
 
         //println!("  → items/{}.html", item.id);
     }
@@ -67,11 +67,11 @@ pub fn render_npcs(tera: &Tera, npcs: &[Npc], items: &[Item]) -> Result<()> {
 
         let html = tera
             .render("npc.html", &ctx)
-            .with_context(|| format!("failed to render npc {}", npc.id))?;
+            .map_err(|e| anyhow::anyhow!("failed to render npc {}: {:?}", npc.id, e))?;
 
         let out_path = base.join(format!("{}.html", npc.id));
         fs::write(&out_path, html)
-            .with_context(|| format!("failed to write npc page {:?}", out_path))?;
+            .map_err(|e| anyhow::anyhow!("failed to write npc page {:?}: {:?}", out_path, e))?;
 
         //println!("  → npcs/{}.html", npc.id);
     }
@@ -91,18 +91,16 @@ pub fn render_regular_pages(tera: &Tera, pages: &[Page]) -> Result<()> {
 
         let html = tera
             .render("page.html", &ctx)
-            .with_context(|| format!("failed to render page {}", page.slug))?;
+            .map_err(|e| anyhow::anyhow!("failed to render page {}: {:?}", page.slug, e))?;
 
-        let out_path = config::output_dir()
-            .join(&page.slug)
-            .with_extension("html");
+        let out_path = config::output_dir().join(&page.slug).with_extension("html");
 
         if let Some(parent) = out_path.parent() {
             fs::create_dir_all(parent)?;
         }
 
         fs::write(&out_path, html)
-            .with_context(|| format!("failed to write page {:?}", out_path))?;
+            .map_err(|e| anyhow::anyhow!("failed to write page {:?}: {:?}", out_path, e))?;
 
         //println!("  → {}.html", page.slug);
     }
@@ -124,31 +122,32 @@ pub fn render_indexes(tera: &Tera, items: &[Item], npcs: &[Npc], pages: &[Page])
     // Render root index.html (child template living in html/ folder)
     let html = tera
         .render("index.html", &ctx)
-        .context("failed to render root index")?;
+        .map_err(|e| anyhow::anyhow!("failed to render root index: {:?}", e))?;
     let out_path = config::output_dir().join("index.html");
-    fs::write(&out_path, html).with_context(|| format!("failed to write index {:?}", out_path))?;
+    fs::write(&out_path, html)
+        .map_err(|e| anyhow::anyhow!("failed to write index {:?}: {:?}", out_path, e))?;
     //println!("  → index.html");
 
     let items_html = tera
         .render("items_index.html", &ctx)
-        .context("failed to render items index")?;
+        .map_err(|e| anyhow::anyhow!("failed to render items index: {:?}", e))?;
     let items_index_path = config::output_dir().join("items").join("index.html");
     if let Some(parent) = items_index_path.parent() {
         fs::create_dir_all(parent)?;
     }
     fs::write(&items_index_path, items_html)
-        .with_context(|| format!("failed to write items index {:?}", items_index_path))?;
+        .map_err(|e| anyhow::anyhow!("failed to write items index {:?}: {:?}", items_index_path, e))?;
     //println!("  → items/index.html");
 
     let npcs_html = tera
         .render("npcs_index.html", &ctx)
-        .context("failed to render npcs index")?;
+        .map_err(|e| anyhow::anyhow!("failed to render npcs index: {:?}", e))?;
     let npcs_index_path = config::output_dir().join("npcs").join("index.html");
     if let Some(parent) = npcs_index_path.parent() {
         fs::create_dir_all(parent)?;
     }
     fs::write(&npcs_index_path, npcs_html)
-        .with_context(|| format!("failed to write npcs index {:?}", npcs_index_path))?;
+        .map_err(|e| anyhow::anyhow!("failed to write npcs index {:?}: {:?}", npcs_index_path, e))?;
     //println!("  → npcs/index.html");
 
     Ok(())
