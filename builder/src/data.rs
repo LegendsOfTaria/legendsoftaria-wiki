@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::fs;
 use std::io::Read;
 use std::path::{Path, PathBuf};
@@ -17,13 +18,11 @@ pub struct Item {
     #[serde(alias = "type")]
     pub item_type: String,
     #[serde(default)]
-    pub damage: Option<i32>,
-    #[serde(default)]
-    pub armor: Option<i32>,
-    #[serde(default)]
     pub healing: Option<i32>,
-    #[serde(default)]
-    pub level_requirement: i32,
+    #[serde(default, skip_serializing_if = "HashMap::is_empty")]
+    pub stats: HashMap<String, i32>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub requirements: Option<HashMap<String, i32>>,
     #[serde(default)]
     pub acquisition: String,
     #[serde(default)]
@@ -43,6 +42,8 @@ pub struct Npc {
     pub level: Option<i32>,
     #[serde(default)]
     pub hitpoints: Option<i32>,
+    #[serde(default, skip_serializing_if = "HashMap::is_empty")]
+    pub stats: HashMap<String, i32>,
     #[serde(default)]
     pub drops: Vec<String>,
     #[serde(default)]

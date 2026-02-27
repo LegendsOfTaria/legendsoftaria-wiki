@@ -19,18 +19,6 @@
                 <th>Type</th>
                 <td>{{ item.item_type | type_link | safe }}</td>
             </tr>
-            {% if item.damage %}
-            <tr>
-                <th>Damage</th>
-                <td>+{{ item.damage }}</td>
-            </tr>
-            {% endif %}
-            {% if item.armor %}
-            <tr>
-                <th>Armor</th>
-                <td>+{{ item.armor }}</td>
-            </tr>
-            {% endif %}
             {% if item.healing %}
             <tr>
                 <th>Heals</th>
@@ -47,6 +35,26 @@
             <tr>
                 <th>Sell Price</th>
                 <td>{{ item.sell_price }} gp</td>
+            </tr>
+            {% endif %}
+            {% if item.stats and item.stats | length > 0 %}
+            {% for stat_name, stat_value in item.stats %}
+            <tr>
+                <th>{{ stat_name }}</th>
+                <td>{% if stat_value is not none and stat_value > 0 %}+{{ stat_value }}{% else %}{{ stat_value }}{% endif %}</td>
+            </tr>
+            {% endfor %}
+            {% endif %}
+            {% if item.requirements and item.requirements | length > 0 %}
+            <tr>
+                <th>Requirements</th>
+                <td>
+                    <ul class="requirements-list">
+                    {% for req_name, req_value in item.requirements %}
+                        <li>{{ req_name }}: {{ req_value }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
             </tr>
             {% endif %}
         </table>
