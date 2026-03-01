@@ -52,12 +52,12 @@ pub fn render_npcs(tera: &Tera, npcs: &[Npc], items: &[Item]) -> Result<()> {
     fs::create_dir_all(&base)?;
 
     for npc in npcs {
-        let notes_html = crate::data::load_npc_notes(&npc.id)?;
+        let notes_html = crate::data::load_npc_notes(npc.id)?;
 
         let enriched_drops: Vec<_> = npc
             .drops
             .iter()
-            .map(|drop_name| enrich_drop(drop_name, items))
+            .map(|drop_id| enrich_drop(*drop_id, items))
             .collect();
 
         let mut ctx = TeraContext::new();

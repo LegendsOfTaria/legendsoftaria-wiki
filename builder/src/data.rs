@@ -12,7 +12,7 @@ use crate::config;
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Item {
-    pub id: String,
+    pub id: u16,
     pub name: String,
     pub description: String,
     pub wiki_name: String,
@@ -34,7 +34,7 @@ pub struct Item {
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Npc {
-    pub id: String,
+    pub id: u16,
     pub name: String,
     pub location: String,
     pub role: String,
@@ -47,7 +47,7 @@ pub struct Npc {
     #[serde(default, skip_serializing_if = "HashMap::is_empty")]
     pub stats: HashMap<String, i32>,
     #[serde(default)]
-    pub drops: Vec<String>,
+    pub drops: Vec<u16>,
     #[serde(default)]
     pub notes: String,
 }
@@ -62,7 +62,7 @@ pub struct Page {
 /// Enriched drop information for rendering NPC drops with item links and prices
 #[derive(Debug, Serialize)]
 pub struct EnrichedDrop {
-    pub item_id: String,
+    pub item_id: u16,
     pub item_name: String,
     pub item_type: String,
     pub sell_price: Option<u64>,
@@ -85,8 +85,8 @@ pub fn load_items() -> Result<Vec<Item>> {
             continue;
         }
 
-        let mut file =
-            fs::File::open(&path).with_context(|| format!("failed to open item file {:?}", path))?;
+        let mut file = fs::File::open(&path)
+            .with_context(|| format!("failed to open item file {:?}", path))?;
         let mut buf = String::new();
         file.read_to_string(&mut buf)?;
 
@@ -143,18 +143,15 @@ pub fn load_pages() -> Result<Vec<Page>> {
 
     // walk the entire base directory recursively, but skip anything inside
     // "assets" (or a directory named "assets" anywhere in the path).
-    for entry in WalkDir::new(&base)
-        .into_iter()
-        .filter_entry(|e| {
-            // skip assets directories
-            if e.file_type().is_dir() {
-                if let Some(name) = e.file_name().to_str() {
-                    return name != "assets";
-                }
+    for entry in WalkDir::new(&base).into_iter().filter_entry(|e| {
+        // skip assets directories
+        if e.file_type().is_dir() {
+            if let Some(name) = e.file_name().to_str() {
+                return name != "assets";
             }
-            true
-        })
-    {
+        }
+        true
+    }) {
         let entry = entry?;
         let path = entry.path();
 
@@ -166,8 +163,8 @@ pub fn load_pages() -> Result<Vec<Page>> {
             continue;
         }
 
-        let mut file = fs::File::open(path)
-            .with_context(|| format!("failed to open page file {:?}", path))?;
+        let mut file =
+            fs::File::open(path).with_context(|| format!("failed to open page file {:?}", path))?;
         let mut buf = String::new();
         file.read_to_string(&mut buf)?;
 
@@ -186,7 +183,7 @@ pub fn load_pages() -> Result<Vec<Page>> {
     Ok(pages)
 }
 
-pub fn load_npc_notes(_id: &str) -> Result<String> {
+pub fn load_npc_notes(_id: u16) -> Result<String> {
     Ok(String::new())
 }
 
@@ -226,10 +223,7 @@ fn page_slug(base: &Path, full: &Path) -> Result<String> {
 }
 
 fn derive_title_from_path(path: &Path) -> String {
-    let file_name = path
-        .file_stem()
-        .and_then(|s| s.to_str())
-        .unwrap_or("Page");
+    let file_name = path.file_stem().and_then(|s| s.to_str()).unwrap_or("Page");
 
     let cleaned = file_name.replace('_', " ").replace('-', " ");
 
@@ -247,27 +241,17 @@ fn derive_title_from_path(path: &Path) -> String {
 }
 
 /// Convert a drop name to an enriched drop with item link and price
-pub fn enrich_drop(drop_name: &str, items: &[Item]) -> EnrichedDrop {
-    let drop_lower = drop_name.to_lowercase();
+pub fn enrich_drop(drop_id: u16, items: &[Item]) -> EnrichedDrop {
+    let item = items.iter().find(|i| i.id == drop_id).unwrap();
 
-    if let Some(item) = items.iter().find(|i| i.name.to_lowercase() == drop_lower) {
-        EnrichedDrop {
-            item_id: item.id.clone(),
-            item_name: item.name.clone(),
-            item_type: item.item_type.clone(),
-            sell_price: item.sell_price,
-            link_html: format!(
-                r#"<a href="/items/{}.html" class="item-link"><img src="/assets/images/items/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
-                item.id, item.id, item.name, item.name
-            ),
-        }
-    } else {
-        EnrichedDrop {
-            item_id: String::new(),
-            item_name: drop_name.to_string(),
-            item_type: String::new(),
-            sell_price: None,
-            link_html: drop_name.to_string(),
-        }
+    EnrichedDrop {
+        item_id: item.id,
+        item_name: item.name.clone(),
+        item_type: item.item_type.clone(),
+        sell_price: item.sell_price,
+        link_html: format!(
+            r#"<a href="/items/{}.html" class="item-link"><img src="/assets/images/items/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
+            item.id, item.id, item.name, item.name
+        ),
     }
 }
