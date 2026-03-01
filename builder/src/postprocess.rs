@@ -36,19 +36,94 @@ fn id_to_display_name(id: &str) -> String {
         .join(" ")
 }
 
-/// Generate an item link with icon
-fn item_link(item_id: &str, display_text: &str) -> String {
+/// Helper data used during link lookup once the JSON files have been loaded.
+struct ItemInfo {
+    id: u16,
+    wiki_name: String,
+}
+
+struct NpcInfo {
+    id: u16,
+    wiki_name: String,
+}
+
+struct LookupData {
+    items: HashMap<String, ItemInfo>,
+    npcs: HashMap<String, NpcInfo>,
+}
+
+impl LookupData {
+    fn new(items: &[crate::data::Item], npcs: &[crate::data::Npc]) -> Self {
+        let mut map_items = HashMap::new();
+        for item in items {
+            let name_lower = item.name.to_lowercase().replace(" ", "-");
+            map_items.insert(name_lower, ItemInfo { id: item.id, wiki_name: item.wiki_name.clone() });
+            map_items.insert(item.wiki_name.clone(), ItemInfo { id: item.id, wiki_name: item.wiki_name.clone() });
+            // also allow lookup by numeric id as string
+            map_items.insert(item.id.to_string(), ItemInfo { id: item.id, wiki_name: item.wiki_name.clone() });
+        }
+
+        let mut map_npcs = HashMap::new();
+        for npc in npcs {
+            let name_lower = npc.name.to_lowercase().replace(" ", "-");
+            map_npcs.insert(name_lower, NpcInfo { id: npc.id, wiki_name: npc.wiki_name.clone() });
+            map_npcs.insert(npc.wiki_name.clone(), NpcInfo { id: npc.id, wiki_name: npc.wiki_name.clone() });
+            map_npcs.insert(npc.id.to_string(), NpcInfo { id: npc.id, wiki_name: npc.wiki_name.clone() });
+        }
+
+        LookupData { items: map_items, npcs: map_npcs }
+    }
+
+    fn find_item(&self, key: &str) -> Option<&ItemInfo> {
+        self.items.get(&key.to_lowercase())
+    }
+
+    fn find_npc(&self, key: &str) -> Option<&NpcInfo> {
+        self.npcs.get(&key.to_lowercase())
+    }
+}
+
+use std::sync::OnceLock;
+static LOOKUP: OnceLock<LookupData> = OnceLock::new();
+
+/// Initialize the lookup tables with the currently loaded items/npcs.  This must be
+/// called once before any templates are rendered (we do it very early in the
+/// builder).  Subsequent calls are ignored.
+pub fn init_lookup(items: &[crate::data::Item], npcs: &[crate::data::Npc]) {
+    LOOKUP.get_or_init(|| LookupData::new(items, npcs));
+}
+
+/// Generate an item link with icon using *explicit* wiki name and numeric id.
+fn item_link_with_id(wiki_name: &str, icon_id: u16, display_text: &str) -> String {
     format!(
         r#"<a href="/items/{}.html" class="item-link"><img src="/assets/images/items/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
-        item_id, item_id, display_text, display_text
+        wiki_name, icon_id, display_text, display_text
     )
 }
 
-/// Generate an NPC link with icon
-fn npc_link(npc_id: &str, display_text: &str) -> String {
+/// Fallback from the previous behaviour when we can't resolve an item to a
+/// definition.  It simply uses the supplied string for both the slug and the
+/// icon path (which may of course be incorrect).
+fn item_link_basic(slug: &str, display_text: &str) -> String {
+    format!(
+        r#"<a href="/items/{}.html" class="item-link"><img src="/assets/images/items/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
+        slug, slug, display_text, display_text
+    )
+}
+
+/// Generate an NPC link when we know both slug and numeric id.
+fn npc_link_with_id(wiki_name: &str, icon_id: u16, display_text: &str) -> String {
     format!(
         r#"<a href="/npcs/{}.html" class="npc-link"><img src="/assets/images/npcs/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
-        npc_id, npc_id, display_text, display_text
+        wiki_name, icon_id, display_text, display_text
+    )
+}
+
+/// Fallback for NPCs when we don't have a matching definition.
+fn npc_link_basic(slug: &str, display_text: &str) -> String {
+    format!(
+        r#"<a href="/npcs/{}.html" class="npc-link"><img src="/assets/images/npcs/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
+        slug, slug, display_text, display_text
     )
 }
 
@@ -56,39 +131,63 @@ fn npc_link(npc_id: &str, display_text: &str) -> String {
 pub fn linkify_references(text: &str) -> String {
     let mut result = text.to_string();
 
+    // grab lookup once to avoid locking each replacement
+    let lookup_opt = LOOKUP.get();
+
     // Handle verbose item syntax: <item name="id">text</item>
     result = ITEM_PATTERN
         .replace_all(&result, |caps: &regex::Captures| {
-            let item_id = &caps[1];
+            let key = &caps[1];
             let display_text = &caps[2];
-            item_link(item_id, display_text)
+            if let Some(lookup) = lookup_opt {
+                if let Some(info) = lookup.find_item(key) {
+                    return item_link_with_id(&info.wiki_name, info.id, display_text);
+                }
+            }
+            // fallback to previous behaviour
+            item_link_basic(key, display_text)
         })
         .to_string();
 
     // Handle verbose NPC syntax: <npc name="id">text</npc>
     result = NPC_PATTERN
         .replace_all(&result, |caps: &regex::Captures| {
-            let npc_id = &caps[1];
+            let key = &caps[1];
             let display_text = &caps[2];
-            npc_link(npc_id, display_text)
+            if let Some(lookup) = lookup_opt {
+                if let Some(info) = lookup.find_npc(key) {
+                    return npc_link_with_id(&info.wiki_name, info.id, display_text);
+                }
+            }
+            npc_link_basic(key, display_text)
         })
         .to_string();
 
     // Handle shorthand item syntax: <item:id>
     result = ITEM_SHORT_PATTERN
         .replace_all(&result, |caps: &regex::Captures| {
-            let item_id = &caps[1];
-            let display_text = id_to_display_name(item_id);
-            item_link(item_id, &display_text)
+            let key = &caps[1];
+            let display_text = id_to_display_name(key);
+            if let Some(lookup) = lookup_opt {
+                if let Some(info) = lookup.find_item(key) {
+                    return item_link_with_id(&info.wiki_name, info.id, &display_text);
+                }
+            }
+            item_link_basic(key, &display_text)
         })
         .to_string();
 
     // Handle shorthand NPC syntax: <npc:id>
     result = NPC_SHORT_PATTERN
         .replace_all(&result, |caps: &regex::Captures| {
-            let npc_id = &caps[1];
-            let display_text = id_to_display_name(npc_id);
-            npc_link(npc_id, &display_text)
+            let key = &caps[1];
+            let display_text = id_to_display_name(key);
+            if let Some(lookup) = lookup_opt {
+                if let Some(info) = lookup.find_npc(key) {
+                    return npc_link_with_id(&info.wiki_name, info.id, &display_text);
+                }
+            }
+            npc_link_basic(key, &display_text)
         })
         .to_string();
 

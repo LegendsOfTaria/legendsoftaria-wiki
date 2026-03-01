@@ -116,11 +116,14 @@ fn run_build(base_path: &Path) -> Result<()> {
     crate::output::copy_static_assets()?;
     crate::output::copy_root_files()?;
 
-    let tera = crate::render::init_tera()?;
-
+    // load first so that postprocess can resolve names
     let items = crate::data::load_items()?;
     let npcs = crate::data::load_npcs()?;
     let pages = crate::data::load_pages()?;
+
+    crate::postprocess::init_lookup(&items, &npcs);
+
+    let tera = crate::render::init_tera()?;
 
     crate::render::render_items(&tera, &items)?;
     crate::render::render_npcs(&tera, &npcs, &items)?;
