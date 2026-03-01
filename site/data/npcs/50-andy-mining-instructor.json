@@ -1,10 +1,11 @@
 {
-  "id": "andy-mining-instructor",
+  "id": 50,
   "name": "Andy",
-  "icon": "/assets/images/npcs/andy-mining-instructor.png",
+  "icon": "/assets/images/npcs/50.png",
   "location": "Training areas",
   "role": "Trainer",
   "description": "Andy who can help you improve your skills.",
   "level": 1,
-  "drops": []
+  "drops": [],
+  "wiki_name": "andy"
 }

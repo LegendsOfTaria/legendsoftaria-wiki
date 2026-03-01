@@ -1,12 +1,13 @@
 {
-  "id": "mithril-legs",
+  "id": 25,
   "name": "Mithril Legs",
-  "icon": "/assets/images/items/mithril-legs.png",
+  "icon": "/assets/images/items/25.png",
   "description": "A pair of mithril legs.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 450,
   "stats": {
     "Defense": 22
-  }
+  },
+  "wiki_name": "mithril-legs"
 }

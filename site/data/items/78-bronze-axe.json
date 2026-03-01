@@ -1,12 +1,13 @@
 {
-  "id": "bronze-axe",
+  "id": 78,
   "name": "Bronze Axe",
-  "icon": "/assets/images/items/bronze-axe.png",
+  "icon": "/assets/images/items/78.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 34,
   "stats": {
     "Melee": 2
-  }
+  },
+  "wiki_name": "bronze-axe"
 }

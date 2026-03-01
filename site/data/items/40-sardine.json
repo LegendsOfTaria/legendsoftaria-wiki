@@ -1,10 +1,11 @@
 {
-  "id": "sardine",
+  "id": 40,
   "name": "Sardine",
-  "icon": "/assets/images/items/sardine.png",
+  "icon": "/assets/images/items/40.png",
   "description": "A cooked sardine. Eat to restore some health.",
   "item_type": "Food",
   "healing": 5,
   "acquisition": "Cooked from <item:raw-sardine> at a fire.",
-  "sell_price": 10
+  "sell_price": 10,
+  "wiki_name": "sardine"
 }

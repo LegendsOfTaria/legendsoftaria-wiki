@@ -1,9 +1,10 @@
 {
-  "id": "iron-ore",
+  "id": 0,
   "name": "Iron Ore",
-  "icon": "/assets/images/items/iron-ore.png",
+  "icon": "/assets/images/items/0.png",
   "description": "A piece of iron ore. It can be smelted into iron bars.",
   "item_type": "Ore",
   "acquisition": "Mined from iron rocks.",
-  "sell_price": 24
+  "sell_price": 24,
+  "wiki_name": "iron-ore"
 }

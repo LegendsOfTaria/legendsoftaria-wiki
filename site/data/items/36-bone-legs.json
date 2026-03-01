@@ -1,7 +1,7 @@
 {
-  "id": "bone-legs",
+  "id": 36,
   "name": "Bone Legs",
-  "icon": "/assets/images/items/bone-legs.png",
+  "icon": "/assets/images/items/36.png",
   "description": "A extremely durable set of legs made from elder bones.",
   "item_type": "Armor",
   "acquisition": "Dropped by the skeleton boss in the skeleton dungeon.",
@@ -12,5 +12,6 @@
   },
   "requirements": {
     "Defense": 30
-  }
+  },
+  "wiki_name": "bone-legs"
 }

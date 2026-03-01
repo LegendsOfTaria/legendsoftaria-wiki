@@ -1,7 +1,7 @@
 {
-  "id": "adamant-sword",
+  "id": 5,
   "name": "Adamant Sword",
-  "icon": "/assets/images/items/adamant-sword.png",
+  "icon": "/assets/images/items/5.png",
   "description": "A sword forged from adamant.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
@@ -9,5 +9,6 @@
   "notes": "Recommended for level 30 melee and above.",
   "stats": {
     "Melee": 23
-  }
+  },
+  "wiki_name": "adamant-sword"
 }

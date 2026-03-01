@@ -1,12 +1,13 @@
 {
-  "id": "adamant-helm",
+  "id": 28,
   "name": "Adamant Helm",
-  "icon": "/assets/images/items/adamant-helm.png",
+  "icon": "/assets/images/items/28.png",
   "description": "A adamant helmet.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 789,
   "stats": {
     "Defense": 19
-  }
+  },
+  "wiki_name": "adamant-helm"
 }

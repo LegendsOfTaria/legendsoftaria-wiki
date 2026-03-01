@@ -1,7 +1,7 @@
 {
-  "id": "healer-skeleton",
+  "id": 51,
   "name": "Healer Skeleton",
-  "icon": "/assets/images/npcs/healer-skeleton.png",
+  "icon": "/assets/images/npcs/51.png",
   "location": "Graveyards and dungeons",
   "role": "Monster",
   "description": "Healer Skeleton that can be fought for combat experience and loot.",
@@ -9,5 +9,6 @@
   "drops": [],
   "stats": {
     "Health": 1
-  }
+  },
+  "wiki_name": "healer-skeleton"
 }

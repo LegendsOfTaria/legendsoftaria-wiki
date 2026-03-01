@@ -1,9 +1,10 @@
 {
-  "id": "mithril-bar",
+  "id": 22,
   "name": "Mithril Bar",
-  "icon": "/assets/images/items/mithril-bar.png",
+  "icon": "/assets/images/items/22.png",
   "description": "A bar of mithril. It can be used to craft various items.",
   "item_type": "Bar",
   "acquisition": "Smelted from <item:mithril-ore> at a furnace.",
-  "sell_price": 56
+  "sell_price": 56,
+  "wiki_name": "mithril-bar"
 }

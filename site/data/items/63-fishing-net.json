@@ -1,9 +1,10 @@
 {
-  "id": "fishing-net",
+  "id": 63,
   "name": "Fishing Net",
-  "icon": "/assets/images/items/fishing-net.png",
+  "icon": "/assets/images/items/63.png",
   "description": "A fishing net. Used to catch shrimp and other small fish.",
   "item_type": "Fishing Tool",
   "acquisition": "Purchased from fishing shops or found as loot.",
-  "sell_price": 5
+  "sell_price": 5,
+  "wiki_name": "fishing-net"
 }

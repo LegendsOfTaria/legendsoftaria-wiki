@@ -1,12 +1,13 @@
 {
-  "id": "mithril-body",
+  "id": 24,
   "name": "Mithril Body",
-  "icon": "/assets/images/items/mithril-body.png",
+  "icon": "/assets/images/items/24.png",
   "description": "A mithril body.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 725,
   "stats": {
     "Defense": 44
-  }
+  },
+  "wiki_name": "mithril-body"
 }

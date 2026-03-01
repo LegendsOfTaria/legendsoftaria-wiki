@@ -1,10 +1,11 @@
 {
-  "id": "salmon",
+  "id": 46,
   "name": "Salmon",
-  "icon": "/assets/images/items/salmon.png",
+  "icon": "/assets/images/items/46.png",
   "description": "A cooked salmon. Eat to restore some health.",
   "item_type": "Food",
   "healing": 11,
   "acquisition": "Cooked from <item:raw-salmon> at a fire.",
-  "sell_price": 20
+  "sell_price": 20,
+  "wiki_name": "salmon"
 }

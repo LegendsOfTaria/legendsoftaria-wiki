@@ -1,9 +1,10 @@
 {
-  "id": "bones",
+  "id": 20,
   "name": "Bones",
-  "icon": "/assets/images/items/bones.png",
+  "icon": "/assets/images/items/20.png",
   "description": "Bones from some sort of animal.",
   "item_type": "Misc",
   "acquisition": "Found throughout the world.",
-  "sell_price": 1
+  "sell_price": 1,
+  "wiki_name": "bones"
 }

@@ -1,12 +1,13 @@
 {
-  "id": "bronze-helm",
+  "id": 17,
   "name": "Bronze Helm",
-  "icon": "/assets/images/items/bronze-helm.png",
+  "icon": "/assets/images/items/17.png",
   "description": "A bronze helmet.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 44,
   "stats": {
     "Defense": 6
-  }
+  },
+  "wiki_name": "bronze-helm"
 }

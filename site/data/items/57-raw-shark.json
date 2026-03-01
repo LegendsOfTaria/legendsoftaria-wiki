@@ -1,9 +1,10 @@
 {
-  "id": "raw-shark",
+  "id": 57,
   "name": "Raw Shark",
-  "icon": "/assets/images/items/raw-shark.png",
+  "icon": "/assets/images/items/57.png",
   "description": "A raw shark. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:shark>.",
-  "sell_price": 60
+  "sell_price": 60,
+  "wiki_name": "raw-shark"
 }

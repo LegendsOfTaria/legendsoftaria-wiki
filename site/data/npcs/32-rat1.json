@@ -1,20 +1,21 @@
 {
-  "id": "rat1",
+  "id": 32,
   "name": "Rat",
-  "icon": "/assets/images/npcs/rat1.png",
+  "icon": "/assets/images/npcs/32.png",
   "location": "Sewers and basements",
   "role": "Monster",
   "description": "Rat that can be fought for combat experience and loot.",
   "level": 1,
   "drops": [
-    "Bones",
-    "Shrimp",
-    "BronzePickaxe",
-    "BronzeAxe",
-    "BronzeSword",
-    "IronSword"
+    20,
+    38,
+    12,
+    78,
+    2,
+    3
   ],
   "stats": {
     "Health": 5
-  }
+  },
+  "wiki_name": "rat"
 }

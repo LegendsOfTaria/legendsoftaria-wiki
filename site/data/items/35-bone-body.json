@@ -1,7 +1,7 @@
 {
-  "id": "bone-body",
+  "id": 35,
   "name": "Bone Body",
-  "icon": "/assets/images/items/bone-body.png",
+  "icon": "/assets/images/items/35.png",
   "description": "A extremely durable set of plate armor made from elder bones.",
   "item_type": "Armor",
   "acquisition": "Dropped by the skeleton boss in the skeleton dungeon.",
@@ -12,5 +12,6 @@
   },
   "requirements": {
     "Defense": 30
-  }
+  },
+  "wiki_name": "bone-body"
 }

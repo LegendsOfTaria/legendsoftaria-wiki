@@ -1,10 +1,11 @@
 {
-  "id": "manta-ray",
+  "id": 60,
   "name": "Manta Ray",
-  "icon": "/assets/images/items/manta-ray.png",
+  "icon": "/assets/images/items/60.png",
   "description": "A cooked manta ray. Eat to restore some health.",
   "item_type": "Food",
   "healing": 23,
   "acquisition": "Cooked from <item:raw-manta-ray> at a fire.",
-  "sell_price": 70
+  "sell_price": 70,
+  "wiki_name": "manta-ray"
 }

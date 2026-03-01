@@ -1,10 +1,11 @@
 {
-  "id": "combat-instructor",
+  "id": 49,
   "name": "Combat Instructor",
-  "icon": "/assets/images/npcs/combat-instructor.png",
+  "icon": "/assets/images/npcs/49.png",
   "location": "Training areas",
   "role": "Trainer",
   "description": "Combat Instructor who can help you improve your skills.",
   "level": 1,
-  "drops": []
+  "drops": [],
+  "wiki_name": "combat-instructor"
 }

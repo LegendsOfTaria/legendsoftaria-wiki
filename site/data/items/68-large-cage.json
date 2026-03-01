@@ -1,9 +1,10 @@
 {
-  "id": "large-cage",
+  "id": 68,
   "name": "Large Cage",
-  "icon": "/assets/images/items/large-cage.png",
+  "icon": "/assets/images/items/68.png",
   "description": "A large cage used to catch octopus and other large crustaceans.",
   "item_type": "Fishing Tool",
   "acquisition": "Purchased from fishing shops or found as loot.",
-  "sell_price": 80
+  "sell_price": 80,
+  "wiki_name": "large-cage"
 }

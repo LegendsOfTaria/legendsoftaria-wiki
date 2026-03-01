@@ -1,9 +1,10 @@
 {
-  "id": "fishing-bait",
+  "id": 71,
   "name": "Fishing Bait",
-  "icon": "/assets/images/items/fishing-bait.png",
+  "icon": "/assets/images/items/71.png",
   "description": "Some ground up fish. Used as fishing bait.",
   "item_type": "Bait",
   "acquisition": "Purchased from fishing shops.",
-  "sell_price": 1
+  "sell_price": 1,
+  "wiki_name": "fishing-bait"
 }

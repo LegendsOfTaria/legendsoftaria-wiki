@@ -1,22 +1,23 @@
 {
-  "id": "skeleton3",
+  "id": 37,
   "name": "Elite Skeleton",
-  "icon": "/assets/images/npcs/skeleton3.png",
+  "icon": "/assets/images/npcs/37.png",
   "location": "Graveyards and dungeons",
   "role": "Monster",
   "description": "Elite Skeleton that can be fought for combat experience and loot.",
   "level": 23,
   "drops": [
-    "Bones",
-    "Shrimp",
-    "BronzePickaxe",
-    "BronzeAxe",
-    "BronzeSword",
-    "IronSword"
+    20,
+    38,
+    12,
+    78,
+    2,
+    3
   ],
   "stats": {
     "Defense": 15,
     "Health": 42,
     "Melee": 19
-  }
+  },
+  "wiki_name": "elite-skeleton"
 }

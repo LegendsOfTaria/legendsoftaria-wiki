@@ -1,12 +1,13 @@
 {
-  "id": "iron-axe",
+  "id": 79,
   "name": "Iron Axe",
-  "icon": "/assets/images/items/iron-axe.png",
+  "icon": "/assets/images/items/79.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:iron-bar> at an anvil.",
   "sell_price": 90,
   "stats": {
     "Melee": 9
-  }
+  },
+  "wiki_name": "iron-axe"
 }

@@ -1,10 +1,11 @@
 {
-  "id": "trout",
+  "id": 44,
   "name": "Trout",
-  "icon": "/assets/images/items/trout.png",
+  "icon": "/assets/images/items/44.png",
   "description": "A cooked trout. Eat to restore some health.",
   "item_type": "Food",
   "healing": 7,
   "acquisition": "Cooked from <item:raw-trout> at a fire.",
-  "sell_price": 15
+  "sell_price": 15,
+  "wiki_name": "trout"
 }

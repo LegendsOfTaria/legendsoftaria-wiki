@@ -1,9 +1,10 @@
 {
-  "id": "raw-manta-ray",
+  "id": 59,
   "name": "Raw Manta Ray",
-  "icon": "/assets/images/items/raw-manta-ray.png",
+  "icon": "/assets/images/items/59.png",
   "description": "A raw manta ray. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:manta-ray>.",
-  "sell_price": 70
+  "sell_price": 70,
+  "wiki_name": "raw-manta-ray"
 }

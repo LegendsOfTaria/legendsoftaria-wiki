@@ -1,7 +1,7 @@
 {
-  "id": "mithril-sword",
+  "id": 4,
   "name": "Mithril Sword",
-  "icon": "/assets/images/items/mithril-sword.png",
+  "icon": "/assets/images/items/4.png",
   "description": "A sword forged from mithril.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
@@ -9,5 +9,6 @@
   "notes": "Recommended for level 20 melee.",
   "stats": {
     "Melee": 16
-  }
+  },
+  "wiki_name": "mithril-sword"
 }

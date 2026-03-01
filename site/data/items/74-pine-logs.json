@@ -1,9 +1,10 @@
 {
-  "id": "pine-logs",
+  "id": 74,
   "name": "Pine Logs",
-  "icon": "/assets/images/items/pine-logs.png",
+  "icon": "/assets/images/items/74.png",
   "description": "Logs cut from a pine tree.",
   "item_type": "Misc",
   "acquisition": "Found throughout the world.",
-  "sell_price": 1
+  "sell_price": 1,
+  "wiki_name": "pine-logs"
 }

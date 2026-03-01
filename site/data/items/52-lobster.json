@@ -1,10 +1,11 @@
 {
-  "id": "lobster",
+  "id": 52,
   "name": "Lobster",
-  "icon": "/assets/images/items/lobster.png",
+  "icon": "/assets/images/items/52.png",
   "description": "A cooked lobster. Eat to restore some health.",
   "item_type": "Food",
   "healing": 15,
   "acquisition": "Cooked from <item:raw-lobster> at a fire.",
-  "sell_price": 30
+  "sell_price": 30,
+  "wiki_name": "lobster"
 }

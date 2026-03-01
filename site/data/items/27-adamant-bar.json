@@ -1,9 +1,10 @@
 {
-  "id": "adamant-bar",
+  "id": 27,
   "name": "Adamant Bar",
-  "icon": "/assets/images/items/adamant-bar.png",
+  "icon": "/assets/images/items/27.png",
   "description": "A bar of adamant. It can be used to craft various items.",
   "item_type": "Bar",
   "acquisition": "Smelted from <item:adamant-ore> at a furnace.",
-  "sell_price": 105
+  "sell_price": 105,
+  "wiki_name": "adamant-bar"
 }

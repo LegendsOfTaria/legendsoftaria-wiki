@@ -1,12 +1,13 @@
 {
-  "id": "bronze-body",
+  "id": 18,
   "name": "Bronze Body",
-  "icon": "/assets/images/items/bronze-body.png",
+  "icon": "/assets/images/items/18.png",
   "description": "A bronze body.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 116,
   "stats": {
     "Defense": 18
-  }
+  },
+  "wiki_name": "bronze-body"
 }

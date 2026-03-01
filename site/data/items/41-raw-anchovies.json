@@ -1,9 +1,10 @@
 {
-  "id": "raw-anchovies",
+  "id": 41,
   "name": "Raw Anchovies",
-  "icon": "/assets/images/items/raw-anchovies.png",
+  "icon": "/assets/images/items/41.png",
   "description": "Some raw anchovies. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:anchovies>.",
-  "sell_price": 8
+  "sell_price": 8,
+  "wiki_name": "raw-anchovies"
 }

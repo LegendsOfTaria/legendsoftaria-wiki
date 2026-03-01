@@ -1,12 +1,13 @@
 {
-  "id": "adamant-body",
+  "id": 29,
   "name": "Adamant Body",
-  "icon": "/assets/images/items/adamant-body.png",
+  "icon": "/assets/images/items/29.png",
   "description": "A adamant body.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 1760,
   "stats": {
     "Defense": 62
-  }
+  },
+  "wiki_name": "adamant-body"
 }

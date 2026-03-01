@@ -1,9 +1,10 @@
 {
-  "id": "raw-swordfish",
+  "id": 55,
   "name": "Raw Swordfish",
-  "icon": "/assets/images/items/raw-swordfish.png",
+  "icon": "/assets/images/items/55.png",
   "description": "A raw swordfish. Can be cooked.",
   "item_type": "Weapon",
   "acquisition": "Found throughout the world.",
-  "sell_price": 50
+  "sell_price": 50,
+  "wiki_name": "raw-swordfish"
 }

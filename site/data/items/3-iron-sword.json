@@ -1,7 +1,7 @@
 {
-  "id": "iron-sword",
+  "id": 3,
   "name": "Iron Sword",
-  "icon": "/assets/images/items/iron-sword.png",
+  "icon": "/assets/images/items/3.png",
   "description": "A sword forged from iron.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:iron-bar> at an anvil.",
@@ -9,5 +9,6 @@
   "notes": "Recommended for level 10 melee.",
   "stats": {
     "Melee": 11
-  }
+  },
+  "wiki_name": "iron-sword"
 }

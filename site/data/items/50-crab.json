@@ -1,10 +1,11 @@
 {
-  "id": "crab",
+  "id": 50,
   "name": "Crab",
-  "icon": "/assets/images/items/crab.png",
+  "icon": "/assets/images/items/50.png",
   "description": "A cooked crab. Eat to restore some health.",
   "item_type": "Food",
   "healing": 13,
   "acquisition": "Cooked from <item:raw-crab> at a fire.",
-  "sell_price": 24
+  "sell_price": 24,
+  "wiki_name": "crab"
 }

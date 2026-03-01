@@ -1,10 +1,11 @@
 {
-  "id": "anchovies",
+  "id": 42,
   "name": "Anchovies",
-  "icon": "/assets/images/items/anchovies.png",
+  "icon": "/assets/images/items/42.png",
   "description": "Some cooked anchovies. Eat to restore some health.",
   "item_type": "Food",
   "healing": 4,
   "acquisition": "Cooked from <item:raw-anchovies> at a fire.",
-  "sell_price": 8
+  "sell_price": 8,
+  "wiki_name": "anchovies"
 }

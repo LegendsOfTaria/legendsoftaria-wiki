@@ -1,23 +1,24 @@
 {
-  "id": "lich1",
+  "id": 23,
   "name": "Lich",
-  "icon": "/assets/images/npcs/lich1.png",
+  "icon": "/assets/images/npcs/23.png",
   "location": "Dark dungeons",
   "role": "Monster",
   "description": "Lich that can be fought for combat experience and loot.",
   "level": 40,
   "drops": [
-    "Bones",
-    "Trout",
-    "MithrilPickaxe",
-    "MithrilSword",
-    "BoneHelm",
-    "BoneBody",
-    "BoneLegs"
+    20,
+    44,
+    26,
+    4,
+    34,
+    35,
+    36
   ],
   "stats": {
     "Health": 60,
     "Magic": 45,
     "Defense": 40
-  }
+  },
+  "wiki_name": "lich"
 }

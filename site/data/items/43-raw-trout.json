@@ -1,9 +1,10 @@
 {
-  "id": "raw-trout",
+  "id": 43,
   "name": "Raw Trout",
-  "icon": "/assets/images/items/raw-trout.png",
+  "icon": "/assets/images/items/43.png",
   "description": "A raw trout. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:trout>.",
-  "sell_price": 15
+  "sell_price": 15,
+  "wiki_name": "raw-trout"
 }

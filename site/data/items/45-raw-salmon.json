@@ -1,9 +1,10 @@
 {
-  "id": "raw-salmon",
+  "id": 45,
   "name": "Raw Salmon",
-  "icon": "/assets/images/items/raw-salmon.png",
+  "icon": "/assets/images/items/45.png",
   "description": "A raw salmon. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:salmon>.",
-  "sell_price": 20
+  "sell_price": 20,
+  "wiki_name": "raw-salmon"
 }

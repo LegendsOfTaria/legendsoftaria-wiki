@@ -1,12 +1,13 @@
 {
-  "id": "mithril-pickaxe",
+  "id": 26,
   "name": "Mithril Pickaxe",
-  "icon": "/assets/images/items/mithril-pickaxe.png",
+  "icon": "/assets/images/items/26.png",
   "description": "This can be used to mine ore from rocks.",
   "item_type": "Tool",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 185,
   "stats": {
     "Melee": 13
-  }
+  },
+  "wiki_name": "mithril-pickaxe"
 }

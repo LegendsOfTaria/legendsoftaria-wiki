@@ -1,9 +1,10 @@
 {
-  "id": "raw-shrimp",
+  "id": 37,
   "name": "Raw Shrimp",
-  "icon": "/assets/images/items/raw-shrimp.png",
+  "icon": "/assets/images/items/37.png",
   "description": "A raw shrimp. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:shrimp>.",
-  "sell_price": 5
+  "sell_price": 5,
+  "wiki_name": "raw-shrimp"
 }

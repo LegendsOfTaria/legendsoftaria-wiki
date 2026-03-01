@@ -1,9 +1,10 @@
 {
-  "id": "adamant-ore",
+  "id": 33,
   "name": "Adamant Ore",
-  "icon": "/assets/images/items/adamant-ore.png",
+  "icon": "/assets/images/items/33.png",
   "description": "A piece of adamant ore. It can be smelted into adamant bars.",
   "item_type": "Ore",
   "acquisition": "Mined from adamant rocks.",
-  "sell_price": 66
+  "sell_price": 66,
+  "wiki_name": "adamant-ore"
 }

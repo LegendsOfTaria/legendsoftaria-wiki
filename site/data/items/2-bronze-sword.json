@@ -1,12 +1,13 @@
 {
-  "id": "bronze-sword",
+  "id": 2,
   "name": "Bronze Sword",
-  "icon": "/assets/images/items/bronze-sword.png",
+  "icon": "/assets/images/items/2.png",
   "description": "A sword forged from bronze.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 24,
   "stats": {
     "Melee": 6
-  }
+  },
+  "wiki_name": "bronze-sword"
 }

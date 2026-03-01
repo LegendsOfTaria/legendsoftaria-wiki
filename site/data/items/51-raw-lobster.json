@@ -1,9 +1,10 @@
 {
-  "id": "raw-lobster",
+  "id": 51,
   "name": "Raw Lobster",
-  "icon": "/assets/images/items/raw-lobster.png",
+  "icon": "/assets/images/items/51.png",
   "description": "A raw lobster. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:lobster>.",
-  "sell_price": 30
+  "sell_price": 30,
+  "wiki_name": "raw-lobster"
 }

@@ -1,9 +1,10 @@
 {
-  "id": "raw-tuna",
+  "id": 61,
   "name": "Raw Tuna",
-  "icon": "/assets/images/items/raw-tuna.png",
+  "icon": "/assets/images/items/61.png",
   "description": "A raw tuna. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:tuna>.",
-  "sell_price": 80
+  "sell_price": 80,
+  "wiki_name": "raw-tuna"
 }

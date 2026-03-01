@@ -1,9 +1,10 @@
 {
-  "id": "branch-rod",
+  "id": 65,
   "name": "Branch Rod",
-  "icon": "/assets/images/items/branch-rod.png",
+  "icon": "/assets/images/items/65.png",
   "description": "A basic fishing rod made from a branch. Used to catch fish.",
   "item_type": "Fishing Tool",
   "acquisition": "Purchased from fishing shops or found as loot.",
-  "sell_price": 20
+  "sell_price": 20,
+  "wiki_name": "branch-rod"
 }

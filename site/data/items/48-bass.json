@@ -1,10 +1,11 @@
 {
-  "id": "bass",
+  "id": 48,
   "name": "Bass",
-  "icon": "/assets/images/items/bass.png",
+  "icon": "/assets/images/items/48.png",
   "description": "A cooked bass. Eat to restore some health.",
   "item_type": "Food",
   "healing": 9,
   "acquisition": "Cooked from <item:raw-bass> at a fire.",
-  "sell_price": 20
+  "sell_price": 20,
+  "wiki_name": "bass"
 }

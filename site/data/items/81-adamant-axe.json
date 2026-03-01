@@ -1,12 +1,13 @@
 {
-  "id": "adamant-axe",
+  "id": 81,
   "name": "Adamant Axe",
-  "icon": "/assets/images/items/adamant-axe.png",
+  "icon": "/assets/images/items/81.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 400,
   "stats": {
     "Melee": 19
-  }
+  },
+  "wiki_name": "adamant-axe"
 }

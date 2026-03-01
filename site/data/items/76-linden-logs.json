@@ -1,9 +1,10 @@
 {
-  "id": "linden-logs",
+  "id": 76,
   "name": "Linden Logs",
-  "icon": "/assets/images/items/linden-logs.png",
+  "icon": "/assets/images/items/76.png",
   "description": "Logs cut from a linden tree.",
   "item_type": "Misc",
   "acquisition": "Found throughout the world.",
-  "sell_price": 1
+  "sell_price": 1,
+  "wiki_name": "linden-logs"
 }

@@ -1,9 +1,10 @@
 {
-  "id": "raw-sardine",
+  "id": 39,
   "name": "Raw Sardine",
-  "icon": "/assets/images/items/raw-sardine.png",
+  "icon": "/assets/images/items/39.png",
   "description": "A raw sardine. Can be cooked.",
   "item_type": "Raw Fish",
   "acquisition": "Caught while fishing. Cook it to make <item:sardine>.",
-  "sell_price": 10
+  "sell_price": 10,
+  "wiki_name": "raw-sardine"
 }

@@ -1,12 +1,13 @@
 {
-  "id": "mithril-helm",
+  "id": 23,
   "name": "Mithril Helm",
-  "icon": "/assets/images/items/mithril-helm.png",
+  "icon": "/assets/images/items/23.png",
   "description": "A mithril helmet.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 300,
   "stats": {
     "Defense": 14
-  }
+  },
+  "wiki_name": "mithril-helm"
 }

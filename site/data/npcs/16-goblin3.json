@@ -1,22 +1,23 @@
 {
-  "id": "goblin3",
+  "id": 16,
   "name": "Goblin",
-  "icon": "/assets/images/npcs/goblin3.png",
+  "icon": "/assets/images/npcs/16.png",
   "location": "Goblin camps and caves",
   "role": "Monster",
   "description": "Goblin that can be fought for combat experience and loot.",
   "level": 2,
   "drops": [
-    "Bones",
-    "Shrimp",
-    "BronzePickaxe",
-    "BronzeAxe",
-    "BronzeSword",
-    "IronSword"
+    20,
+    38,
+    12,
+    78,
+    2,
+    3
   ],
   "stats": {
     "Defense": 2,
     "Melee": 2,
     "Health": 6
-  }
+  },
+  "wiki_name": "goblin"
 }

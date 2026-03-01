@@ -1,22 +1,23 @@
 {
-  "id": "skeleton2",
+  "id": 36,
   "name": "Armored Skeleton",
-  "icon": "/assets/images/npcs/skeleton2.png",
+  "icon": "/assets/images/npcs/36.png",
   "location": "Graveyards and dungeons",
   "role": "Monster",
   "description": "Armored Skeleton that can be fought for combat experience and loot.",
   "level": 15,
   "drops": [
-    "Bones",
-    "Shrimp",
-    "BronzePickaxe",
-    "BronzeAxe",
-    "BronzeSword",
-    "IronSword"
+    20,
+    38,
+    12,
+    78,
+    2,
+    3
   ],
   "stats": {
     "Health": 30,
     "Defense": 9,
     "Melee": 12
-  }
+  },
+  "wiki_name": "armored-skeleton"
 }

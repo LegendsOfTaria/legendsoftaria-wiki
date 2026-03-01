@@ -1,10 +1,11 @@
 {
-  "id": "jack",
+  "id": 53,
   "name": "Jack",
-  "icon": "/assets/images/npcs/jack.png",
+  "icon": "/assets/images/npcs/53.png",
   "location": "Towns and villages",
   "role": "NPC",
   "description": "Jack found in the world of Taria.",
   "level": 1,
-  "drops": []
+  "drops": [],
+  "wiki_name": "jack"
 }

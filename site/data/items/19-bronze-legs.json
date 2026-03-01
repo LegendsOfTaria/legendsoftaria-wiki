@@ -1,12 +1,13 @@
 {
-  "id": "bronze-legs",
+  "id": 19,
   "name": "Bronze Legs",
-  "icon": "/assets/images/items/bronze-legs.png",
+  "icon": "/assets/images/items/19.png",
   "description": "A pair of bronze legs.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 74,
   "stats": {
     "Defense": 9
-  }
+  },
+  "wiki_name": "bronze-legs"
 }

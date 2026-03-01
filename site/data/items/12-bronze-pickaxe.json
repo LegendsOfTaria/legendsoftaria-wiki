@@ -1,12 +1,13 @@
 {
-  "id": "bronze-pickaxe",
+  "id": 12,
   "name": "Bronze Pickaxe",
-  "icon": "/assets/images/items/bronze-pickaxe.png",
+  "icon": "/assets/images/items/12.png",
   "description": "This can be used to mine ore from rocks.",
   "item_type": "Tool",
   "acquisition": "Smithed from <item:bronze-bar> at an anvil.",
   "sell_price": 34,
   "stats": {
     "Melee": 2
-  }
+  },
+  "wiki_name": "bronze-pickaxe"
 }

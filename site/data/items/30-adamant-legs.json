@@ -1,12 +1,13 @@
 {
-  "id": "adamant-legs",
+  "id": 30,
   "name": "Adamant Legs",
-  "icon": "/assets/images/items/adamant-legs.png",
+  "icon": "/assets/images/items/30.png",
   "description": "A pair of adamant legs.",
   "item_type": "Armor",
   "acquisition": "Smithed from <item:adamant-bar> at an anvil.",
   "sell_price": 1150,
   "stats": {
     "Defense": 30
-  }
+  },
+  "wiki_name": "adamant-legs"
 }

@@ -1,12 +1,13 @@
 {
-  "id": "mithril-axe",
+  "id": 80,
   "name": "Mithril Axe",
-  "icon": "/assets/images/items/mithril-axe.png",
+  "icon": "/assets/images/items/80.png",
   "description": "This can be used to cut wood from trees.",
   "item_type": "Weapon",
   "acquisition": "Smithed from <item:mithril-bar> at an anvil.",
   "sell_price": 185,
   "stats": {
     "Melee": 13
-  }
+  },
+  "wiki_name": "mithril-axe"
 }

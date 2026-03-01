@@ -1,10 +1,11 @@
 {
-  "id": "shrimp",
+  "id": 38,
   "name": "Shrimp",
-  "icon": "/assets/images/items/shrimp.png",
+  "icon": "/assets/images/items/38.png",
   "description": "A cooked shrimp. Eat to restore some health.",
   "item_type": "Food",
   "healing": 3,
   "acquisition": "Cooked from <item:raw-shrimp> at a fire.",
-  "sell_price": 5
+  "sell_price": 5,
+  "wiki_name": "shrimp"
 }

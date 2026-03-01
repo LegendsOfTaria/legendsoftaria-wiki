@@ -1,9 +1,10 @@
 {
-  "id": "cage",
+  "id": 67,
   "name": "Cage",
-  "icon": "/assets/images/items/cage.png",
+  "icon": "/assets/images/items/67.png",
   "description": "A cage used to catch crustaceans.",
   "item_type": "Fishing Tool",
   "acquisition": "Purchased from fishing shops or found as loot.",
-  "sell_price": 40
+  "sell_price": 40,
+  "wiki_name": "cage"
 }

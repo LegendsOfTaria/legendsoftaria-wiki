@@ -1,9 +1,10 @@
 {
-  "id": "harpoon",
+  "id": 69,
   "name": "Harpoon",
-  "icon": "/assets/images/items/harpoon.png",
+  "icon": "/assets/images/items/69.png",
   "description": "A harpoon used to catch large fish and sea creatures.",
   "item_type": "Fishing Tool",
   "acquisition": "Purchased from fishing shops or found as loot.",
-  "sell_price": 70
+  "sell_price": 70,
+  "wiki_name": "harpoon"
 }

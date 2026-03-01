@@ -1,9 +1,10 @@
 {
-  "id": "bronze-bar",
+  "id": 14,
   "name": "Bronze Bar",
-  "icon": "/assets/images/items/bronze-bar.png",
+  "icon": "/assets/images/items/14.png",
   "description": "A bar of bronze. It can be used to craft various items.",
   "item_type": "Bar",
   "acquisition": "Smelted from 1 <item:copper-ore> and 1 <item:tin-ore> at a furnace.",
-  "sell_price": 11
+  "sell_price": 11,
+  "wiki_name": "bronze-bar"
 }
