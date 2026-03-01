@@ -1,0 +1,9 @@
+{
+  "id": "small-health-potion",
+  "name": "Small Health Potion",
+  "icon": "/assets/images/items/small-health-potion.png",
+  "description": "A small health potion.",
+  "item_type": "Potion",
+  "healing": 20,
+  "sell_price": 6
+}

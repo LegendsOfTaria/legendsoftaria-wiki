@@ -7,7 +7,12 @@
   "description": "Skeleton that can be fought for combat experience and loot.",
   "level": 5,
   "drops": [
-    "Bones"
+    "Bones",
+    "Shrimp",
+    "BronzePickaxe",
+    "BronzeAxe",
+    "BronzeSword",
+    "IronSword"
   ],
   "stats": {
     "Defense": 3,

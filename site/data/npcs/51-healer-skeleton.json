@@ -2,9 +2,9 @@
   "id": "healer-skeleton",
   "name": "Healer Skeleton",
   "icon": "/assets/images/npcs/healer-skeleton.png",
-  "location": "Towns and villages",
-  "role": "NPC",
-  "description": "Healer Skeleton found in the world of Taria.",
+  "location": "Graveyards and dungeons",
+  "role": "Monster",
+  "description": "Healer Skeleton that can be fought for combat experience and loot.",
   "level": 1,
   "drops": [],
   "stats": {

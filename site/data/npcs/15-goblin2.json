@@ -7,7 +7,12 @@
   "description": "Goblin that can be fought for combat experience and loot.",
   "level": 2,
   "drops": [
-    "Bones"
+    "Bones",
+    "Shrimp",
+    "BronzePickaxe",
+    "BronzeAxe",
+    "BronzeSword",
+    "IronSword"
   ],
   "stats": {
     "Melee": 2,

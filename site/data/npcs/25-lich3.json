@@ -7,7 +7,13 @@
   "description": "Lich that can be fought for combat experience and loot.",
   "level": 50,
   "drops": [
-    "Various items"
+    "Bones",
+    "Trout",
+    "MithrilPickaxe",
+    "MithrilSword",
+    "BoneHelm",
+    "BoneBody",
+    "BoneLegs"
   ],
   "stats": {
     "Magic": 45,
