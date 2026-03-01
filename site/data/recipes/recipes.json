@@ -1,0 +1,696 @@
+{
+  "smithing": [
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzeSword",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 2)",
+        "Item(Item { id: BronzeBar, amount: 1 })"
+      ],
+      "xp": 7,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzePickaxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 3)",
+        "Item(Item { id: BronzeBar, amount: 2 })"
+      ],
+      "xp": 14,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzeAxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 3)",
+        "Item(Item { id: BronzeBar, amount: 2 })"
+      ],
+      "xp": 14,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzeHelm",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 4)",
+        "Item(Item { id: BronzeBar, amount: 3 })"
+      ],
+      "xp": 21,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzeLegs",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 5)",
+        "Item(Item { id: BronzeBar, amount: 4 })"
+      ],
+      "xp": 28,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "BronzeBody",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 7)",
+        "Item(Item { id: BronzeBar, amount: 5 })"
+      ],
+      "xp": 35,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronSword",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 11)",
+        "Item(Item { id: IronBar, amount: 1 })"
+      ],
+      "xp": 14,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronPickaxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 12)",
+        "Item(Item { id: IronBar, amount: 2 })"
+      ],
+      "xp": 28,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronAxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 12)",
+        "Item(Item { id: IronBar, amount: 2 })"
+      ],
+      "xp": 28,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronHelm",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 13)",
+        "Item(Item { id: IronBar, amount: 3 })"
+      ],
+      "xp": 42,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronLegs",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 15)",
+        "Item(Item { id: IronBar, amount: 4 })"
+      ],
+      "xp": 56,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "IronBody",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 17)",
+        "Item(Item { id: IronBar, amount: 5 })"
+      ],
+      "xp": 70,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilSword",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 21)",
+        "Item(Item { id: MithrilBar, amount: 1 })"
+      ],
+      "xp": 28,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilPickaxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 22)",
+        "Item(Item { id: MithrilBar, amount: 2 })"
+      ],
+      "xp": 56,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilAxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 22)",
+        "Item(Item { id: MithrilBar, amount: 2 })"
+      ],
+      "xp": 56,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilHelm",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 23)",
+        "Item(Item { id: MithrilBar, amount: 3 })"
+      ],
+      "xp": 84,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilLegs",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 25)",
+        "Item(Item { id: MithrilBar, amount: 4 })"
+      ],
+      "xp": 112,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "MithrilBody",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 27)",
+        "Item(Item { id: MithrilBar, amount: 5 })"
+      ],
+      "xp": 140,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantSword",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 31)",
+        "Item(Item { id: AdamantBar, amount: 1 })"
+      ],
+      "xp": 56,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantPickaxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 32)",
+        "Item(Item { id: AdamantBar, amount: 2 })"
+      ],
+      "xp": 112,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantAxe",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 32)",
+        "Item(Item { id: AdamantBar, amount: 2 })"
+      ],
+      "xp": 112,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantHelm",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 33)",
+        "Item(Item { id: AdamantBar, amount: 3 })"
+      ],
+      "xp": 168,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantLegs",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 35)",
+        "Item(Item { id: AdamantBar, amount: 4 })"
+      ],
+      "xp": 224,
+      "time_ms": 5000
+    },
+    {
+      "skill": "smithing",
+      "key": "Anvil",
+      "output": "AdamantBody",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 37)",
+        "Item(Item { id: AdamantBar, amount: 5 })"
+      ],
+      "xp": 280,
+      "time_ms": 5000
+    }
+  ],
+  "food_processing": [
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 2,
+      "requirements": [
+        "Item(Item { id: RawShrimp, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 2,
+      "requirements": [
+        "Item(Item { id: RawAnchovies, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 3,
+      "requirements": [
+        "Item(Item { id: RawSardine, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 4,
+      "requirements": [
+        "Item(Item { id: RawTrout, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 4,
+      "requirements": [
+        "Item(Item { id: RawBass, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 4,
+      "requirements": [
+        "Item(Item { id: RawSalmon, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 4,
+      "requirements": [
+        "Item(Item { id: RawCrab, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 4,
+      "requirements": [
+        "Item(Item { id: RawLobster, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 5,
+      "requirements": [
+        "Item(Item { id: RawOctopus, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 7,
+      "requirements": [
+        "Item(Item { id: RawSwordfish, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 8,
+      "requirements": [
+        "Item(Item { id: RawShark, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 6,
+      "requirements": [
+        "Item(Item { id: RawMantaRay, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    },
+    {
+      "skill": "food_processing",
+      "key": "FoodGrinder",
+      "output": "FishingBait",
+      "output_amount": 9,
+      "requirements": [
+        "Item(Item { id: RawTuna, amount: 1 })"
+      ],
+      "xp": 0,
+      "time_ms": 1000
+    }
+  ],
+  "firemaking": [
+    {
+      "skill": "firemaking",
+      "key": "CampFire",
+      "output": "Coal",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Firemaking, 1)",
+        "Item(Item { id: BirchLogs, amount: 1 })"
+      ],
+      "xp": 2,
+      "time_ms": 3000
+    },
+    {
+      "skill": "firemaking",
+      "key": "CampFire",
+      "output": "Coal",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Firemaking, 10)",
+        "Item(Item { id: OakLogs, amount: 1 })"
+      ],
+      "xp": 4,
+      "time_ms": 3000
+    },
+    {
+      "skill": "firemaking",
+      "key": "CampFire",
+      "output": "Coal",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Firemaking, 20)",
+        "Item(Item { id: PineLogs, amount: 1 })"
+      ],
+      "xp": 8,
+      "time_ms": 3000
+    },
+    {
+      "skill": "firemaking",
+      "key": "CampFire",
+      "output": "Coal",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Firemaking, 30)",
+        "Item(Item { id: CedarLogs, amount: 1 })"
+      ],
+      "xp": 16,
+      "time_ms": 3000
+    }
+  ],
+  "cooking": [
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Shrimp",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 1)",
+        "Item(Item { id: RawShrimp, amount: 1 })"
+      ],
+      "xp": 10,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Anchovies",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 5)",
+        "Item(Item { id: RawAnchovies, amount: 1 })"
+      ],
+      "xp": 20,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Sardine",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 10)",
+        "Item(Item { id: RawSardine, amount: 1 })"
+      ],
+      "xp": 30,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Trout",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 15)",
+        "Item(Item { id: RawTrout, amount: 1 })"
+      ],
+      "xp": 40,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Bass",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 20)",
+        "Item(Item { id: RawBass, amount: 1 })"
+      ],
+      "xp": 50,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Salmon",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 25)",
+        "Item(Item { id: RawSalmon, amount: 1 })"
+      ],
+      "xp": 60,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Crab",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 30)",
+        "Item(Item { id: RawCrab, amount: 1 })"
+      ],
+      "xp": 70,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Lobster",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 35)",
+        "Item(Item { id: RawLobster, amount: 1 })"
+      ],
+      "xp": 80,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Octopus",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 40)",
+        "Item(Item { id: RawOctopus, amount: 1 })"
+      ],
+      "xp": 90,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Swordfish",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 45)",
+        "Item(Item { id: RawSwordfish, amount: 1 })"
+      ],
+      "xp": 100,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Shark",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 50)",
+        "Item(Item { id: RawShark, amount: 1 })"
+      ],
+      "xp": 110,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "MantaRay",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 55)",
+        "Item(Item { id: RawMantaRay, amount: 1 })"
+      ],
+      "xp": 120,
+      "time_ms": 3000
+    },
+    {
+      "skill": "cooking",
+      "key": "CampFire",
+      "output": "Tuna",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Cooking, 60)",
+        "Item(Item { id: RawTuna, amount: 1 })"
+      ],
+      "xp": 130,
+      "time_ms": 3000
+    }
+  ],
+  "smelting": [
+    {
+      "skill": "smelting",
+      "key": "Furnace",
+      "output": "BronzeBar",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 1)",
+        "Item(Item { id: CopperOre, amount: 1 })",
+        "Item(Item { id: TinOre, amount: 1 })"
+      ],
+      "xp": 2,
+      "time_ms": 3000
+    },
+    {
+      "skill": "smelting",
+      "key": "Furnace",
+      "output": "IronBar",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 10)",
+        "Item(Item { id: IronOre, amount: 1 })"
+      ],
+      "xp": 4,
+      "time_ms": 3000
+    },
+    {
+      "skill": "smelting",
+      "key": "Furnace",
+      "output": "MithrilBar",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 20)",
+        "Item(Item { id: MithrilOre, amount: 1 })"
+      ],
+      "xp": 8,
+      "time_ms": 3000
+    },
+    {
+      "skill": "smelting",
+      "key": "Furnace",
+      "output": "AdamantBar",
+      "output_amount": 1,
+      "requirements": [
+        "Level(Smithing, 30)",
+        "Item(Item { id: AdamantOre, amount: 1 })"
+      ],
+      "xp": 16,
+      "time_ms": 3000
+    }
+  ]
+}
