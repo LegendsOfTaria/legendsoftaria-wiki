@@ -35,9 +35,9 @@ pub fn render_items(tera: &Tera, items: &[Item]) -> Result<()> {
 
         let html = tera
             .render("item.html", &ctx)
-            .map_err(|e| anyhow::anyhow!("failed to render item {}: {:?}", item.id, e))?;
+            .map_err(|e| anyhow::anyhow!("failed to render item {}: {:?}", item.wiki_name, e))?;
 
-        let out_path = base.join(format!("{}.html", item.id));
+        let out_path = base.join(format!("{}.html", item.wiki_name));
         fs::write(&out_path, html)
             .map_err(|e| anyhow::anyhow!("failed to write item page {:?}: {:?}", out_path, e))?;
 
@@ -67,9 +67,9 @@ pub fn render_npcs(tera: &Tera, npcs: &[Npc], items: &[Item]) -> Result<()> {
 
         let html = tera
             .render("npc.html", &ctx)
-            .map_err(|e| anyhow::anyhow!("failed to render npc {}: {:?}", npc.id, e))?;
+            .map_err(|e| anyhow::anyhow!("failed to render npc {}: {:?}", npc.wiki_name, e))?;
 
-        let out_path = base.join(format!("{}.html", npc.id));
+        let out_path = base.join(format!("{}.html", npc.wiki_name));
         fs::write(&out_path, html)
             .map_err(|e| anyhow::anyhow!("failed to write npc page {:?}: {:?}", out_path, e))?;
 

@@ -15,6 +15,7 @@ pub struct Item {
     pub id: String,
     pub name: String,
     pub description: String,
+    pub wiki_name: String,
     #[serde(alias = "type")]
     pub item_type: String,
     #[serde(default)]
@@ -38,6 +39,7 @@ pub struct Npc {
     pub location: String,
     pub role: String,
     pub description: String,
+    pub wiki_name: String,
     #[serde(default)]
     pub level: Option<i32>,
     #[serde(default)]
