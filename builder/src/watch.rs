@@ -116,12 +116,17 @@ fn run_build(base_path: &Path) -> Result<()> {
     crate::output::copy_static_assets()?;
     crate::output::copy_root_files()?;
 
-    // load first so that postprocess can resolve names
+    // load items and NPCs first; initialize the lookup table *before*
+    // loading pages so that any `<item:…>` or `<npc:…>` tokens found during
+    // page processing can be resolved correctly.  watch mode used to call
+    // `init_lookup` after `load_pages`, which was the source of the bug seen
+    // by the user.
     let items = crate::data::load_items()?;
     let npcs = crate::data::load_npcs()?;
-    let pages = crate::data::load_pages()?;
 
     crate::postprocess::init_lookup(&items, &npcs);
+
+    let pages = crate::data::load_pages()?;
 
     let tera = crate::render::init_tera()?;
 

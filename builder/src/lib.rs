@@ -27,12 +27,14 @@ pub fn build_wiki(base_path: Option<&Path>) -> anyhow::Result<()> {
     let npcs = data::load_npcs()?;
     println!("Loaded {} npcs", npcs.len());
 
+    // populate lookup tables early so that page loading (which calls
+    // `linkify_references`) can resolve tokens correctly.  previously the
+    // lookup was initialized after `load_pages`, causing markdown pages to
+    // generate basic unfriendly links.
+    postprocess::init_lookup(&items, &npcs);
+
     let pages = data::load_pages()?;
     println!("Loaded {} pages", pages.len());
-
-    // populate lookup tables used by the templating filter; this must happen
-    // before we render anything since the filter is invoked during rendering
-    postprocess::init_lookup(&items, &npcs);
 
     let tera = render::init_tera()?;
 
