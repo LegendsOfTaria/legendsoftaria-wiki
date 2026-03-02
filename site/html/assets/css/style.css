@@ -1215,6 +1215,8 @@ strong {
 }
 
 .inline-icon {
+    width: 18px;
+    height: 18px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     vertical-align: middle;
@@ -1228,7 +1230,7 @@ td .item-link {
 }
 
 /* When using item or npc icons in text, make it smaller to make it look better */
-li .inline-icon {
-    width: 18px;
-    height: 18px;
+td .inline-icon {
+    width: auto;
+    height: auto;
 }
