@@ -33,10 +33,10 @@ Melee weapons are typically crafted through [Smithing](/skills/smithing.html). H
 
 | Tier | Examples | Notes |
 |------|----------|-------|
-| Bronze | [![Bronze Sword](/assets/images/items/bronze-sword.png) Bronze Sword](/items/bronze-sword.html) | Starter weapons, low bonuses |
-| Iron | [![Iron Sword](/assets/images/items/iron-sword.png) Iron Sword](/items/iron-sword.html) | Entry-level upgrade |
-| Mithril | [![Mithril Sword](/assets/images/items/mithril-sword.png) Mithril Sword](/items/mithril-sword.html) | Mid-tier weapons |
-| Adamant | [![Adamant Sword](/assets/images/items/adamant-sword.png) Adamant Sword](/items/adamant-sword.html) | High-tier weapons |
+| Bronze | <item:bronze-sword> | Starter weapons, low bonuses |
+| Iron | <item:iron-sword> | Entry-level upgrade |
+| Mithril | <item:mithril-sword> | Mid-tier weapons |
+| Adamant | <item:adamant-sword> | High-tier weapons |
 
 ## Training Tips
 

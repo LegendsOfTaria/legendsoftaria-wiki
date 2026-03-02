@@ -12,32 +12,32 @@ To fish, you need the appropriate fishing equipment in your hotbar and bait (for
 
 | Tool | Level | Notes |
 |------|-------|-------|
-| [![Fishing Net](/assets/images/items/fishing-net.png) Fishing Net](/items/fishing-net.html) | 1 | Basic net for catching small fish |
+| <item:fishing-net> | 1 | Basic net for catching small fish |
 
 ### Rod Fishing (Level 15-29)
 
 | Tool | Level | Notes |
 |------|-------|-------|
-| [![Branch Rod](/assets/images/items/branch-rod.png) Branch Rod](/items/branch-rod.html) | 15 | Basic fishing rod, lower success rate |
-| [![Fishing Rod](/assets/images/items/fishing-rod.png) Fishing Rod](/items/fishing-rod.html) | 20 | Better success rate than Branch Rod |
+| <item:branch-rod> | 15 | Basic fishing rod, lower success rate |
+| <item:fishing-rod> | 20 | Better success rate than Branch Rod |
 
 ### Cage Fishing (Level 30-44)
 
 | Tool | Level | Notes |
 |------|-------|-------|
-| [![Cage](/assets/images/items/cage.png) Cage](/items/cage.html) | 30 | Standard cage for crustaceans |
-| [![Large Cage](/assets/images/items/large-cage.png) Large Cage](/items/large-cage.html) | 35 | Improved success rate |
+| <item:cage> | 30 | Standard cage for crustaceans |
+| <item:large-cage> | 35 | Improved success rate |
 
 ### Harpoon Fishing (Level 40+)
 
 | Tool | Level | Notes |
 |------|-------|-------|
-| [![Harpoon](/assets/images/items/harpoon.png) Harpoon](/items/harpoon.html) | 40 | For catching large fish |
-| [![Barbed Harpoon](/assets/images/items/barbed-harpoon.png) Barbed Harpoon](/items/barbed-harpoon.html) | 50 | Significantly better success rate |
+| <item:harpoon> | 40 | For catching large fish |
+| <item:barbed-harpoon> | 50 | Significantly better success rate |
 
 ## Bait
 
-All fishing methods require [![Fishing Bait](/assets/images/items/fishing-bait.png) Fishing Bait](/items/fishing-bait.html). Make sure to stock up before heading to fishing spots!
+All fishing methods require <item:fishing-bait>. Make sure to stock up before heading to fishing spots!
 
 ## Fish by Method
 
@@ -45,41 +45,41 @@ All fishing methods require [![Fishing Bait](/assets/images/items/fishing-bait.p
 
 | Fish | Level | XP |
 |------|-------|-----|
-| [![Raw Shrimp](/assets/images/items/raw-shrimp.png) Raw Shrimp](/items/raw-shrimp.html) | 1 | 10 |
-| [![Raw Anchovies](/assets/images/items/raw-anchovies.png) Raw Anchovies](/items/raw-anchovies.html) | 5 | 20 |
-| [![Raw Sardine](/assets/images/items/raw-sardine.png) Raw Sardine](/items/raw-sardine.html) | 10 | 30 |
+| <item:raw-shrimp> | 1 | 10 |
+| <item:raw-anchovies> | 5 | 20 |
+| <item:raw-sardine> | 10 | 30 |
 
 ### Rod Fish
 
 | Fish | Level | XP |
 |------|-------|-----|
-| [![Raw Trout](/assets/images/items/raw-trout.png) Raw Trout](/items/raw-trout.html) | 15 | 40 |
-| [![Raw Bass](/assets/images/items/raw-bass.png) Raw Bass](/items/raw-bass.html) | 20 | 50 |
-| [![Raw Salmon](/assets/images/items/raw-salmon.png) Raw Salmon](/items/raw-salmon.html) | 25 | 60 |
+| <item:raw-trout> | 15 | 40 |
+| <item:raw-bass> | 20 | 50 |
+| <item:raw-salmon> | 25 | 60 |
 
 ### Cage Fish
 
 | Fish | Level | XP |
 |------|-------|-----|
-| [![Raw Crab](/assets/images/items/raw-crab.png) Raw Crab](/items/raw-crab.html) | 30 | 70 |
-| [![Raw Lobster](/assets/images/items/raw-lobster.png) Raw Lobster](/items/raw-lobster.html) | 35 | 80 |
-| [![Raw Octopus](/assets/images/items/raw-octopus.png) Raw Octopus](/items/raw-octopus.html) | 40 | 90 |
+| <item:raw-crab> | 30 | 70 |
+| <item:raw-lobster> | 35 | 80 |
+| <item:raw-octopus> | 40 | 90 |
 
 ### Harpoon Fish
 
 | Fish | Level | XP |
 |------|-------|-----|
-| [![Raw Swordfish](/assets/images/items/raw-swordfish.png) Raw Swordfish](/items/raw-swordfish.html) | 45 | 100 |
-| [![Raw Shark](/assets/images/items/raw-shark.png) Raw Shark](/items/raw-shark.html) | 50 | 110 |
-| [![Raw Manta Ray](/assets/images/items/raw-manta-ray.png) Raw Manta Ray](/items/raw-manta-ray.html) | 55 | 120 |
-| [![Raw Tuna](/assets/images/items/raw-tuna.png) Raw Tuna](/items/raw-tuna.html) | 60 | 130 |
+| <item:raw-swordfish> | 45 | 100 |
+| <item:raw-shark> | 50 | 110 |
+| <item:raw-manta-ray> | 55 | 120 |
+| <item:raw-tuna> | 60 | 130 |
 
 ## Training Tips
 
-1. **Levels 1-15**: Use a [![Fishing Net](/assets/images/items/fishing-net.png) Fishing Net](/items/fishing-net.html) to catch [![Raw Shrimp](/assets/images/items/raw-shrimp.png) Shrimp](/items/raw-shrimp.html), [![Raw Anchovies](/assets/images/items/raw-anchovies.png) Anchovies](/items/raw-anchovies.html), and [![Raw Sardine](/assets/images/items/raw-sardine.png) Sardines](/items/raw-sardine.html).
-2. **Levels 15-30**: Switch to Rod fishing for [![Raw Trout](/assets/images/items/raw-trout.png) Trout](/items/raw-trout.html), [![Raw Bass](/assets/images/items/raw-bass.png) Bass](/items/raw-bass.html), and [![Raw Salmon](/assets/images/items/raw-salmon.png) Salmon](/items/raw-salmon.html).
-3. **Levels 30-45**: Use [![Cage](/assets/images/items/cage.png) Cages](/items/cage.html) to catch [![Raw Crab](/assets/images/items/raw-crab.png) Crabs](/items/raw-crab.html), [![Raw Lobster](/assets/images/items/raw-lobster.png) Lobsters](/items/raw-lobster.html), and [![Raw Octopus](/assets/images/items/raw-octopus.png) Octopus](/items/raw-octopus.html).
-4. **Levels 45+**: Harpoon fishing for the best XP rates with [![Raw Swordfish](/assets/images/items/raw-swordfish.png) Swordfish](/items/raw-swordfish.html), [![Raw Shark](/assets/images/items/raw-shark.png) Shark](/items/raw-shark.html), [![Raw Manta Ray](/assets/images/items/raw-manta-ray.png) Manta Ray](/items/raw-manta-ray.html), and [![Raw Tuna](/assets/images/items/raw-tuna.png) Tuna](/items/raw-tuna.html).
+1. **Levels 1-15**: Use a <item:fishing-net> to catch <item:raw-shrimp>, <item:raw-anchovies>, and <item:raw-sardine>.
+2. **Levels 15-30**: Switch to Rod fishing for <item:raw-trout>, <item:raw-bass>, and <item:raw-salmon>.
+3. **Levels 30-45**: Use <item:cage> to catch <item:raw-crab>, <item:raw-lobster>, and <item:raw-octopus>.
+4. **Levels 45+**: Harpoon fishing for the best XP rates with <item:raw-swordfish>, <item:raw-shark>, <item:raw-manta-ray>, and <item:raw-tuna>.
 
 ## Success Rates
 

@@ -1,6 +1,6 @@
 # Firemaking
 
-**Firemaking** lets players burn logs at a campfire to produce [![Coal](/assets/images/items/coal.png) Coal](/items/coal.html) and gain Firemaking experience.
+**Firemaking** lets players burn logs at a campfire to produce <item:coal> and gain Firemaking experience.
 
 ## Getting Started
 
@@ -12,10 +12,10 @@ All current recipes are available through **Burn Wood** at a campfire.
 
 | Recipe | Level | Input | Output | XP | Time |
 |--------|-------|-------|--------|----|------|
-| Burn [![Birch Logs](/assets/images/items/birch-logs.png) Birch Logs](/items/birch-logs.html) | 1 | 1x [![Birch Logs](/assets/images/items/birch-logs.png) Birch Logs](/items/birch-logs.html) | 1x [![Coal](/assets/images/items/coal.png) Coal](/items/coal.html) | 2 | 3.0s |
-| Burn [![Oak Logs](/assets/images/items/oak-logs.png) Oak Logs](/items/oak-logs.html) | 10 | 1x [![Oak Logs](/assets/images/items/oak-logs.png) Oak Logs](/items/oak-logs.html) | 1x [![Coal](/assets/images/items/coal.png) Coal](/items/coal.html) | 4 | 3.0s |
-| Burn [![Pine Logs](/assets/images/items/pine-logs.png) Pine Logs](/items/pine-logs.html) | 20 | 1x [![Pine Logs](/assets/images/items/pine-logs.png) Pine Logs](/items/pine-logs.html) | 1x [![Coal](/assets/images/items/coal.png) Coal](/items/coal.html) | 8 | 3.0s |
-| Burn [![Cedar Logs](/assets/images/items/cedar-logs.png) Cedar Logs](/items/cedar-logs.html) | 30 | 1x [![Cedar Logs](/assets/images/items/cedar-logs.png) Cedar Logs](/items/cedar-logs.html) | 1x [![Coal](/assets/images/items/coal.png) Coal](/items/coal.html) | 16 | 3.0s |
+| Burn <item:birch-logs> | 1 | 1x <item:birch-logs> | 1x <item:coal> | 2 | 3.0s |
+| Burn <item:oak-logs> | 10 | 1x <item:oak-logs> | 1x <item:coal> | 4 | 3.0s |
+| Burn <item:pine-logs> | 20 | 1x <item:pine-logs> | 1x <item:coal> | 8 | 3.0s |
+| Burn <item:cedar-logs> | 30 | 1x <item:cedar-logs> | 1x <item:coal> | 16 | 3.0s |
 
 ## Training Tips
 

@@ -12,10 +12,10 @@ All bars are smelted at a furnace.
 
 | Bar | Level | Ingredients | XP |
 |-----|----------------|-------------|-----|
-| [![Bronze Bar](/assets/images/items/bronze-bar.png) Bronze Bar](/items/bronze-bar.html) | 1 | [![Copper Ore](/assets/images/items/copper-ore.png) Copper Ore](/items/copper-ore.html) + [![Tin Ore](/assets/images/items/tin-ore.png) Tin Ore](/items/tin-ore.html) | 10 |
-| [![Iron Bar](/assets/images/items/iron-bar.png) Iron Bar](/items/iron-bar.html) | 15 | [![Iron Ore](/assets/images/items/iron-ore.png) Iron Ore](/items/iron-ore.html) x2 | 25 |
-| [![Mithril Bar](/assets/images/items/mithril-bar.png) Mithril Bar](/items/mithril-bar.html) | 30 | [![Mithril Ore](/assets/images/items/mithril-ore.png) Mithril Ore](/items/mithril-ore.html) x3 | 50 |
-| [![Adamant Bar](/assets/images/items/adamant-bar.png) Adamant Bar](/items/adamant-bar.html) | 45 | [![Adamant Ore](/assets/images/items/adamant-ore.png) Adamant Ore](/items/adamant-ore.html) x4 | 80 |
+| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 10 |
+| <item:iron-bar> | 15 | <item:iron-ore> x2 | 25 |
+| <item:mithril-bar> | 30 | <item:mithril-ore> x3 | 50 |
+| <item:adamant-bar> | 45 | <item:adamant-ore> x4 | 80 |
 
 ## Furnace Locations
 

@@ -46,18 +46,18 @@ Legends of Taria has several skills divided into combat and non-combat categorie
 ## Early Game Goals
 
 ### 1. Get a Pickaxe
-Find a [![Bronze Pickaxe](/assets/images/items/bronze-pickaxe.png) Bronze Pickaxe](/items/bronze-pickaxe.html) or smith one yourself. You'll need:
+Find a <item:bronze-pickaxe> or smith one yourself. You'll need:
 - Access to an anvil
-- [![Bronze Bar](/assets/images/items/bronze-bar.png) Bronze Bars](/items/bronze-bar.html) (smelted from [![Copper Ore](/assets/images/items/copper-ore.png) Copper Ore](/items/copper-ore.html) + [![Tin Ore](/assets/images/items/tin-ore.png) Tin Ore](/items/tin-ore.html))
+- <item:bronze-bar> (smelted from <item:copper-ore> + <item:tin-ore>)
 
 ### 2. Start Mining
-Find [![Copper Ore](/assets/images/items/copper-ore.png) Copper](/items/copper-ore.html) and [![Tin Ore](/assets/images/items/tin-ore.png) Tin](/items/tin-ore.html) rocks in the starting area. Mine ore to train your ![Mining](/assets/images/skills/mining.png) [Mining](/skills/mining.html) skill and gather materials for smithing.
+Find <item:copper-ore> and <item:tin-ore> rocks in the starting area. Mine ore to train your ![Mining](/assets/images/skills/mining.png) [Mining](/skills/mining.html) skill and gather materials for smithing.
 
 ### 3. Smith Better Equipment
 Take your ores to a furnace to smelt bars, then use an anvil to forge weapons and armor. Better equipment means easier combat! See ![Smithing](/assets/images/skills/smithing.png) [Smithing](/skills/smithing.html) for details.
 
 ### 4. Go Fishing
-Get a [![Fishing Net](/assets/images/items/fishing-net.png) Fishing Net](/items/fishing-net.html) and some [![Fishing Bait](/assets/images/items/fishing-bait.png) Fishing Bait](/items/fishing-bait.html). Find a fishing spot and catch some [![Raw Shrimp](/assets/images/items/raw-shrimp.png) Raw Shrimp](/items/raw-shrimp.html). This levels your ![Fishing](/assets/images/skills/fishing.png) [Fishing](/skills/fishing.html) skill.
+Get a <item:fishing-net> and some <item:fishing-bait>. Find a fishing spot and catch some <item:raw-shrimp>. This levels your ![Fishing](/assets/images/skills/fishing.png) [Fishing](/skills/fishing.html) skill.
 
 ### 5. Cook Your Fish
 Find a campfire and cook your raw fish. Cooked fish heals you in combat - always carry some! See ![Cooking](/assets/images/skills/cooking.png) [Cooking](/skills/cooking.html) and [Food](/guides/food.html) for details.

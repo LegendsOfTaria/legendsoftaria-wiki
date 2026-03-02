@@ -20,28 +20,28 @@ Armor provides defensive bonuses that stack with your Defense level. Armor is ty
 
 | Armor | Level | Notes |
 |-------|-------|-------|
-| [![Bronze Body](/assets/images/items/bronze-body.png) Bronze Body](/items/bronze-body.html) | - | Basic protection |
-| [![Iron Body](/assets/images/items/iron-body.png) Iron Body](/items/iron-body.html) | - | Improved defense |
-| [![Mithril Body](/assets/images/items/mithril-body.png) Mithril Body](/items/mithril-body.html) | - | Good protection |
-| [![Adamant Body](/assets/images/items/adamant-body.png) Adamant Body](/items/adamant-body.html) | - | Excellent protection |
+| <item:bronze-body> | - | Basic protection |
+| <item:iron-body> | - | Improved defense |
+| <item:mithril-body> | - | Good protection |
+| <item:adamant-body> | - | Excellent protection |
 
 ### Helmets
 
 | Armor | Level | Notes |
 |-------|-------|-------|
-| [![Bronze Helm](/assets/images/items/bronze-helm.png) Bronze Helm](/items/bronze-helm.html) | - | Basic head protection |
-| [![Iron Helm](/assets/images/items/iron-helm.png) Iron Helm](/items/iron-helm.html) | - | Improved head defense |
-| [![Mithril Helm](/assets/images/items/mithril-helm.png) Mithril Helm](/items/mithril-helm.html) | - | Good head protection |
-| [![Adamant Helm](/assets/images/items/adamant-helm.png) Adamant Helm](/items/adamant-helm.html) | - | Excellent head protection |
+| <item:bronze-helm> | - | Basic head protection |
+| <item:iron-helm> | - | Improved head defense |
+| <item:mithril-helm> | - | Good head protection |
+| <item:adamant-helm> | - | Excellent head protection |
 
 ### Leg Armor
 
 | Armor | Level | Notes |
 |-------|-------|-------|
-| [![Bronze Legs](/assets/images/items/bronze-legs.png) Bronze Legs](/items/bronze-legs.html) | - | Basic leg protection |
-| [![Iron Legs](/assets/images/items/iron-legs.png) Iron Legs](/items/iron-legs.html) | - | Improved leg defense |
-| [![Mithril Legs](/assets/images/items/mithril-legs.png) Mithril Legs](/items/mithril-legs.html) | - | Good leg protection |
-| [![Adamant Legs](/assets/images/items/adamant-legs.png) Adamant Legs](/items/adamant-legs.html) | - | Excellent leg protection |
+| <item:bronze-legs> | - | Basic leg protection |
+| <item:iron-legs> | - | Improved leg defense |
+| <item:mithril-legs> | - | Good leg protection |
+| <item:adamant-legs> | - | Excellent leg protection |
 
 ## Training Tips
 
