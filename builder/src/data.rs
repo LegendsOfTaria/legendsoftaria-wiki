@@ -169,6 +169,11 @@ pub fn load_pages() -> Result<Vec<Page>> {
         file.read_to_string(&mut buf)?;
 
         let body_html = markdown_to_html(&buf);
+        // after converting markdown -> HTML we still want to rewrite any
+        // <item:...> or <npc:...> shortcuts so that pages can use the same
+        // shorthand that item descriptions already support.  Doing this here
+        // keeps the templates simple.
+        let body_html = crate::postprocess::linkify_references(&body_html);
         let slug = page_slug(&base, path)?;
         let title = derive_title_from_path(path);
 
@@ -192,10 +197,22 @@ pub fn markdown_to_html(src: &str) -> String {
     options.insert(Options::ENABLE_TABLES);
     options.insert(Options::ENABLE_FOOTNOTES);
     options.insert(Options::ENABLE_STRIKETHROUGH);
+    // pulldown-cmark doesn't provide a flag for "allow raw HTML" in the
+    // version we depend on, so unknown tags like `<item:foo>` are escaped
+    // to `&lt;item:foo&gt;`.  After rendering we'll undo that transformation
+    // for our custom tokens before passing the HTML to the linkifier.
 
     let parser = Parser::new_ext(src, options);
     let mut html_output = String::new();
     html::push_html(&mut html_output, parser);
+
+    // unescape any `<item:...>` or `<npc:...>` tokens that the markdown
+    // parser turned into entities.  this guarantees our postprocess step can
+    // match them regardless of parser configuration.
+    let html_output = html_output
+        .replace("&lt;item:", "<item:")
+        .replace(":&gt;", ":>")
+        .replace("&lt;npc:", "<npc:");
 
     html_output
 }
@@ -251,7 +268,7 @@ pub fn enrich_drop(drop_id: u16, items: &[Item]) -> EnrichedDrop {
         sell_price: item.sell_price,
         link_html: format!(
             r#"<a href="/items/{}.html" class="item-link"><img src="/assets/images/items/{}.png" alt="{}" class="inline-icon" />{}</a>"#,
-            item.id, item.id, item.name, item.name
+            item.wiki_name, item.id, item.name, item.name
         ),
     }
 }
