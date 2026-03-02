@@ -7,7 +7,7 @@
     <h2 class="page-title">{{ title }}</h2>
 
     <div class="page-body">
-        {{ body_html | safe }}
+        {{ body_html | linkify | safe }}
     </div>
 </article>
 {% endblock content %}

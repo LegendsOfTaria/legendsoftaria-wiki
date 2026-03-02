@@ -1215,10 +1215,20 @@ strong {
 }
 
 .inline-icon {
-    width: 18px;
-    height: 18px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     vertical-align: middle;
     flex-shrink: 0;
+}
+
+/* Disable the background when in a table, allow full size image */
+td .item-link {
+    background: none;
+    border: none;
+}
+
+/* When using item or npc icons in text, make it smaller to make it look better */
+li .inline-icon {
+    width: 18px;
+    height: 18px;
 }
