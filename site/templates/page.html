@@ -2,6 +2,23 @@
 
 {% block title %}{{ title }} - Legends of Taria Wiki{% endblock title %}
 
+{% block head_meta %}
+<meta name="description" content="{{ title }} - Legends of Taria Wiki guide and reference.">
+<meta name="keywords" content="{{ title }}, Legends of Taria, wiki, guide">
+<!-- Open Graph / rich link embed -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Legends of Taria Wiki">
+<meta property="og:title" content="{{ title }} - Legends of Taria Wiki">
+<meta property="og:description" content="{{ title }} - Legends of Taria Wiki guide and reference.">
+<meta property="og:image" content="https://legendsoftaria.com/appicon.webp">
+<meta property="og:url" content="https://wiki.legendsoftaria.com/{{ slug }}.html">
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ title }} - Legends of Taria Wiki">
+<meta name="twitter:description" content="{{ title }} - Legends of Taria Wiki guide and reference.">
+<meta name="twitter:image" content="https://legendsoftaria.com/appicon.webp">
+{% endblock head_meta %}
+
 {% block content %}
 <article class="regular-page">
     <h2 class="page-title">{{ title }}</h2>

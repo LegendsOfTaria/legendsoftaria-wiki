@@ -87,6 +87,7 @@ pub fn render_regular_pages(tera: &Tera, pages: &[Page]) -> Result<()> {
 
         let mut ctx = TeraContext::new();
         ctx.insert("title", &page.title);
+        ctx.insert("slug", &page.slug);
         ctx.insert("body_html", &page.body_html);
 
         let html = tera

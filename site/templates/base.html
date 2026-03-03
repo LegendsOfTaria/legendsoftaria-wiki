@@ -7,8 +7,21 @@
     <meta name="theme-color" content="#0d0d12">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="description"
-        content="The official wiki for Legends of Taria - your comprehensive guide to skills, items, NPCs, and more.">
+    {% block head_meta %}
+    <meta name="description" content="The official wiki for Legends of Taria - your comprehensive guide to skills, items, NPCs, and more.">
+    <!-- Open Graph / rich link embed -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Legends of Taria Wiki">
+    <meta property="og:title" content="Legends of Taria Wiki">
+    <meta property="og:description" content="The official wiki for Legends of Taria - your comprehensive guide to skills, items, NPCs, and more.">
+    <meta property="og:image" content="https://legendsoftaria.com/appicon.webp">
+    <meta property="og:url" content="https://wiki.legendsoftaria.com/">
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Legends of Taria Wiki">
+    <meta name="twitter:description" content="The official wiki for Legends of Taria - your comprehensive guide to skills, items, NPCs, and more.">
+    <meta name="twitter:image" content="https://legendsoftaria.com/appicon.webp">
+    {% endblock head_meta %}
     <title>{% block title %}Legends of Taria Wiki{% endblock title %}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="https://legendsoftaria.com/appicon.webp" type="image/webp">

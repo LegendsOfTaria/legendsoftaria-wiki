@@ -2,6 +2,23 @@
 
 {% block title %}{{ npc.name }} - Legends of Taria Wiki{% endblock title %}
 
+{% block head_meta %}
+<meta name="description" content="{{ npc.description }}">
+<meta name="keywords" content="{{ npc.name }}, {{ npc.role }}, {{ npc.location }}, Legends of Taria, wiki, NPC">
+<!-- Open Graph / rich link embed -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Legends of Taria Wiki">
+<meta property="og:title" content="{{ npc.name }} - Legends of Taria Wiki">
+<meta property="og:description" content="{{ npc.description }}">
+<meta property="og:image" content="https://wiki.legendsoftaria.com/assets/images/npcs/{{ npc.id }}.png">
+<meta property="og:url" content="https://wiki.legendsoftaria.com/npcs/{{ npc.wiki_name }}.html">
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ npc.name }} - Legends of Taria Wiki">
+<meta name="twitter:description" content="{{ npc.description }}">
+<meta name="twitter:image" content="https://wiki.legendsoftaria.com/assets/images/npcs/{{ npc.id }}.png">
+{% endblock head_meta %}
+
 {% block content %}
 <article class="npc-page">
     <h2 class="page-title">
