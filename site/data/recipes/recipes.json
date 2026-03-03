@@ -9,7 +9,7 @@
         "Level(Smithing, 2)",
         "Item(Item { id: BronzeBar, amount: 1 })"
       ],
-      "xp": 7,
+      "xp": 12,
       "time_ms": 5000
     },
     {
@@ -21,7 +21,7 @@
         "Level(Smithing, 3)",
         "Item(Item { id: BronzeBar, amount: 2 })"
       ],
-      "xp": 14,
+      "xp": 24,
       "time_ms": 5000
     },
     {
@@ -33,7 +33,7 @@
         "Level(Smithing, 3)",
         "Item(Item { id: BronzeBar, amount: 2 })"
       ],
-      "xp": 14,
+      "xp": 24,
       "time_ms": 5000
     },
     {
@@ -45,7 +45,7 @@
         "Level(Smithing, 4)",
         "Item(Item { id: BronzeBar, amount: 3 })"
       ],
-      "xp": 21,
+      "xp": 36,
       "time_ms": 5000
     },
     {
@@ -57,7 +57,7 @@
         "Level(Smithing, 5)",
         "Item(Item { id: BronzeBar, amount: 4 })"
       ],
-      "xp": 28,
+      "xp": 48,
       "time_ms": 5000
     },
     {
@@ -69,7 +69,7 @@
         "Level(Smithing, 7)",
         "Item(Item { id: BronzeBar, amount: 5 })"
       ],
-      "xp": 35,
+      "xp": 60,
       "time_ms": 5000
     },
     {
@@ -81,7 +81,7 @@
         "Level(Smithing, 11)",
         "Item(Item { id: IronBar, amount: 1 })"
       ],
-      "xp": 14,
+      "xp": 25,
       "time_ms": 5000
     },
     {
@@ -93,7 +93,7 @@
         "Level(Smithing, 12)",
         "Item(Item { id: IronBar, amount: 2 })"
       ],
-      "xp": 28,
+      "xp": 50,
       "time_ms": 5000
     },
     {
@@ -105,7 +105,7 @@
         "Level(Smithing, 12)",
         "Item(Item { id: IronBar, amount: 2 })"
       ],
-      "xp": 28,
+      "xp": 50,
       "time_ms": 5000
     },
     {
@@ -117,7 +117,7 @@
         "Level(Smithing, 13)",
         "Item(Item { id: IronBar, amount: 3 })"
       ],
-      "xp": 42,
+      "xp": 75,
       "time_ms": 5000
     },
     {
@@ -129,7 +129,7 @@
         "Level(Smithing, 15)",
         "Item(Item { id: IronBar, amount: 4 })"
       ],
-      "xp": 56,
+      "xp": 100,
       "time_ms": 5000
     },
     {
@@ -141,7 +141,7 @@
         "Level(Smithing, 17)",
         "Item(Item { id: IronBar, amount: 5 })"
       ],
-      "xp": 70,
+      "xp": 125,
       "time_ms": 5000
     },
     {
@@ -153,7 +153,7 @@
         "Level(Smithing, 21)",
         "Item(Item { id: MithrilBar, amount: 1 })"
       ],
-      "xp": 28,
+      "xp": 40,
       "time_ms": 5000
     },
     {
@@ -165,7 +165,7 @@
         "Level(Smithing, 22)",
         "Item(Item { id: MithrilBar, amount: 2 })"
       ],
-      "xp": 56,
+      "xp": 80,
       "time_ms": 5000
     },
     {
@@ -177,7 +177,7 @@
         "Level(Smithing, 22)",
         "Item(Item { id: MithrilBar, amount: 2 })"
       ],
-      "xp": 56,
+      "xp": 80,
       "time_ms": 5000
     },
     {
@@ -189,7 +189,7 @@
         "Level(Smithing, 23)",
         "Item(Item { id: MithrilBar, amount: 3 })"
       ],
-      "xp": 84,
+      "xp": 120,
       "time_ms": 5000
     },
     {
@@ -201,7 +201,7 @@
         "Level(Smithing, 25)",
         "Item(Item { id: MithrilBar, amount: 4 })"
       ],
-      "xp": 112,
+      "xp": 160,
       "time_ms": 5000
     },
     {
@@ -213,7 +213,7 @@
         "Level(Smithing, 27)",
         "Item(Item { id: MithrilBar, amount: 5 })"
       ],
-      "xp": 140,
+      "xp": 200,
       "time_ms": 5000
     },
     {
@@ -225,7 +225,7 @@
         "Level(Smithing, 31)",
         "Item(Item { id: AdamantBar, amount: 1 })"
       ],
-      "xp": 56,
+      "xp": 62,
       "time_ms": 5000
     },
     {
@@ -237,7 +237,7 @@
         "Level(Smithing, 32)",
         "Item(Item { id: AdamantBar, amount: 2 })"
       ],
-      "xp": 112,
+      "xp": 124,
       "time_ms": 5000
     },
     {
@@ -249,7 +249,7 @@
         "Level(Smithing, 32)",
         "Item(Item { id: AdamantBar, amount: 2 })"
       ],
-      "xp": 112,
+      "xp": 124,
       "time_ms": 5000
     },
     {
@@ -261,7 +261,7 @@
         "Level(Smithing, 33)",
         "Item(Item { id: AdamantBar, amount: 3 })"
       ],
-      "xp": 168,
+      "xp": 186,
       "time_ms": 5000
     },
     {
@@ -273,7 +273,7 @@
         "Level(Smithing, 35)",
         "Item(Item { id: AdamantBar, amount: 4 })"
       ],
-      "xp": 224,
+      "xp": 248,
       "time_ms": 5000
     },
     {
@@ -285,7 +285,7 @@
         "Level(Smithing, 37)",
         "Item(Item { id: AdamantBar, amount: 5 })"
       ],
-      "xp": 280,
+      "xp": 310,
       "time_ms": 5000
     }
   ],
@@ -444,7 +444,7 @@
         "Level(Firemaking, 1)",
         "Item(Item { id: BirchLogs, amount: 1 })"
       ],
-      "xp": 2,
+      "xp": 10,
       "time_ms": 3000
     },
     {
@@ -456,7 +456,7 @@
         "Level(Firemaking, 10)",
         "Item(Item { id: OakLogs, amount: 1 })"
       ],
-      "xp": 4,
+      "xp": 30,
       "time_ms": 3000
     },
     {
@@ -468,7 +468,7 @@
         "Level(Firemaking, 20)",
         "Item(Item { id: PineLogs, amount: 1 })"
       ],
-      "xp": 8,
+      "xp": 50,
       "time_ms": 3000
     },
     {
@@ -480,7 +480,7 @@
         "Level(Firemaking, 30)",
         "Item(Item { id: CedarLogs, amount: 1 })"
       ],
-      "xp": 16,
+      "xp": 70,
       "time_ms": 3000
     }
   ],
@@ -494,7 +494,7 @@
         "Level(Cooking, 1)",
         "Item(Item { id: RawShrimp, amount: 1 })"
       ],
-      "xp": 10,
+      "xp": 11,
       "time_ms": 3000
     },
     {
@@ -503,10 +503,10 @@
       "output": "Anchovies",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 5)",
+        "Level(Cooking, 8)",
         "Item(Item { id: RawAnchovies, amount: 1 })"
       ],
-      "xp": 20,
+      "xp": 22,
       "time_ms": 3000
     },
     {
@@ -515,10 +515,10 @@
       "output": "Sardine",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 10)",
+        "Level(Cooking, 15)",
         "Item(Item { id: RawSardine, amount: 1 })"
       ],
-      "xp": 30,
+      "xp": 34,
       "time_ms": 3000
     },
     {
@@ -527,10 +527,10 @@
       "output": "Trout",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 15)",
+        "Level(Cooking, 22)",
         "Item(Item { id: RawTrout, amount: 1 })"
       ],
-      "xp": 40,
+      "xp": 45,
       "time_ms": 3000
     },
     {
@@ -539,10 +539,10 @@
       "output": "Bass",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 20)",
+        "Level(Cooking, 30)",
         "Item(Item { id: RawBass, amount: 1 })"
       ],
-      "xp": 50,
+      "xp": 56,
       "time_ms": 3000
     },
     {
@@ -551,10 +551,10 @@
       "output": "Salmon",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 25)",
+        "Level(Cooking, 37)",
         "Item(Item { id: RawSalmon, amount: 1 })"
       ],
-      "xp": 60,
+      "xp": 67,
       "time_ms": 3000
     },
     {
@@ -563,10 +563,10 @@
       "output": "Crab",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 30)",
+        "Level(Cooking, 45)",
         "Item(Item { id: RawCrab, amount: 1 })"
       ],
-      "xp": 70,
+      "xp": 78,
       "time_ms": 3000
     },
     {
@@ -575,10 +575,10 @@
       "output": "Lobster",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 35)",
+        "Level(Cooking, 52)",
         "Item(Item { id: RawLobster, amount: 1 })"
       ],
-      "xp": 80,
+      "xp": 90,
       "time_ms": 3000
     },
     {
@@ -587,10 +587,10 @@
       "output": "Octopus",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 40)",
+        "Level(Cooking, 60)",
         "Item(Item { id: RawOctopus, amount: 1 })"
       ],
-      "xp": 90,
+      "xp": 101,
       "time_ms": 3000
     },
     {
@@ -599,10 +599,10 @@
       "output": "Swordfish",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 45)",
+        "Level(Cooking, 67)",
         "Item(Item { id: RawSwordfish, amount: 1 })"
       ],
-      "xp": 100,
+      "xp": 112,
       "time_ms": 3000
     },
     {
@@ -611,10 +611,10 @@
       "output": "Shark",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 50)",
+        "Level(Cooking, 75)",
         "Item(Item { id: RawShark, amount: 1 })"
       ],
-      "xp": 110,
+      "xp": 123,
       "time_ms": 3000
     },
     {
@@ -623,10 +623,10 @@
       "output": "MantaRay",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 55)",
+        "Level(Cooking, 82)",
         "Item(Item { id: RawMantaRay, amount: 1 })"
       ],
-      "xp": 120,
+      "xp": 135,
       "time_ms": 3000
     },
     {
@@ -635,10 +635,10 @@
       "output": "Tuna",
       "output_amount": 1,
       "requirements": [
-        "Level(Cooking, 60)",
+        "Level(Cooking, 90)",
         "Item(Item { id: RawTuna, amount: 1 })"
       ],
-      "xp": 130,
+      "xp": 146,
       "time_ms": 3000
     }
   ],
@@ -653,7 +653,7 @@
         "Item(Item { id: CopperOre, amount: 1 })",
         "Item(Item { id: TinOre, amount: 1 })"
       ],
-      "xp": 2,
+      "xp": 6,
       "time_ms": 3000
     },
     {
@@ -665,7 +665,7 @@
         "Level(Smithing, 10)",
         "Item(Item { id: IronOre, amount: 1 })"
       ],
-      "xp": 4,
+      "xp": 13,
       "time_ms": 3000
     },
     {
@@ -677,7 +677,7 @@
         "Level(Smithing, 20)",
         "Item(Item { id: MithrilOre, amount: 1 })"
       ],
-      "xp": 8,
+      "xp": 22,
       "time_ms": 3000
     },
     {
@@ -689,7 +689,7 @@
         "Level(Smithing, 30)",
         "Item(Item { id: AdamantOre, amount: 1 })"
       ],
-      "xp": 16,
+      "xp": 35,
       "time_ms": 3000
     }
   ]

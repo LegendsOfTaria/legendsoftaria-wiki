@@ -5,19 +5,22 @@
   "location": "Forests",
   "role": "Monster",
   "description": "Ent that can be fought for combat experience and loot.",
-  "level": 10,
+  "level": 31,
   "drops": [
     20,
-    38,
-    12,
-    78,
-    2,
-    3
+    48,
+    28,
+    29,
+    30,
+    5,
+    31,
+    81,
+    4
   ],
   "stats": {
-    "Melee": 9,
-    "Health": 16,
-    "Defense": 8
+    "Melee": 32,
+    "Health": 65,
+    "Defense": 29
   },
   "wiki_name": "ent-6"
 }

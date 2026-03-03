@@ -5,19 +5,22 @@
   "location": "Goblin camps and caves",
   "role": "Monster",
   "description": "Goblin that can be fought for combat experience and loot.",
-  "level": 2,
+  "level": 10,
   "drops": [
     20,
-    38,
-    12,
-    78,
-    2,
-    3
+    44,
+    9,
+    10,
+    11,
+    3,
+    21,
+    79,
+    2
   ],
   "stats": {
-    "Health": 6,
-    "Melee": 2,
-    "Defense": 2
+    "Health": 15,
+    "Melee": 8,
+    "Defense": 7
   },
   "wiki_name": "goblin-14"
 }

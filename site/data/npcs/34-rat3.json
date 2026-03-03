@@ -1,21 +1,26 @@
 {
   "id": 34,
-  "name": "Rat",
+  "name": "Giant Rat",
   "icon": "/assets/images/npcs/34.png",
   "location": "Sewers and basements",
   "role": "Monster",
-  "description": "Rat that can be fought for combat experience and loot.",
-  "level": 1,
+  "description": "Giant Rat that can be fought for combat experience and loot.",
+  "level": 23,
   "drops": [
     20,
-    38,
-    12,
-    78,
-    2,
+    46,
+    23,
+    24,
+    25,
+    4,
+    26,
+    80,
     3
   ],
   "stats": {
-    "Health": 5
+    "Health": 44,
+    "Melee": 22,
+    "Defense": 20
   },
-  "wiki_name": "rat-34"
+  "wiki_name": "giant-rat-34"
 }

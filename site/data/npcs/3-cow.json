@@ -9,10 +9,12 @@
   "drops": [
     20,
     38,
-    12,
-    78,
+    17,
+    18,
+    19,
     2,
-    3
+    12,
+    78
   ],
   "notes": "Drops bones when defeated.",
   "stats": {
