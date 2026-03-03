@@ -20,9 +20,9 @@ To begin woodcutting, equip an axe in your hotbar. Approach a tree and tap **Cho
 | Tree | Level | XP | Respawn Time | Minimum Axe | Notes |
 |------|-------|----|--------------|-------------|-------|
 | <item:birch-logs> | 1 | 10 | 4-6 seconds | <item:bronze-axe> | Fastest early training |
-| <item:oak-logs> | 10 | 20 | 5-8 seconds | <item:iron-axe> | Better XP than Birch |
-| <item:pine-logs> | 20 | 40 | 7-10 seconds | <item:mithril-axe> | Strong mid-level XP |
-| <item:cedar-logs> | 30 | 80 | 9-12 seconds | <item:adamant-axe> | Best currently released tree |
+| <item:oak-logs> | 10 | 21 | 5-8 seconds | <item:iron-axe> | Better XP than Birch |
+| <item:pine-logs> | 20 | 32 | 7-10 seconds | <item:mithril-axe> | Strong mid-level XP |
+| <item:cedar-logs> | 30 | 44 | 9-12 seconds | <item:adamant-axe> | Best currently released tree |
 
 ## Training Tips
 

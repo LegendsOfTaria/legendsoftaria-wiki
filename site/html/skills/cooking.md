@@ -12,19 +12,19 @@ All fish are cooked at a campfire. Each recipe takes 3 seconds to complete.
 
 | Cooked Fish | Level | Raw Ingredient | XP |
 |-------------|---------------|----------------|-----|
-| <item:shrimp> | 1 | <item:raw-shrimp> | 10 |
-| <item:anchovies> | 5 | <item:raw-anchovies> | 20 |
-| <item:sardine> | 10 | <item:raw-sardine> | 30 |
-| <item:trout> | 15 | <item:raw-trout> | 40 |
-| <item:bass> | 20 | <item:raw-bass> | 50 |
-| <item:salmon> | 25 | <item:raw-salmon> | 60 |
-| <item:crab> | 30 | <item:raw-crab> | 70 |
-| <item:lobster> | 35 | <item:raw-lobster> | 80 |
-| <item:octopus> | 40 | <item:raw-octopus> | 90 |
-| <item:swordfish> | 45 | <item:raw-swordfish> | 100 |
-| <item:shark> | 50 | <item:raw-shark> | 110 |
-| <item:manta-ray> | 55 | <item:raw-manta-ray> | 120 |
-| <item:tuna> | 60 | <item:raw-tuna> | 130 |
+| <item:shrimp> | 1 | <item:raw-shrimp> | 11 |
+| <item:anchovies> | 8 | <item:raw-anchovies> | 22 |
+| <item:sardine> | 15 | <item:raw-sardine> | 34 |
+| <item:trout> | 22 | <item:raw-trout> | 45 |
+| <item:bass> | 30 | <item:raw-bass> | 56 |
+| <item:salmon> | 37 | <item:raw-salmon> | 67 |
+| <item:crab> | 45 | <item:raw-crab> | 78 |
+| <item:lobster> | 52 | <item:raw-lobster> | 90 |
+| <item:octopus> | 60 | <item:raw-octopus> | 101 |
+| <item:swordfish> | 67 | <item:raw-swordfish> | 112 |
+| <item:shark> | 75 | <item:raw-shark> | 123 |
+| <item:manta-ray> | 82 | <item:raw-manta-ray> | 135 |
+| <item:tuna> | 90 | <item:raw-tuna> | 146 |
 
 ## Training Tips
 

@@ -14,10 +14,10 @@ Use a furnace to smelt ores into bars. Each bar type requires a minimum Smithing
 
 | Bar | Level | Materials | XP | Time |
 |-----|-------|-----------|-----|------|
-| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 2 | 3 seconds |
-| <item:iron-bar> | 10 | <item:iron-ore> | 4 | 3 seconds |
-| <item:mithril-bar> | 20 | <item:mithril-ore> | 8 | 3 seconds |
-| <item:adamant-bar> | 30 | <item:adamant-ore> | 16 | 3 seconds |
+| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 6 | 3 seconds |
+| <item:iron-bar> | 10 | <item:iron-ore> | 13 | 3 seconds |
+| <item:mithril-bar> | 20 | <item:mithril-ore> | 22 | 3 seconds |
+| <item:adamant-bar> | 30 | <item:adamant-ore> | 35 | 3 seconds |
 
 ## Smithing at the Anvil
 
@@ -25,41 +25,45 @@ Use a furnace to smelt ores into bars. Each bar type requires a minimum Smithing
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:bronze-sword> | 2 | 1 <item:bronze-bar> | 7 |
-| <item:bronze-pickaxe> | 3 | 2 <item:bronze-bar> | 14 |
-| <item:bronze-helm> | 4 | 3 <item:bronze-bar> | 21 |
-| <item:bronze-legs> | 5 | 4 <item:bronze-bar> | 28 |
-| <item:bronze-body> | 7 | 5 <item:bronze-bar> | 35 |
+| <item:bronze-sword> | 2 | 1 <item:bronze-bar> | 12 |
+| <item:bronze-pickaxe> | 3 | 2 <item:bronze-bar> | 24 |
+| <item:bronze-axe> | 3 | 2 <item:bronze-bar> | 24 |
+| <item:bronze-helm> | 4 | 3 <item:bronze-bar> | 36 |
+| <item:bronze-legs> | 5 | 4 <item:bronze-bar> | 48 |
+| <item:bronze-body> | 7 | 5 <item:bronze-bar> | 60 |
 
 ### Iron Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:iron-sword> | 11 | 1 <item:iron-bar> | 14 |
-| <item:iron-pickaxe> | 12 | 2 <item:iron-bar> | 28 |
-| <item:iron-helm> | 13 | 3 <item:iron-bar> | 42 |
-| <item:iron-legs> | 15 | 4 <item:iron-bar> | 56 |
-| <item:iron-body> | 17 | 5 <item:iron-bar> | 70 |
+| <item:iron-sword> | 11 | 1 <item:iron-bar> | 25 |
+| <item:iron-pickaxe> | 12 | 2 <item:iron-bar> | 50 |
+| <item:iron-axe> | 12 | 2 <item:iron-bar> | 50 |
+| <item:iron-helm> | 13 | 3 <item:iron-bar> | 75 |
+| <item:iron-legs> | 15 | 4 <item:iron-bar> | 100 |
+| <item:iron-body> | 17 | 5 <item:iron-bar> | 125 |
 
 ### Mithril Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:mithril-sword> | 21 | 1 <item:mithril-bar> | 28 |
-| <item:mithril-pickaxe> | 22 | 2 <item:mithril-bar> | 56 |
-| <item:mithril-helm> | 23 | 3 <item:mithril-bar> | 84 |
-| <item:mithril-legs> | 25 | 4 <item:mithril-bar> | 112 |
-| <item:mithril-body> | 27 | 5 <item:mithril-bar> | 140 |
+| <item:mithril-sword> | 21 | 1 <item:mithril-bar> | 40 |
+| <item:mithril-pickaxe> | 22 | 2 <item:mithril-bar> | 80 |
+| <item:mithril-axe> | 22 | 2 <item:mithril-bar> | 80 |
+| <item:mithril-helm> | 23 | 3 <item:mithril-bar> | 120 |
+| <item:mithril-legs> | 25 | 4 <item:mithril-bar> | 160 |
+| <item:mithril-body> | 27 | 5 <item:mithril-bar> | 200 |
 
 ### Adamant Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:adamant-sword> | 31 | 1 <item:adamant-bar> | 56 |
-| <item:adamant-pickaxe> | 32 | 2 <item:adamant-bar> | 112 |
-| <item:adamant-helm> | 33 | 3 <item:adamant-bar> | 168 |
-| <item:adamant-legs> | 35 | 4 <item:adamant-bar> | 224 |
-| <item:adamant-body> | 37 | 5 <item:adamant-bar> | 280 |
+| <item:adamant-sword> | 31 | 1 <item:adamant-bar> | 62 |
+| <item:adamant-pickaxe> | 32 | 2 <item:adamant-bar> | 124 |
+| <item:adamant-axe> | 32 | 2 <item:adamant-bar> | 124 |
+| <item:adamant-helm> | 33 | 3 <item:adamant-bar> | 186 |
+| <item:adamant-legs> | 35 | 4 <item:adamant-bar> | 248 |
+| <item:adamant-body> | 37 | 5 <item:adamant-bar> | 310 |
 
 ## Training Tips
 

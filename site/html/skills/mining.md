@@ -21,9 +21,9 @@ To begin mining, you'll need a pickaxe equipped in your hotbar. Approach a rock 
 |-----|-------|-----|--------------|-------|
 | <item:copper-ore> | 1 | 10 | 4-6 seconds | Used with <item:tin-ore> to make <item:bronze-bar> |
 | <item:tin-ore> | 1 | 10 | 4-6 seconds | Used with <item:copper-ore> to make <item:bronze-bar> |
-| <item:iron-ore> | 10 | 20 | 5-8 seconds | Smelted into <item:iron-bar> |
-| <item:mithril-ore> | 20 | 40 | 7-10 seconds | Requires <item:iron-pickaxe> or better |
-| <item:adamant-ore> | 30 | 80 | 9-12 seconds | Requires <item:mithril-pickaxe> or better |
+| <item:iron-ore> | 10 | 21 | 5-8 seconds | Smelted into <item:iron-bar> |
+| <item:mithril-ore> | 20 | 32 | 7-10 seconds | Requires <item:iron-pickaxe> or better |
+| <item:adamant-ore> | 30 | 45 | 9-12 seconds | Requires <item:mithril-pickaxe> or better |
 
 ## Training Tips
 
