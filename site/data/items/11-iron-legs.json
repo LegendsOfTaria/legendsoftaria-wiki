@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 16
   },
-  "wiki_name": "iron-legs-11"
+  "wiki_name": "iron-legs-11",
+  "requirements": {
+    "Defense": 10
+  }
 }

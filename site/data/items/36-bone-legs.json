@@ -11,7 +11,8 @@
     "Melee": 3
   },
   "requirements": {
-    "Defense": 30
+    "Defense": 30,
+    "Melee": 40
   },
   "wiki_name": "bone-legs-36"
 }

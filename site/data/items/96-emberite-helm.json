@@ -1,0 +1,15 @@
+{
+  "id": 96,
+  "name": "Emberite Helm",
+  "icon": "/assets/images/items/96.png",
+  "description": "An emberite helmet.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 32
+  },
+  "requirements": {
+    "Defense": 50
+  },
+  "sell_price": 1550,
+  "wiki_name": "emberite-helm-96"
+}

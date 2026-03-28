@@ -1,0 +1,9 @@
+{
+  "id": 87,
+  "name": "Resurrect Scroll",
+  "icon": "/assets/images/items/87.png",
+  "description": "A scroll that teleports you to where you last died.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "resurrect-scroll-87"
+}

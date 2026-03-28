@@ -1,0 +1,15 @@
+{
+  "id": 106,
+  "name": "Viridium Legs",
+  "icon": "/assets/images/items/106.png",
+  "description": "A pair of viridium legs.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 39
+  },
+  "requirements": {
+    "Defense": 40
+  },
+  "sell_price": 1650,
+  "wiki_name": "viridium-legs-106"
+}

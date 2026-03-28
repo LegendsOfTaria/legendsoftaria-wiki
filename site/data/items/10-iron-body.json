@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 28
   },
-  "wiki_name": "iron-body-10"
+  "wiki_name": "iron-body-10",
+  "requirements": {
+    "Defense": 10
+  }
 }

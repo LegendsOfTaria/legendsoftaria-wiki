@@ -1,0 +1,15 @@
+{
+  "id": 99,
+  "name": "Emberite Sword",
+  "icon": "/assets/images/items/99.png",
+  "description": "A sword forged from emberite.",
+  "item_type": "Weapon",
+  "stats": {
+    "Melee": 41
+  },
+  "requirements": {
+    "Melee": 50
+  },
+  "sell_price": 750,
+  "wiki_name": "emberite-sword-99"
+}

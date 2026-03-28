@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "name": "Emberite Pickaxe",
+  "icon": "/assets/images/items/100.png",
+  "description": "This can be used to mine ore from rocks.",
+  "item_type": "Tool",
+  "stats": {
+    "Melee": 34
+  },
+  "sell_price": 830,
+  "wiki_name": "emberite-pickaxe-100"
+}

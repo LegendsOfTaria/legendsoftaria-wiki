@@ -1,0 +1,9 @@
+{
+  "id": 102,
+  "name": "Viridium Ore",
+  "icon": "/assets/images/items/102.png",
+  "description": "A piece of viridium ore. It can be smelted into viridium bars.",
+  "item_type": "Ore",
+  "sell_price": 155,
+  "wiki_name": "viridium-ore-102"
+}

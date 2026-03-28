@@ -1,0 +1,15 @@
+{
+  "id": 97,
+  "name": "Emberite Body",
+  "icon": "/assets/images/items/97.png",
+  "description": "An emberite body.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 105
+  },
+  "requirements": {
+    "Defense": 50
+  },
+  "sell_price": 3800,
+  "wiki_name": "emberite-body-97"
+}

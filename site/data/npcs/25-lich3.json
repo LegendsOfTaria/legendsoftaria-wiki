@@ -5,7 +5,7 @@
   "location": "Dark dungeons",
   "role": "Monster",
   "description": "Lich that can be fought for combat experience and loot.",
-  "level": 50,
+  "level": 40,
   "drops": [
     20,
     44,

@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 30
   },
-  "wiki_name": "adamant-legs-30"
+  "wiki_name": "adamant-legs-30",
+  "requirements": {
+    "Defense": 30
+  }
 }

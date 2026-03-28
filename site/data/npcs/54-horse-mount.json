@@ -1,0 +1,11 @@
+{
+  "id": 54,
+  "name": "Horse",
+  "icon": "/assets/images/npcs/54.png",
+  "location": "Towns and villages",
+  "role": "NPC",
+  "description": "Horse found in the world of Taria.",
+  "level": 1,
+  "drops": [],
+  "wiki_name": "horse-54"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 109,
+  "name": "Viridium Axe",
+  "icon": "/assets/images/items/109.png",
+  "description": "This can be used to chop down trees.",
+  "item_type": "Weapon",
+  "stats": {
+    "Melee": 26
+  },
+  "sell_price": 580,
+  "wiki_name": "viridium-axe-109"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 84,
+  "name": "Guild Space Increase Token",
+  "icon": "/assets/images/items/84.png",
+  "description": "A token that allows you to increase your guild's member capacity by 10.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "guild-space-increase-token-84"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 107,
+  "name": "Viridium Sword",
+  "icon": "/assets/images/items/107.png",
+  "description": "A sword forged from viridium.",
+  "item_type": "Weapon",
+  "stats": {
+    "Melee": 31
+  },
+  "requirements": {
+    "Melee": 40
+  },
+  "sell_price": 524,
+  "wiki_name": "viridium-sword-107"
+}

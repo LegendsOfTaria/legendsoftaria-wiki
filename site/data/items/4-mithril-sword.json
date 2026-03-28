@@ -10,5 +10,8 @@
   "stats": {
     "Melee": 16
   },
-  "wiki_name": "mithril-sword-4"
+  "wiki_name": "mithril-sword-4",
+  "requirements": {
+    "Melee": 20
+  }
 }

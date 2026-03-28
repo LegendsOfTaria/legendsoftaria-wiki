@@ -1,0 +1,9 @@
+{
+  "id": 103,
+  "name": "Viridium Bar",
+  "icon": "/assets/images/items/103.png",
+  "description": "A bar of viridium. It can be used to craft various items.",
+  "item_type": "Bar",
+  "sell_price": 245,
+  "wiki_name": "viridium-bar-103"
+}

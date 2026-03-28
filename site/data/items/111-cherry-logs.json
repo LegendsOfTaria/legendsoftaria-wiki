@@ -1,0 +1,9 @@
+{
+  "id": 111,
+  "name": "Cherry Logs",
+  "icon": "/assets/images/items/111.png",
+  "description": "Logs cut from a cherry tree.",
+  "item_type": "Misc",
+  "sell_price": 1,
+  "wiki_name": "cherry-logs-111"
+}

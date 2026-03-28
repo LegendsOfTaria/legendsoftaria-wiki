@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 8
   },
-  "wiki_name": "iron-helm-9"
+  "wiki_name": "iron-helm-9",
+  "requirements": {
+    "Defense": 10
+  }
 }

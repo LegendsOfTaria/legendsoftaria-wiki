@@ -11,7 +11,8 @@
     "Melee": 2
   },
   "requirements": {
-    "Defense": 30
+    "Defense": 30,
+    "Melee": 40
   },
   "wiki_name": "bone-helm-34"
 }

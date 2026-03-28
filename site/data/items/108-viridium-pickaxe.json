@@ -1,0 +1,12 @@
+{
+  "id": 108,
+  "name": "Viridium Pickaxe",
+  "icon": "/assets/images/items/108.png",
+  "description": "This can be used to mine ore from rocks.",
+  "item_type": "Tool",
+  "stats": {
+    "Melee": 26
+  },
+  "sell_price": 580,
+  "wiki_name": "viridium-pickaxe-108"
+}

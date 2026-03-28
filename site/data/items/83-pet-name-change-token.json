@@ -1,0 +1,9 @@
+{
+  "id": 83,
+  "name": "Pet Name Change Token",
+  "icon": "/assets/images/items/83.png",
+  "description": "A token that allows you to change your pet or mount's name.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "pet-name-change-token-83"
+}

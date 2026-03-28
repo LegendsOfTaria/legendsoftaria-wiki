@@ -1,0 +1,9 @@
+{
+  "id": 86,
+  "name": "Remote Bank",
+  "icon": "/assets/images/items/86.png",
+  "description": "A token that allows you to access your bank remotely.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "remote-bank-86"
+}

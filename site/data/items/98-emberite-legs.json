@@ -1,0 +1,15 @@
+{
+  "id": 98,
+  "name": "Emberite Legs",
+  "icon": "/assets/images/items/98.png",
+  "description": "A pair of emberite legs.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 50
+  },
+  "requirements": {
+    "Defense": 50
+  },
+  "sell_price": 2300,
+  "wiki_name": "emberite-legs-98"
+}

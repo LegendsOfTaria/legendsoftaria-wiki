@@ -1,0 +1,9 @@
+{
+  "id": 110,
+  "name": "Maple Logs",
+  "icon": "/assets/images/items/110.png",
+  "description": "Logs cut from a maple tree.",
+  "item_type": "Misc",
+  "sell_price": 1,
+  "wiki_name": "maple-logs-110"
+}

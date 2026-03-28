@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 22
   },
-  "wiki_name": "mithril-legs-25"
+  "wiki_name": "mithril-legs-25",
+  "requirements": {
+    "Defense": 20
+  }
 }

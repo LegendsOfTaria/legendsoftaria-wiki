@@ -10,5 +10,8 @@
   "stats": {
     "Melee": 11
   },
-  "wiki_name": "iron-sword-3"
+  "wiki_name": "iron-sword-3",
+  "requirements": {
+    "Melee": 10
+  }
 }

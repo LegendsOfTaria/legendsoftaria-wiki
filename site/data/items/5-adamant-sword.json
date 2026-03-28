@@ -10,5 +10,8 @@
   "stats": {
     "Melee": 23
   },
-  "wiki_name": "adamant-sword-5"
+  "wiki_name": "adamant-sword-5",
+  "requirements": {
+    "Melee": 30
+  }
 }

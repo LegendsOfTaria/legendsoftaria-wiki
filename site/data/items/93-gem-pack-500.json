@@ -1,0 +1,9 @@
+{
+  "id": 93,
+  "name": "500 Gem Pack",
+  "icon": "/assets/images/items/93.png",
+  "description": "A pack containing 500 gems. Can be sold to other players. Use it to redeem.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "500-gem-pack-93"
+}

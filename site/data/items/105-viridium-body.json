@@ -1,0 +1,15 @@
+{
+  "id": 105,
+  "name": "Viridium Body",
+  "icon": "/assets/images/items/105.png",
+  "description": "A viridium body.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 82
+  },
+  "requirements": {
+    "Defense": 40
+  },
+  "sell_price": 2600,
+  "wiki_name": "viridium-body-105"
+}

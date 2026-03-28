@@ -1,0 +1,9 @@
+{
+  "id": 95,
+  "name": "Emberite Bar",
+  "icon": "/assets/images/items/95.png",
+  "description": "A bar of emberite. It can be used to craft various items.",
+  "item_type": "Bar",
+  "sell_price": 165,
+  "wiki_name": "emberite-bar-95"
+}

@@ -1,0 +1,9 @@
+{
+  "id": 94,
+  "name": "Emberite Ore",
+  "icon": "/assets/images/items/94.png",
+  "description": "A piece of emberite ore. It can be smelted into emberite bars.",
+  "item_type": "Ore",
+  "sell_price": 105,
+  "wiki_name": "emberite-ore-94"
+}

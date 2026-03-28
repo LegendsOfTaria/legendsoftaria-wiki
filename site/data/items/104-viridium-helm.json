@@ -1,0 +1,15 @@
+{
+  "id": 104,
+  "name": "Viridium Helm",
+  "icon": "/assets/images/items/104.png",
+  "description": "A viridium helmet.",
+  "item_type": "Armor",
+  "stats": {
+    "Defense": 25
+  },
+  "requirements": {
+    "Defense": 40
+  },
+  "sell_price": 1100,
+  "wiki_name": "viridium-helm-104"
+}

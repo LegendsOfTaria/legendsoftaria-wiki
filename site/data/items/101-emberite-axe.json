@@ -1,0 +1,12 @@
+{
+  "id": 101,
+  "name": "Emberite Axe",
+  "icon": "/assets/images/items/101.png",
+  "description": "This can be used to chop down trees.",
+  "item_type": "Weapon",
+  "stats": {
+    "Melee": 34
+  },
+  "sell_price": 830,
+  "wiki_name": "emberite-axe-101"
+}

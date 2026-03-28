@@ -1,0 +1,9 @@
+{
+  "id": 85,
+  "name": "Guild Name Change Token",
+  "icon": "/assets/images/items/85.png",
+  "description": "A token that allows you to change your guild's name.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "guild-name-change-token-85"
+}

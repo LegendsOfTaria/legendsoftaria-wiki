@@ -1,0 +1,9 @@
+{
+  "id": 82,
+  "name": "Name Change Token",
+  "icon": "/assets/images/items/82.png",
+  "description": "A token that allows you to change your character's name.",
+  "item_type": "Misc",
+  "sell_price": 0,
+  "wiki_name": "name-change-token-82"
+}

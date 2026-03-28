@@ -9,5 +9,8 @@
   "stats": {
     "Defense": 19
   },
-  "wiki_name": "adamant-helm-28"
+  "wiki_name": "adamant-helm-28",
+  "requirements": {
+    "Defense": 30
+  }
 }
