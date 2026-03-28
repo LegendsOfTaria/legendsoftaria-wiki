@@ -8,23 +8,23 @@ To cook food, you need raw fish in your inventory and access to a campfire. Tap 
 
 ## Cooking Recipes
 
-All fish are cooked at a campfire. Each recipe takes 3 seconds to complete.
+All fish are cooked at a campfire.
 
-| Cooked Fish | Level | Raw Ingredient | XP |
-|-------------|---------------|----------------|-----|
-| <item:shrimp> | 1 | <item:raw-shrimp> | 11 |
-| <item:anchovies> | 8 | <item:raw-anchovies> | 22 |
-| <item:sardine> | 15 | <item:raw-sardine> | 34 |
-| <item:trout> | 22 | <item:raw-trout> | 45 |
-| <item:bass> | 30 | <item:raw-bass> | 56 |
-| <item:salmon> | 37 | <item:raw-salmon> | 67 |
-| <item:crab> | 45 | <item:raw-crab> | 78 |
-| <item:lobster> | 52 | <item:raw-lobster> | 90 |
-| <item:octopus> | 60 | <item:raw-octopus> | 101 |
-| <item:swordfish> | 67 | <item:raw-swordfish> | 112 |
-| <item:shark> | 75 | <item:raw-shark> | 123 |
-| <item:manta-ray> | 82 | <item:raw-manta-ray> | 135 |
-| <item:tuna> | 90 | <item:raw-tuna> | 146 |
+| Cooked Fish | Level | Raw Ingredient | XP | Time |
+|-------------|-------|----------------|----|------|
+| <item:shrimp> | 1 | <item:raw-shrimp> | 14 | 8s |
+| <item:anchovies> | 8 | <item:raw-anchovies> | 28 | 8s |
+| <item:sardine> | 15 | <item:raw-sardine> | 42 | 8s |
+| <item:trout> | 22 | <item:raw-trout> | 56 | 9.5s |
+| <item:bass> | 30 | <item:raw-bass> | 70 | 9.5s |
+| <item:salmon> | 37 | <item:raw-salmon> | 84 | 9.5s |
+| <item:crab> | 45 | <item:raw-crab> | 98 | 10s |
+| <item:lobster> | 52 | <item:raw-lobster> | 112 | 10s |
+| <item:octopus> | 60 | <item:raw-octopus> | 126 | 10s |
+| <item:swordfish> | 67 | <item:raw-swordfish> | 140 | 10s |
+| <item:shark> | 75 | <item:raw-shark> | 154 | 10s |
+| <item:manta-ray> | 82 | <item:raw-manta-ray> | 168 | 10s |
+| <item:tuna> | 90 | <item:raw-tuna> | 182 | 10s |
 
 ## Training Tips
 

@@ -18,30 +18,39 @@ Armor provides defensive bonuses that stack with your Defense level. Armor is ty
 
 ### Body Armor
 
-| Armor | Level | Notes |
-|-------|-------|-------|
-| <item:bronze-body> | - | Basic protection |
-| <item:iron-body> | - | Improved defense |
-| <item:mithril-body> | - | Good protection |
-| <item:adamant-body> | - | Excellent protection |
+| Armor | Defense Level | Notes |
+|-------|--------------|-------|
+| <item:bronze-body> | 1 | Basic protection |
+| <item:iron-body> | 10 | Improved defense |
+| <item:mithril-body> | 20 | Good protection |
+| <item:bone-body> | 30 | Bone armor alternative |
+| <item:adamant-body> | 30 | Strong protection |
+| <item:viridium-body> | 40 | Excellent protection |
+| <item:emberite-body> | 50 | Best body armor |
 
 ### Helmets
 
-| Armor | Level | Notes |
-|-------|-------|-------|
-| <item:bronze-helm> | - | Basic head protection |
-| <item:iron-helm> | - | Improved head defense |
-| <item:mithril-helm> | - | Good head protection |
-| <item:adamant-helm> | - | Excellent head protection |
+| Armor | Defense Level | Notes |
+|-------|--------------|-------|
+| <item:bronze-helm> | 1 | Basic head protection |
+| <item:iron-helm> | 10 | Improved head defense |
+| <item:mithril-helm> | 20 | Good head protection |
+| <item:bone-helm> | 30 | Bone helm alternative |
+| <item:adamant-helm> | 30 | Strong head protection |
+| <item:viridium-helm> | 40 | Excellent head protection |
+| <item:emberite-helm> | 50 | Best helm |
 
 ### Leg Armor
 
-| Armor | Level | Notes |
-|-------|-------|-------|
-| <item:bronze-legs> | - | Basic leg protection |
-| <item:iron-legs> | - | Improved leg defense |
-| <item:mithril-legs> | - | Good leg protection |
-| <item:adamant-legs> | - | Excellent leg protection |
+| Armor | Defense Level | Notes |
+|-------|--------------|-------|
+| <item:bronze-legs> | 1 | Basic leg protection |
+| <item:iron-legs> | 10 | Improved leg defense |
+| <item:mithril-legs> | 20 | Good leg protection |
+| <item:bone-legs> | 30 | Bone legs alternative |
+| <item:adamant-legs> | 30 | Strong leg protection |
+| <item:viridium-legs> | 40 | Excellent leg protection |
+| <item:emberite-legs> | 50 | Best leg armor |
 
 ## Training Tips
 

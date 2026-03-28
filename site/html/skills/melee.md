@@ -31,12 +31,14 @@ When you hit, damage is calculated using:
 
 Melee weapons are typically crafted through [Smithing](/skills/smithing.html). Higher tier weapons provide better attack and strength bonuses.
 
-| Tier | Examples | Notes |
-|------|----------|-------|
-| Bronze | <item:bronze-sword> | Starter weapons, low bonuses |
-| Iron | <item:iron-sword> | Entry-level upgrade |
-| Mithril | <item:mithril-sword> | Mid-tier weapons |
-| Adamant | <item:adamant-sword> | High-tier weapons |
+| Tier | Examples | Melee Level |
+|------|----------|-------------|
+| Bronze | <item:bronze-sword> | 1 |
+| Iron | <item:iron-sword> | 10 |
+| Mithril | <item:mithril-sword> | 20 |
+| Adamant | <item:adamant-sword> | 30 |
+| Viridium | <item:viridium-sword> | 40 |
+| Emberite | <item:emberite-sword> | 50 |
 
 ## Training Tips
 

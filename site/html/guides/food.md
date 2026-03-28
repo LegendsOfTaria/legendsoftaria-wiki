@@ -17,18 +17,18 @@ Cooked fish are the main healing items in the game. Raw fish must be cooked at a
 | Food | ![Cooking](/assets/images/skills/cooking.png) Level | Heals | Source |
 |------|-------|-------|--------|
 | <item:shrimp> | 1 | Low | <item:raw-shrimp> |
-| <item:anchovies> | 5 | Low | <item:raw-anchovies> |
-| <item:sardine> | 10 | Low-Medium | <item:raw-sardine> |
-| <item:trout> | 15 | Medium | <item:raw-trout> |
-| <item:bass> | 20 | Medium | <item:raw-bass> |
-| <item:salmon> | 25 | Medium-High | <item:raw-salmon> |
-| <item:crab> | 30 | Medium-High | <item:raw-crab> |
-| <item:lobster> | 35 | High | <item:raw-lobster> |
-| <item:octopus> | 40 | High | <item:raw-octopus> |
-| <item:swordfish> | 45 | High | <item:raw-swordfish> |
-| <item:shark> | 50 | Very High | <item:raw-shark> |
-| <item:manta-ray> | 55 | Very High | <item:raw-manta-ray> |
-| <item:tuna> | 60 | Highest | <item:raw-tuna> |
+| <item:anchovies> | 8 | Low | <item:raw-anchovies> |
+| <item:sardine> | 15 | Low-Medium | <item:raw-sardine> |
+| <item:trout> | 22 | Medium | <item:raw-trout> |
+| <item:bass> | 30 | Medium | <item:raw-bass> |
+| <item:salmon> | 37 | Medium-High | <item:raw-salmon> |
+| <item:crab> | 45 | Medium-High | <item:raw-crab> |
+| <item:lobster> | 52 | High | <item:raw-lobster> |
+| <item:octopus> | 60 | High | <item:raw-octopus> |
+| <item:swordfish> | 67 | High | <item:raw-swordfish> |
+| <item:shark> | 75 | Very High | <item:raw-shark> |
+| <item:manta-ray> | 82 | Very High | <item:raw-manta-ray> |
+| <item:tuna> | 90 | Highest | <item:raw-tuna> |
 
 ## Obtaining Food
 

@@ -14,10 +14,12 @@ Use a furnace to smelt ores into bars. Each bar type requires a minimum Smithing
 
 | Bar | Level | Materials | XP | Time |
 |-----|-------|-----------|-----|------|
-| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 6 | 3 seconds |
-| <item:iron-bar> | 10 | <item:iron-ore> | 13 | 3 seconds |
-| <item:mithril-bar> | 20 | <item:mithril-ore> | 22 | 3 seconds |
-| <item:adamant-bar> | 30 | <item:adamant-ore> | 35 | 3 seconds |
+| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 11 | 4s |
+| <item:iron-bar> | 15 | <item:iron-ore> | 22 | 5s |
+| <item:mithril-bar> | 30 | <item:mithril-ore> | 40 | 5.5s |
+| <item:adamant-bar> | 45 | <item:adamant-ore> | 64 | 6.5s |
+| <item:viridium-bar> | 60 | <item:viridium-ore> | 94 | 7s |
+| <item:emberite-bar> | 75 | <item:emberite-ore> | 130 | 9s |
 
 ## Smithing at the Anvil
 
@@ -25,57 +27,81 @@ Use a furnace to smelt ores into bars. Each bar type requires a minimum Smithing
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:bronze-sword> | 2 | 1 <item:bronze-bar> | 12 |
-| <item:bronze-pickaxe> | 3 | 2 <item:bronze-bar> | 24 |
-| <item:bronze-axe> | 3 | 2 <item:bronze-bar> | 24 |
-| <item:bronze-helm> | 4 | 3 <item:bronze-bar> | 36 |
-| <item:bronze-legs> | 5 | 4 <item:bronze-bar> | 48 |
-| <item:bronze-body> | 7 | 5 <item:bronze-bar> | 60 |
+| <item:bronze-sword> | 1 | 1 <item:bronze-bar> | 15 |
+| <item:bronze-pickaxe> | 3 | 2 <item:bronze-bar> | 30 |
+| <item:bronze-axe> | 3 | 2 <item:bronze-bar> | 30 |
+| <item:bronze-helm> | 5 | 3 <item:bronze-bar> | 45 |
+| <item:bronze-legs> | 8 | 4 <item:bronze-bar> | 60 |
+| <item:bronze-body> | 12 | 5 <item:bronze-bar> | 75 |
 
 ### Iron Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:iron-sword> | 11 | 1 <item:iron-bar> | 25 |
-| <item:iron-pickaxe> | 12 | 2 <item:iron-bar> | 50 |
-| <item:iron-axe> | 12 | 2 <item:iron-bar> | 50 |
-| <item:iron-helm> | 13 | 3 <item:iron-bar> | 75 |
-| <item:iron-legs> | 15 | 4 <item:iron-bar> | 100 |
-| <item:iron-body> | 17 | 5 <item:iron-bar> | 125 |
+| <item:iron-sword> | 16 | 1 <item:iron-bar> | 35 |
+| <item:iron-pickaxe> | 18 | 2 <item:iron-bar> | 70 |
+| <item:iron-axe> | 18 | 2 <item:iron-bar> | 70 |
+| <item:iron-helm> | 20 | 3 <item:iron-bar> | 105 |
+| <item:iron-legs> | 23 | 4 <item:iron-bar> | 140 |
+| <item:iron-body> | 27 | 5 <item:iron-bar> | 175 |
 
 ### Mithril Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:mithril-sword> | 21 | 1 <item:mithril-bar> | 40 |
-| <item:mithril-pickaxe> | 22 | 2 <item:mithril-bar> | 80 |
-| <item:mithril-axe> | 22 | 2 <item:mithril-bar> | 80 |
-| <item:mithril-helm> | 23 | 3 <item:mithril-bar> | 120 |
-| <item:mithril-legs> | 25 | 4 <item:mithril-bar> | 160 |
-| <item:mithril-body> | 27 | 5 <item:mithril-bar> | 200 |
+| <item:mithril-sword> | 31 | 1 <item:mithril-bar> | 60 |
+| <item:mithril-pickaxe> | 33 | 2 <item:mithril-bar> | 120 |
+| <item:mithril-axe> | 33 | 2 <item:mithril-bar> | 120 |
+| <item:mithril-helm> | 35 | 3 <item:mithril-bar> | 180 |
+| <item:mithril-legs> | 38 | 4 <item:mithril-bar> | 240 |
+| <item:mithril-body> | 42 | 5 <item:mithril-bar> | 300 |
 
 ### Adamant Equipment
 
 | Item | Level | Materials | XP |
 |------|-------|-----------|-----|
-| <item:adamant-sword> | 31 | 1 <item:adamant-bar> | 62 |
-| <item:adamant-pickaxe> | 32 | 2 <item:adamant-bar> | 124 |
-| <item:adamant-axe> | 32 | 2 <item:adamant-bar> | 124 |
-| <item:adamant-helm> | 33 | 3 <item:adamant-bar> | 186 |
-| <item:adamant-legs> | 35 | 4 <item:adamant-bar> | 248 |
-| <item:adamant-body> | 37 | 5 <item:adamant-bar> | 310 |
+| <item:adamant-sword> | 46 | 1 <item:adamant-bar> | 95 |
+| <item:adamant-pickaxe> | 48 | 2 <item:adamant-bar> | 190 |
+| <item:adamant-axe> | 48 | 2 <item:adamant-bar> | 190 |
+| <item:adamant-helm> | 50 | 3 <item:adamant-bar> | 285 |
+| <item:adamant-legs> | 53 | 4 <item:adamant-bar> | 380 |
+| <item:adamant-body> | 57 | 5 <item:adamant-bar> | 475 |
+
+### Viridium Equipment
+
+| Item | Level | Materials | XP |
+|------|-------|-----------|-----|
+| <item:viridium-sword> | 61 | 1 <item:viridium-bar> | 140 |
+| <item:viridium-pickaxe> | 63 | 2 <item:viridium-bar> | 280 |
+| <item:viridium-axe> | 63 | 2 <item:viridium-bar> | 280 |
+| <item:viridium-helm> | 65 | 3 <item:viridium-bar> | 420 |
+| <item:viridium-legs> | 68 | 4 <item:viridium-bar> | 560 |
+| <item:viridium-body> | 72 | 5 <item:viridium-bar> | 700 |
+
+### Emberite Equipment
+
+| Item | Level | Materials | XP |
+|------|-------|-----------|-----|
+| <item:emberite-sword> | 76 | 1 <item:emberite-bar> | 195 |
+| <item:emberite-pickaxe> | 78 | 2 <item:emberite-bar> | 390 |
+| <item:emberite-axe> | 78 | 2 <item:emberite-bar> | 390 |
+| <item:emberite-helm> | 80 | 3 <item:emberite-bar> | 585 |
+| <item:emberite-legs> | 83 | 4 <item:emberite-bar> | 780 |
+| <item:emberite-body> | 87 | 5 <item:emberite-bar> | 975 |
 
 ## Training Tips
 
-1. **Levels 1-10**: Smelt <item:bronze-bar> and smith Bronze equipment. Focus on swords first as they only need 1 bar.
-2. **Levels 10-20**: Switch to <item:iron-bar> smelting and smithing. The XP doubles compared to Bronze.
-3. **Levels 20-30**: Work with <item:mithril-bar> for better XP rates.
-4. **Levels 30+**: <item:adamant-bar> provides the best XP but requires significant material investment.
+1. **Levels 1-15**: Smelt <item:bronze-bar> and smith Bronze equipment. Focus on swords first as they only need 1 bar.
+2. **Levels 15-30**: Switch to <item:iron-bar> smelting and smithing.
+3. **Levels 30-45**: Work with <item:mithril-bar> for better XP rates.
+4. **Levels 45-60**: <item:adamant-bar> provides strong XP gains.
+5. **Levels 60-75**: Smelt <item:viridium-bar> and forge Viridium equipment.
+6. **Level 75+**: <item:emberite-bar> gives the best XP but requires significant material investment.
 
 ## Time Efficiency
 
-- **Smelting**: 3 seconds per bar
-- **Smithing**: 5 seconds per item
+- **Smelting**: varies by bar tier (4s–9s per bar)
+- **Smithing**: 10 seconds per item
 
 All smithing operations can be queued - select the item to craft, choose a quantity, and your character will continue until materials run out or you cancel.
 

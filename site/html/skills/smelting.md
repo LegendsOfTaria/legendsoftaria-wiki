@@ -10,12 +10,14 @@ To smelt bars, you need ores in your inventory and access to a furnace. Tap on t
 
 All bars are smelted at a furnace.
 
-| Bar | Level | Ingredients | XP |
-|-----|----------------|-------------|-----|
-| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 6 |
-| <item:iron-bar> | 10 | <item:iron-ore> | 13 |
-| <item:mithril-bar> | 20 | <item:mithril-ore> | 22 |
-| <item:adamant-bar> | 30 | <item:adamant-ore> | 35 |
+| Bar | Level | Ingredients | XP | Time |
+|-----|-------|-------------|-----|------|
+| <item:bronze-bar> | 1 | <item:copper-ore> + <item:tin-ore> | 11 | 4s |
+| <item:iron-bar> | 15 | <item:iron-ore> | 22 | 5s |
+| <item:mithril-bar> | 30 | <item:mithril-ore> | 40 | 5.5s |
+| <item:adamant-bar> | 45 | <item:adamant-ore> | 64 | 6.5s |
+| <item:viridium-bar> | 60 | <item:viridium-ore> | 94 | 7s |
+| <item:emberite-bar> | 75 | <item:emberite-ore> | 130 | 9s |
 
 ## Furnace Locations
 
@@ -30,6 +32,12 @@ Furnaces can be found in various locations throughout the world. Look for them n
 2. **Smelt in batches**: Queue up multiple bars to save time
 3. **Upgrade as you level**: Move to higher-tier ores for better XP rates
 4. **Bank near furnaces**: Store ores near a furnace for quick smelting runs
+5. **Levels 1-15**: Smelt <item:bronze-bar> for early smithing XP
+6. **Levels 15-30**: Switch to <item:iron-bar>
+7. **Levels 30-45**: <item:mithril-bar> provides strong mid-level XP
+8. **Levels 45-60**: Smelt <item:adamant-bar> for high XP rates
+9. **Levels 60-75**: <item:viridium-bar> - requires <item:viridium-ore>
+10. **Level 75+**: <item:emberite-bar> gives the best XP
 
 ## Related Pages
 
